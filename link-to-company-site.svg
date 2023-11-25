@@ -1,55 +1,29 @@
 
-<svg fill="none" viewBox="0 0 200 40" width="200" height="40" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 150 36" width="150" height="36" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .container {
           font-family: "proxima-nova", sans-serif;
-          line-height: 1.5;
-          color: #0d1117;
-          width: 200px;
-          height: 36px;
-
-          display: flex;
-          // justify-content: center;
-          align-items: center;
-
-        }
-
-        .skills {
-          display: flex;
-          line-height: 1;
-        }
-
-        p {
           font-weight: 400;
           font-size: 16px;
-        }
-
-        .item {
-          background-color: #e6edf3;
+          line-height: 1;
+          color: #e6edf3;
+          background-color: #0d1117;
+          width: 150px;
+          height: 36px;
           border: 1px solid #0d1117;
-          padding: 10px;
-          border-radius: 5px;
-          //margin: 5px;
-        }
+          border-radius: 10px;
+          badding: 10px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
 
-        h1 {
-          font-weight: 600;
-          font-style: italic;
-          font-size: 16px;
-        }
-
-        h2 {
-          font-weight: 600;
-          font-size: 12px;
         }
 
         @media (prefers-color-scheme: light) {
           .container {
             color: #e6edf3;
-          }
-          .item {
             background-color: #0d1117;
             border-color: #0d1117;
           }
@@ -59,9 +33,7 @@
       
         <div class="container">
           <div>
-            <div class="skills">
               <p class="item">Company Website</p>
-            </div>
           </div>
         </div>
     </div>
