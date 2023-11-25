@@ -23,7 +23,7 @@
         h1 {
           font-weight: 600;
           font-style: italic;
-          font-size: 12 px;
+          font-size: 10 px;
         }
 
         @media (prefers-color-scheme: light) {
