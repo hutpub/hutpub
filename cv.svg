@@ -70,8 +70,8 @@
           <div>
             <h2>UI/UX Design</h2>
             <div class="skills">
-              <p class="item">Adobe Photoshop</p>
-              <p class="item">Adobe Illustrator</p>
+              <p class="item" style="color: #2FA3F7; background-color: #001D34; border-color: #2FA3F7;">Adobe Photoshop</p>
+              <p class="item" style="color: #F79500; background-color: #310000; border-color: #F79500;">Adobe Illustrator</p>
               <p class="item">Adobe XD</p>
               <p class="item">Figma</p>
               <p class="item">Spline</p>
