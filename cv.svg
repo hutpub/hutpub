@@ -73,15 +73,28 @@
             <div class="skills">
               <p class="item">Adobe Photoshop</p>
               <p class="item">Adobe Illustrator</p>
-              <p class="item">Adobe Figma</p>
+              <p class="item">Adobe XD</p>
+              <p class="item">Figma</p>
+              <p class="item">Spline</p>
             </div>
           </div>
           <div>
             <h2>Web development</h2>
             <div class="skills">
+              <p class="item">HTML</p>
+              <p class="item">CSS</p>
+              <p class="item">Javascript</p>
               <p class="item">React</p>
+              <p class="item">Svelte</p>
+              <p class="item">MongoDB</p>
               <p class="item">Rails</p>
+              <p class="item">Flask</p>
+              <p class="item">Django</p>
               <p class="item">PostgreSQL</p>
+              <p class="item">C#</p>
+              <p class="item">ASP.NET</p>
+              <p class="item">Docker</p>
+              <p class="item">NGINX</p>
             </div>
           </div>
         </div>
