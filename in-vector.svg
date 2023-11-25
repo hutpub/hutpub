@@ -5,6 +5,11 @@
 <style type="text/css">
 	.st0{fill:#E6EDF3;}
 	.st1{fill:#0D1117;}
+
+	@media (prefers-color-scheme: light) {
+		.st0{fill:#0D1117;}
+		.st1{fill:#E6EDF3;}
+        }
 </style>
 <g id="Linkedin-5_00000119104054851274823640000000769925303215839873_">
 	<g id="back-46_00000060004951799038943970000007068775903185670063_">
