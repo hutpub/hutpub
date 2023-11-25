@@ -1,5 +1,5 @@
 
-<svg fill="none" viewBox="0 0 200 150" width="200" height="150" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 200 36" width="200" height="36" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -23,12 +23,12 @@
 
         p {
           font-weight: 400;
-          font-size: 12px;
+          font-size: 16px;
         }
 
         .item {
           border: 1px solid white;
-          padding: 5px;
+          padding: 10px;
           border-radius: 5px;
           margin: 5px;
         }
