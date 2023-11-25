@@ -10,6 +10,7 @@
         @media (prefers-color-scheme: light) {
 		.st0{fill:#0D1117;}
 		.st1{fill:#E6EDF3;}
+		.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#E6EDF3;}
         }
 </style>
 <g id="WhatsApp-5_00000036960890179479584950000006876766707049398698_">
