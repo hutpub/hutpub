@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
 
-<div style="width: 100%; align-content: center;">
+<div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="readme.svg" style="width: 100%;" alt="readme-source">
   </a>
 </div>
 
-<div style="width: 100%; display: flex;">
+<div style="width: 100%; display: flex; align-content: center; justify-content: center;">
     <a href="https://hutpub.github.io/website/">
       <img src="link-to-personal-site.svg" style="height: 100px;" alt="readme-source">
     </a>
