@@ -6,12 +6,15 @@
   </a>
 </div>
 
-<div style="width: 100%;">
+<div style="width: 100%; display: inline-block;">
     <a href="https://hutpub.github.io/website/">
-      <img src="link-to-personal-site.svg" style="width: 200px;" alt="readme-source">
+      <img src="link-to-personal-site.svg" style="height: 40px;" alt="readme-source">
     </a>
     <a href="https://hutpub.github.io/website/">
-      <img src="link-to-company-site.svg" style="width: 200px;" alt="readme-source">
+      <img src="link-to-company-site.svg" style="height: 40px;" alt="readme-source">
+    </a>
+    <a href="https://hutpub.github.io/website/">
+      <img src="in-vector.svg" style="height: 40px;" alt="readme-source">
     </a>
 </div>
 
