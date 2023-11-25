@@ -15,6 +15,10 @@
           }
         }
 
+        .full-size {
+          align-content: top;
+        }
+
         .container {
           --color-main: #5452ee;
           --color-primary: #e73c7e;
@@ -30,7 +34,7 @@
 
           display: flex;
           justify-content: center;
-          align-items: top;
+          align-items: center;
           color: white;
 
           // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -78,14 +82,16 @@
 
       </style>
 
-      <div class="container">
-        <h1>Hi there, i am <h2>HUTTUZKA</h2></h1>
-      </div>
-      <div class="cv">
-        <h2>ABOUT ME</h2>
-        <p>Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.</p>
-        <h2>SKILLS AND TECHNOLOGIES</h2>
-        <p>Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.</p>
+      <div class="full-size">
+        <div class="container">
+          <h1>Hi there, i am <h2>HUTTUZKA</h2></h1>
+        </div>
+        <div class="cv">
+          <h2>ABOUT ME</h2>
+          <p>Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.</p>
+          <h2>SKILLS AND TECHNOLOGIES</h2>
+          <p>Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.</p>
+        </div>
       </div>
     </div>
   </foreignObject>
