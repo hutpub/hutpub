@@ -5,6 +5,5 @@
   <a href="https://github.com/hutpub"><img src="readme.svg" style="width: 100%;" alt="readme-source"></a>
 </div>
 <div style="width: 100%;">
-  <img src="cv.svg" style="width: 100%;" alt="cv-source">
+  <a href="https://github.com/hutpub"><img src="cv.svg" style="width: 100%;" alt="cv-source"></a>
 </div>
-<div class="container">
