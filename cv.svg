@@ -24,19 +24,32 @@
         h1 {
           font-family: "proxima-nova", sans-serif;
           font-weight: 600;
-          font-size: 16 px;
+          font-style: italic;
+          font-size: 12 px;
         }
           
         h2 {
           font-family: "proxima-nova", sans-serif;
           font-weight: 600;
-          font-style: italic;
-          font-size: 16 px;
+          font-size: 12 px;
+        }
+
+        @media (prefers-color-scheme: light) {
+          .container {
+            color: 0d1117;
+          }
         }
 
       </style>
         <div class="container">
-          <h1>Hi there, i am <h2>HUTTUZKA</h2></h1>
+          <h1>ABOUT ME</h1>
+          <p>
+            Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. <br>Hobbies: HTB, Hackathons, Painting.
+          </p>
+          <h1>SKILS AND TECHNOLOGIES</h1>
+          <p>
+            Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. <br>Hobbies: HTB, Hackathons, Painting.
+          </p>
         </div>
     </div>
   </foreignObject>
