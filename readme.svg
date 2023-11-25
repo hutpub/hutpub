@@ -44,7 +44,7 @@
           align-items: center;
           color: white;
 
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+          // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
         }
 
         .hi {
@@ -71,10 +71,17 @@
             animation: none;
           }
         }
+
+        h2 {
+          font-family: "proxima-nova", sans-serif;
+          font-weight: 600;
+          font-style: italic;
+          font-size: 16 px;
+        }
       </style>
 
       <div class="container">
-        <h1>Hi there, my name is HUTTUZKA <div class="hi">👋</div></h1>
+        <h1>Hi there, my name is <h2>HUTTUZKA<2> <div class="hi">👋</div></h1>
       </div>
     </div>
   </foreignObject>
