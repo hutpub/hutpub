@@ -8,24 +8,20 @@
           font-weight: 500;
           font-size: 14px;
           line-height: 1;
-          color: #e6edf3;
-          background-color: #0d1117;
+          color: #0d1117;
+          background-color: #e6edf3;
           width: 150px;
           height: 32px;
-          // border: 1px solid #0d1117;
           border-radius: 5px;
-          // badding: 10px;
           display: flex;
           justify-content: center;
           align-items: center;
-
         }
 
         @media (prefers-color-scheme: light) {
           .container {
             color: #e6edf3;
             background-color: #0d1117;
-            // border-color: #0d1117;
           }
         }
 
