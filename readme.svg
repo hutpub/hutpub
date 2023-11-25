@@ -71,6 +71,12 @@
         
         }
 
+        a:hover {
+          color: grey;
+          background-color: white
+          border-color: grey
+        }
+
         @media (prefers-color-scheme: light) {
           .container {
             --color-main: #F15BB5;
