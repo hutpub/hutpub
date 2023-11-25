@@ -5,6 +5,12 @@
 <style type="text/css">
 	.st0{fill:#E6EDF3;}
 	.st1{fill:#0D1117;}
+	
+        @media (prefers-color-scheme: light) {
+		.st0{fill:#0D1117;}
+		.st1{fill:#E6EDF3;}
+        }
+	
 </style>
 <g id="Instagram-3_00000034786099548603738500000006124286347339064461_">
 	<g id="back-47_00000080928653030922291020000003829775674391568559_">
