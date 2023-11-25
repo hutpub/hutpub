@@ -55,49 +55,12 @@
       </style>
       
         <div class="container">
-          <h1>ABOUT ME</h1>
-          <p>
-            Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.
-          </p>
-          <h1>ACHIEVEMENTS</h1>
-          <p>
-            Full list of achievements coming soon!
-          </p>
-          <h1>SKILLS AND TECHNOLOGIES</h1>
-          <p>
-            Full list of skills coming soon!
-          </p>
           <div>
-            <h2>UI/UX Design</h2>
             <div class="skills">
-              <p class="item">Adobe Photoshop</p>
-              <p class="item">Adobe Illustrator</p>
-              <p class="item">Adobe XD</p>
-              <p class="item">Figma</p>
-              <p class="item">Spline</p>
-            </div>
-          </div>
-          <div>
-            <h2>Web development</h2>
-            <div class="skills">
-              <p class="item">HTML</p>
-              <p class="item">CSS</p>
-              <p class="item">Javascript</p>
-              <p class="item">React</p>
-              <p class="item">Svelte</p>
-              <p class="item">MongoDB</p>
-              <p class="item">Rails</p>
-              <p class="item">Flask</p>
-              <p class="item">Django</p>
-              <p class="item">PostgreSQL</p>
-              <p class="item">C#</p>
-              <p class="item">ASP.NET</p>
-              <p class="item">Docker</p>
-              <p class="item">NGINX</p>
+              <p class="item">Personal Website</p>
             </div>
           </div>
         </div>
-      
     </div>
   </foreignObject>
 </svg>
