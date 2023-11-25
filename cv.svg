@@ -7,16 +7,11 @@
           line-height: 1.5;
           color: #e6edf3;
           width: 100%;
-          // height: 300px;
-
-          // display: flex;
-          // justify-content: center;
-          // align-items: center;
-
         }
 
         .skills {
           display: flex;
+          flex-wrap: wrap;
           line-height: 1;
         }
 
@@ -26,6 +21,7 @@
         }
 
         .item {
+          justify-content: center;
           border: 1px solid white;
           padding: 5px;
           border-radius: 5px;
@@ -68,7 +64,7 @@
             Full list of skills coming soon!
           </p>
           <div>
-            <h2>UI/UX Design</h2>
+            <h2>UI/UX Design:</h2>
             <div class="skills">
               <p class="item" style="color: #2FA3F7; background-color: #001D34; border-color: #2FA3F7;">Adobe Photoshop</p>
               <p class="item" style="color: #F79500; background-color: #310000; border-color: #F79500;">Adobe Illustrator</p>
@@ -78,7 +74,7 @@
             </div>
           </div>
           <div>
-            <h2>Web development</h2>
+            <h2>Web Development:</h2>
             <div class="skills">
               <p class="item">HTML</p>
               <p class="item">CSS</p>
@@ -96,6 +92,14 @@
               <p class="item">NGINX</p>
             </div>
           </div>
+            <h2>Mobile Development:</h2>
+            <div class="skills">
+              <p class="item" style="color: #3fcffd; background-color: #04579b; border-color: #3fcffd;">Flutter</p>
+              <p class="item" style="color: #3add85; background-color: #012c40; border-color: #3add85;">Android Studio</p>
+              <p class="item" style="color: #fefffc; background-color: #62dafc; border-color: #fefffc;">React Native</p>
+              <p class="item" style="color: #ecedee; background-color: #151718; border-color: #ecedee;">Expo</p>
+              <p class="item" style="color: #7eb5df; background-color: #1768dc; border-color: #7eb5df;">Xcode</p>
+            </div>
         </div>
       
     </div>
