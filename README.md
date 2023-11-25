@@ -5,6 +5,9 @@
     <img src="readme.svg" style="width: 100%;" alt="readme-source">
   </a>
 </div>
+
+[Personal site](https://hutpub.github.io)
+
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="cv.svg" style="width: 100%;" alt="cv-source">
