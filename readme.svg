@@ -53,6 +53,13 @@
           transform-origin: 70% 70%;
         }
 
+        h2 {
+          font-family: "proxima-nova", sans-serif;
+          font-weight: 600;
+          font-style: italic;
+          font-size: 16 px;
+        }
+
         @media (prefers-color-scheme: light) {
           .container {
             --color-main: #F15BB5;
@@ -72,16 +79,10 @@
           }
         }
 
-        h2 {
-          font-family: "proxima-nova", sans-serif;
-          font-weight: 600;
-          font-style: italic;
-          font-size: 16 px;
-        }
       </style>
 
       <div class="container">
-        <h1>Hi there, my name is <h2>HUTTUZKA<2> <div class="hi">👋</div></h1>
+        <h1>Hi there, my name is <h2>HUTTUZKA</h2> <div class="hi">👋</div></h1>
       </div>
     </div>
   </foreignObject>
