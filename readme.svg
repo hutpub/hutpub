@@ -94,10 +94,10 @@
 
       <div class="container">
         <h1>Hi there, my name is <h2>HUTTUZKA</h2> <div class="hi">👋</div></h1>
-      </div>
-      <div>
-        <a href="https://hutpub.github.com">Personal website</a>
-        <a href="https://hutpub.github.com">Company website</a>
+        <div>
+          <a href="https://hutpub.github.com">Personal website</a>
+          <a href="https://hutpub.github.com">Company website</a>
+        </div>
       </div>
     </div>
   </foreignObject>
