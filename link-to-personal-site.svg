@@ -1,1 +1,103 @@
+<svg fill="none" viewBox="0 0 600 1000" width="600" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          font-family: "proxima-nova", sans-serif;
+          line-height: 1.5;
+          color: #e6edf3;
+          width: 100%;
+          // height: 300px;
 
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
+
+        }
+
+        .skills {
+          display: flex;
+          line-height: 1;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 12px;
+        }
+
+        .item {
+          border: 1px solid white;
+          padding: 5px;
+          border-radius: 5px;
+          margin: 5px;
+        }
+
+        h1 {
+          font-weight: 600;
+          font-style: italic;
+          font-size: 16px;
+        }
+
+        h2 {
+          font-weight: 600;
+          font-size: 12px;
+        }
+
+        @media (prefers-color-scheme: light) {
+          .container {
+            color: #0d1117;
+          }
+          .item {
+            border-color: #0d1117;
+          }
+        }
+
+      </style>
+      
+        <div class="container">
+          <h1>ABOUT ME</h1>
+          <p>
+            Entrepreneur, designer and tech enthusiast. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.
+          </p>
+          <h1>ACHIEVEMENTS</h1>
+          <p>
+            Full list of achievements coming soon!
+          </p>
+          <h1>SKILLS AND TECHNOLOGIES</h1>
+          <p>
+            Full list of skills coming soon!
+          </p>
+          <div>
+            <h2>UI/UX Design</h2>
+            <div class="skills">
+              <p class="item">Adobe Photoshop</p>
+              <p class="item">Adobe Illustrator</p>
+              <p class="item">Adobe XD</p>
+              <p class="item">Figma</p>
+              <p class="item">Spline</p>
+            </div>
+          </div>
+          <div>
+            <h2>Web development</h2>
+            <div class="skills">
+              <p class="item">HTML</p>
+              <p class="item">CSS</p>
+              <p class="item">Javascript</p>
+              <p class="item">React</p>
+              <p class="item">Svelte</p>
+              <p class="item">MongoDB</p>
+              <p class="item">Rails</p>
+              <p class="item">Flask</p>
+              <p class="item">Django</p>
+              <p class="item">PostgreSQL</p>
+              <p class="item">C#</p>
+              <p class="item">ASP.NET</p>
+              <p class="item">Docker</p>
+              <p class="item">NGINX</p>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </foreignObject>
+</svg>
