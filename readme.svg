@@ -23,7 +23,7 @@
           --color-main: #8a3186;
           --color-primary: #290c22;
           --color-secondary: #4057a7;
-          --color-tertiary: #042838
+          --color-tertiary: #042838;
 
           background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
           background-size: 400% 400%;
