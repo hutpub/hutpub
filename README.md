@@ -6,11 +6,10 @@
   </a>
 </div>
 
-<div style="width: 100%; display: inline-block;">
+<div style="width: 100%; display: flex;">
     <a href="https://hutpub.github.io/website/">
       <img src="link-to-personal-site.svg" style="height: 100px;" alt="readme-source">
     </a>
-    <span><p>    </p></span>
     <a href="https://hutpub.github.io/website/">
       <img src="link-to-company-site.svg" style="height: 100px;" alt="readme-source">
     </a>
