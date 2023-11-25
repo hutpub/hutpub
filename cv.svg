@@ -32,6 +32,13 @@
           }
         }
 
+        @media only screen and (min-width: 600px) {
+          .container {
+            color: #0d1117;
+          }
+        
+        }
+
       </style>
       
         <div class="container">
