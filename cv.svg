@@ -48,17 +48,9 @@
           .container {
             color: #0d1117;
           }
-        }
-
-        @media only screen and (max-width: 600px) {
-          .container {
-            color: #0d1117;
-          }
-
           .item {
             border-color: #0d1117;
           }
-        
         }
 
       </style>
