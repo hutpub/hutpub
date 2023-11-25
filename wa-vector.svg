@@ -6,6 +6,11 @@
 	.st0{fill:#E6EDF3;}
 	.st1{fill:#0D1117;}
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#0D1117;}
+
+        @media (prefers-color-scheme: light) {
+		.st0{fill:#0D1117;}
+		.st1{fill:#E6EDF3;}
+        }
 </style>
 <g id="WhatsApp-5_00000036960890179479584950000006876766707049398698_">
 	<g id="back-37_00000160888097755794415570000014887181837961572757_">
