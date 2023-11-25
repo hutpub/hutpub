@@ -17,6 +17,9 @@
     <a href="https://hutpub.github.io/website/">
       <img src="in-vector.svg" style="height: 40px;" alt="readme-source">
     </a>
+    <a href="https://hutpub.github.io/website/">
+      <img src="wa-vector.svg" style="height: 40px;" alt="readme-source">
+    </a>
 </div>
 
 <div style="width: 100%;">
