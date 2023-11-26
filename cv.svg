@@ -58,10 +58,6 @@
           font-weight: 600;
         }
 
-        image {
-          z-index: 5;
-        }
-
         p {
           font-weight: 400;
           font-size: 12px;
@@ -115,7 +111,14 @@
           </div>
           <div class="badge-container" style="width: 100%; height: 100px;">
             <div class="shine" >
-              <image x="0" y="0" width="10" height="10" href="H.svg" />
+              <g>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+                  <style type="text/css">
+	                  .st0{fill:#E6EDF3;}
+                  </style>
+                  <path class="st0" d="M150,75c0,8.1-1.3,16-3.7,23.3c-7.2,22.1-24.4,39.7-46.3,47.4V98.3H50v47.4C28.1,138,10.9,120.4,3.7,98.3C1.3,91,0,83.1,0,75c0-9.4,1.7-18.4,4.9-26.7C12.7,27.8,29.2,11.6,50,4.3v44.1h50V4.3c20.8,7.3,37.3,23.6,45.1,44.1C148.3,56.6,150,65.6,150,75z"/>
+                </svg>
+              </g>
             </div>
             <div class="shine" >
             </div>
