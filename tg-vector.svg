@@ -5,6 +5,10 @@
 <style type="text/css">
 	.st0{fill:#E6EDF3;}
 	.st1{fill:#0D1117;}
+	@media (prefers-color-scheme: light) {
+		.st0{fill:#0D1117;}
+		.st1{fill:#E6EDF3;}
+        }
 </style>
 <g>
 	<g id="back-39_00000130624829069298226520000017541082356413253053_">
