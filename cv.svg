@@ -219,6 +219,8 @@
             <div class="skills">
               <p class="item">Jira</p>
               <p class="item">Github</p>
+							<p class="item">Miro</p>
+							<p class="item">ClickUp</p>
             </div>
         </div>
         <div style="width:100%;height:50px;"></div>
