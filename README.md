@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
+<link rel="stylesheet" href="styles.css">
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
@@ -6,7 +7,7 @@
   </a>
 </div>
 
-<div style="width: 100%; text-decoration: none;">
+<div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="height: 7em;" alt="readme-source">
   </a>
