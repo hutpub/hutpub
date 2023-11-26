@@ -141,9 +141,9 @@
           <div>
             <h2>Web Development:</h2>
             <div class="skills">
-              <p class="item" style="color: #F7F7F7; background-color: #FF3336; border-color: #F7F7F7;">HTML</p>
-              <p class="item" style="color: #F6F6F5; background-color: #017EB9; border-color: #F6F6F5;">CSS</p>
-              <p class="item" style="color: #F7F6F9; background-color: #FB9C28; border-color: #F7F6F9;">Javascript</p>
+              <p class="item" style="color: #FF3336; background-color: #0D1117; border-color: #FF3336;">HTML</p>
+              <p class="item" style="color: #017EB9; background-color: #0D1117; border-color: #017EB9;">CSS</p>
+              <p class="item" style="color: #FB9C28; background-color: #0D1117; border-color: #FB9C28;">Javascript</p>
               <p class="item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React</p>
               <p class="item" style="color: #F14203; background-color: #2B3139; border-color: #F14203;">Svelte</p>
               <p class="item" style="color: #02E270; background-color: #011D2D; border-color: #02E270;">MongoDB</p>
