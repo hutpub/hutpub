@@ -13,7 +13,7 @@
       <a href="https://hutpub.github.io/website/">
         <img src="link-to-company-site.svg" style="height: 100px;" alt="readme-source">
       </a>
-  <div style="width: 100%; float: right;">
+  <div style="width: 100%; justify-content: center;">
       <a href="https://hutpub.github.io/website/">
         <img src="in-vector.svg" style="height: 40px;" alt="readme-source">
       </a>
