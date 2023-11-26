@@ -51,7 +51,7 @@
           width: 100px;
           height: 100px;
           border-radius: 10px;
-          // border: 1px solid #e6edf3;
+          border: 1px solid #e6edf3;
           margin: 5px;
           color: white;
           font-weight: 600;
