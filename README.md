@@ -33,7 +33,7 @@
       </a>
 </div>
 
-<div style="width: 100%;">
+<div style="width: 100%; margin-top: -1px;">
   <a href="https://github.com/hutpub">
     <img src="cv.svg" style="width: 100%;" alt="cv-source">
   </a>
