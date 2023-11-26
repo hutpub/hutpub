@@ -96,9 +96,9 @@
             <div class="skills">
               <p class="item" style="color: #3fcffd; background-color: #04579b; border-color: #3fcffd;">Flutter</p>
               <p class="item" style="color: #3add85; background-color: #012c40; border-color: #3add85;">Android Studio</p>
-              <p class="item" style="color: #fefffc; background-color: #62dafc; border-color: #fefffc;">React Native</p>
+              <p class="item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
               <p class="item" style="color: #ecedee; background-color: #151718; border-color: #ecedee;">Expo</p>
-              <p class="item" style="color: #7eb5df; background-color: #1768dc; border-color: #7eb5df;">Xcode</p>
+              <p class="item" style="color: #0071e3; background-color: #151516; border-color: #0071e3;">Xcode</p>
             </div>
         </div>
       
