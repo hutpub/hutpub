@@ -179,7 +179,8 @@
               <p class="item">PHP</p>
               <p class="item">Webflow</p>
               <p class="item">WIX</p>
-               <p class="item">AWS</p>
+        			<p class="item">AWS</p>
+							<p class="item">Apache</p>
             </div>
           </div>
           <div>
@@ -212,6 +213,7 @@
               <p class="item">Wireshark</p>
               <p class="item">Metasploit</p>
               <p class="item">Lua</p>
+							<p class="item">Replit</p>
             </div>
         </div>
         <div>
