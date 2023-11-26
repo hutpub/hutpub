@@ -13,7 +13,7 @@
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="height: 7em;" alt="readme-source">
   </a>
-  <a href="https://linkedin.com/miika-huttunen">
+  <a href="https://www.linkedin.com/in/miika-huttunen/">
     <img src="in-vector.svg" style="height: 7em;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
