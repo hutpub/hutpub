@@ -32,6 +32,9 @@
   <a href="https://hutpub.github.io/website/">
     <img src="yt-vector.svg" style="height: 7em;" alt="readme-source">
   </a>
+  <a href="https://hutpub.github.io/website/">
+    <img src="gm-vector.svg" style="height: 7em;" alt="readme-source">
+  </a>
 </div>
 
 <div style="width: 100%;">
