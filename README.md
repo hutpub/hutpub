@@ -6,16 +6,13 @@
   </a>
 </div>
 
-<div style="width: 100%; border: 5px solid white;">
-  <div style="width: 100%;" dir="rtl">
+<div style="width: 100%;">
       <a href="https://hutpub.github.io/website/">
         <img src="link-to-personal-site.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
         <img src="link-to-company-site.svg" style="height: 100px;" alt="readme-source">
       </a>
-  </div>
-  <div style="width: 100%;" dir="rtl">
       <a href="https://hutpub.github.io/website/">
         <img src="in-vector.svg" style="height: 40px;" alt="readme-source">
       </a>
@@ -34,7 +31,6 @@
       <a href="https://hutpub.github.io/website/">
         <img src="yt-vector.svg" style="height: 40px;" alt="readme-source">
       </a>
-  </div>
 </div>
 
 <div style="width: 100%;">
