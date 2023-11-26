@@ -92,6 +92,7 @@
               <p class="item">NGINX</p>
             </div>
           </div>
+          <div>
             <h2>Mobile Development:</h2>
             <div class="skills">
               <p class="item" style="color: #3fcffd; background-color: #04579b; border-color: #3fcffd;">Flutter</p>
@@ -101,7 +102,7 @@
               <p class="item" style="color: #0071e3; background-color: #151516; border-color: #0071e3;">Xcode</p>
             </div>
         </div>
-        </div>
+        <div>
             <h2>Software Development:</h2>
             <div class="skills">
               <p class="item" style="color: #3fcffd; background-color: #04579b; border-color: #3fcffd;">C</p>
