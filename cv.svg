@@ -141,12 +141,12 @@
           <div>
             <h2>Web Development:</h2>
             <div class="skills">
-              <p class="item">HTML</p>
-              <p class="item">CSS</p>
-              <p class="item">Javascript</p>
-              <p class="item">React</p>
-              <p class="item">Svelte</p>
-              <p class="item">MongoDB</p>
+              <p class="item" style="color: #F7F7F7; background-color: #FF3336; border-color: #F7F7F7;">HTML</p>
+              <p class="item" style="color: #F6F6F5; background-color: #017EB9; border-color: #F6F6F5;">CSS</p>
+              <p class="item" style="color: #F7F6F9; background-color: #FB9C28; border-color: #F7F6F9;">Javascript</p>
+              <p class="item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React</p>
+              <p class="item" style="color: #F14203; background-color: #2B3139; border-color: #F14203;">Svelte</p>
+              <p class="item" style="color: #02E270; background-color: #011D2D; border-color: #02E270;">MongoDB</p>
               <p class="item">Rails</p>
               <p class="item">Flask</p>
               <p class="item">Django</p>
@@ -176,8 +176,8 @@
         <div>
             <h2>Software Development:</h2>
             <div class="skills">
-              <p class="item" style="color: #649AD2; background-color: #004482; border-color: #649AD2;">C</p>
-              <p class="item" style="color: #6295CB; background-color: #00427E; border-color: #6295CB;">C++</p>
+              <p class="item" style="color: #FFFFFF; background-color: #004482; border-color: #FFFFFF;">C</p>
+              <p class="item" style="color: #FFFFFF; background-color: #00427E; border-color: #FFFFFF;">C++</p>
               <p class="item" style="color: #FFFFFF; background-color: #3A75B0; border-color: #FFFFFF;">Java</p>
               <p class="item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
             </div>
