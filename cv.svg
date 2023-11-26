@@ -100,6 +100,12 @@
               <p class="item">ASP.NET</p>
               <p class="item">Docker</p>
               <p class="item">NGINX</p>
+              <p class="item">Redis</p>
+              <p class="item">WordPress</p>
+              <p class="item">PHP</p>
+              <p class="item">Webflow</p>
+              <p class="item">WIX</p>
+               <p class="item">AWS</p>
             </div>
           </div>
           <div>
@@ -115,10 +121,10 @@
         <div>
             <h2>Software Development:</h2>
             <div class="skills">
-              <p class="item">C</p>
-              <p class="item">C++</p>
-              <p class="item">Java</p>
-              <p class="item">Python</p>
+              <p class="item" style="color: #649AD2; background-color: #004482; border-color: #649AD2;">C</p>
+              <p class="item" style="color: #6295CB; background-color: #00427E; border-color: #6295CB;">C++</p>
+              <p class="item" style="color: #0D8AC7; background-color: #EC2025; border-color: #0D8AC7;">Java</p>
+              <p class="item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
             </div>
         </div>
         <div>
@@ -138,6 +144,7 @@
             <h2>Project management:</h2>
             <div class="skills">
               <p class="item">Jira</p>
+              <p class="item">Github</p>
             </div>
         </div>
       </div>
