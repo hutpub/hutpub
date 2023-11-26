@@ -5,6 +5,11 @@
 <style type="text/css">
 	.st0{fill:#E6EDF3;}
 	.st1{fill:#0D1117;}
+	
+	@media (prefers-color-scheme: light) {
+		.st0{fill:#0D1117;}
+		.st1{fill:#E6EDF3;}
+        }
 </style>
 <g id="YouTube-5_00000076565584073683585100000001199651132385056434_">
 	<g id="back-39_00000150810744514921744140000016144106455214935471_">
