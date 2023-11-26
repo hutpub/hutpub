@@ -18,7 +18,7 @@
           line-height: 1;
           color: #0d1117;
           background-color: #e6edf3;
-          width: 200px;
+          width: 180px;
           height: 40px;
           border-radius: 10px;
           display: flex;
