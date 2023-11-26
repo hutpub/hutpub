@@ -35,14 +35,14 @@
         }
         
         .shine {
-          --color-main: deepskyblue;
-          --color-primary: darkviolet;
-          --color-secondary: blue;
-          --color-tertiary: #e32929;
+          --color-main: #2e375a;
+          --color-primary: #191e31;
+          --color-secondary: #242f62;
+          --color-tertiary: #1c2033;
 
           background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
           background-size: 400% 400%;
-          animation: gradient 15s ease infinite;
+          animation: gradient 10s ease infinite;
 
           line-height: 1;
           display: flex;
