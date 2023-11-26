@@ -58,6 +58,10 @@
           font-weight: 600;
         }
 
+        image {
+          z-index: 5;
+        }
+
         p {
           font-weight: 400;
           font-size: 12px;
@@ -106,11 +110,12 @@
           <p>
             Full list of achievements coming soon!
           </p>
-          <div style="width: 100%; height: 10px;" >
+          <div style="width: 100%; height: 20px;" >
             
           </div>
           <div class="badge-container" style="width: 100%; height: 100px;">
             <div class="shine" >
+              <image x="0" y="0" width="10" height="10" href="H.svg" />
             </div>
             <div class="shine" >
             </div>
@@ -119,7 +124,7 @@
             <div class="shine" >
             </div>
           </div>
-          <div style="width: 100%; height: 50px;" >
+          <div style="width: 100%; height: 70px;" >
             
           </div>
       
