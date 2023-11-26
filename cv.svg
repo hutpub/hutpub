@@ -21,7 +21,6 @@
           color: #e6edf3;
           width: 100%;
           border-top: 1px solid #e6edf3;
-          margin-top: -5px;
         }
 
         .skills {
