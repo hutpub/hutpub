@@ -38,6 +38,12 @@
 
         }
 
+        .promt {
+          position: absolute;
+          bottom: 20px;
+          left: 40px;
+        }
+
         h2 {
           font-weight: 600;
           font-size: 10 px;
@@ -70,6 +76,7 @@
         <div class="container">
           <h2>Hi there, i am </h2>
           <h1>HUTTUZKA</h1>
+          <p class="promt">&#8595; Go see what I'm up to!</p>
         </div>
     </div>
   </foreignObject>
