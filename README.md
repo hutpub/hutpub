@@ -6,7 +6,7 @@
   </a>
 </div>
 
-<div style="width: 100%">
+<div style="width: 100%; height: 80px;">
       <a href="https://hutpub.github.io/website/">
         <img src="link-to-personal-site.svg" style="height: 7em;" alt="readme-source">
       </a>
