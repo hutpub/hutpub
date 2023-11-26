@@ -14,22 +14,22 @@
         <img src="link-to-company-site.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
-        <img src="in-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="in-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
-        <img src="wa-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="wa-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
         <a href="https://hutpub.github.io/website/">
-        <img src="ig-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="ig-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
-        <img src="dc-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="dc-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
-        <img src="tg-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="tg-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
       <a href="https://hutpub.github.io/website/">
-        <img src="yt-vector.svg" style="height: 40px;" alt="readme-source">
+        <img src="yt-vector.svg" style="height: 100px;" alt="readme-source">
       </a>
 </div>
 
