@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 600 1350" width="600" height="1350" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 1250" width="600" height="1250" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -129,22 +129,28 @@
         }
 
       </style>
-	<div class="light"><p style="color: black;">Dark theme only</p></div>
+			<div class="light"><p style="color: black;">Dark theme only</p></div>
       
         <div class="container">
+					
           <div style="width:100%;height:10px;"></div>
 
 					<!-- ABOUT -->
 					
 					<div style=" margin: 0 10px;">
+						
 	          <h1>ABOUT ME</h1>
+						
 	          <p style="margin: 0 20px; text-align: justify;">
 	            Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.
 	          </p>
+						
 						<div style="width: 100%; height: 10px;"></div>
+						
 						<p style="margin: 0 20px; text-align: justify;">
 	            This github profile is work in progress, so come back later...
 	          </p>
+						
 					</div>
           <div style="width: 100%; height: 50px;">
           </div>
@@ -152,14 +158,17 @@
 					<!-- ACHIEVEMENTS -->
 					
       		<div style=" margin: 0 10px;">
+						
 	          <h1>ACHIEVEMENTS</h1>
+						
 	          <p style="margin: 0 20px; text-align: justify;">
 	            Full list of achievements coming soon!
 	          </p>
+						
 					</div>
 					
-          <div style="width: 100%; height: 20px;" >
-          </div>
+          <div style="width: 100%; height: 20px;" ></div>
+					
           <div class="badge-container" style="width: 100%; height: 100px;">
 						
 						<div class="button-left" style="width: 30px; height: 30px; background-color:#171B21; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 35px 10px;"><h3>&#11207;</h3></div>
@@ -167,12 +176,15 @@
             <div class="shine">
 							<h1 class="badge">n</h1>
             </div>
+						
             <div class="shine" >
 							<h1 class="badge">o</h1>
             </div>
+						
             <div class="shine" >
 							<h1 class="badge">n</h1>
             </div>
+						
             <div class="shine" >
 							<h1 class="badge">e</h1>
             </div>
@@ -183,14 +195,18 @@
           <div style="width: 100%; height: 70px;" >
             
           </div>
+					
       		<div style=" margin: 0 10px;">
+						
 	          <h1>SKILLS AND TECHNOLOGIES</h1>
+						
 	          <p style="margin: 0 20px; text-align: justify;">
 	            I want to learn new things every day. Most of my experience comes from hobby projects. Full list of skills coming soon!
 	          </p>
+						
 					</div>
 					
-          <div style="height:20px; width: 100%;"></div>
+          <div style="height:50px; width: 100%;"></div>
           <div>
             <h2 style=" margin: 0 10px;">UI/UX Design:</h2>
             <div class="skills">
@@ -201,6 +217,7 @@
               <p class="item">Spline</p>
             </div>
           </div>
+					
 					<div style="width: 100%; height: 10px;" ></div>
 					
           <div>
@@ -230,6 +247,7 @@
 							<p class="item">Apache</p>
             </div>
           </div>
+					
 					<div style="width: 100%; height: 10px;" ></div>
 					
           <div>
@@ -242,6 +260,7 @@
               <p class="item">Xcode</p>
             </div>
         </div>
+
 				<div style="width: 100%; height: 10px;" ></div>
 					
         <div>
@@ -255,6 +274,7 @@
         </div>
 					
 				<div style="width: 100%; height: 10px;" ></div>
+					
         <div>
             <h2 style=" margin: 0 10px;">Environments and testing:</h2>
             <div class="skills">
@@ -271,6 +291,7 @@
         </div>
 					
 				<div style="width: 100%; height: 10px;" ></div>
+					
         <div>
             <h2 style=" margin: 0 10px;">Project management:</h2>
             <div class="skills">
