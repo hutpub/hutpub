@@ -45,7 +45,7 @@
 
 <div style="width: 60%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
+    <img src="ref-1.svg" style="height: 110px;" alt="cv-source">
   </a>
 </div>
 <div style="width: 40%;">
