@@ -64,7 +64,7 @@
           line-height: 1;
           justify-content: left;
           align-content: center;
-          margin-top: 10px;
+          margin-top: 15px;
         }
         .item-4 {
           width: 100%;
@@ -98,9 +98,9 @@
           align-content: center;
           background-color: #22B573;
           border-radius: 5px;
-          width: 80px;
-          height: 80px;
-          margin: 10px;
+          width: 70px;
+          height: 70px;
+          margin: 15px;
         }
 
         .logo-text {
@@ -117,12 +117,21 @@
 
         .name {
           text-align: left;
+          margin-top: 15px;
         }
 
         .description{
           font-size: 10px;
-          margin: 5px 20px 15px 0;
+          line-height: 1;
+          margin: 5px 40px 15px 0;
           text-align: justify;
+        }
+
+        .image {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-content: center;
         }
 
         @media (prefers-color-scheme: light) {
@@ -163,8 +172,8 @@
           </div>
           
           <div class="item-5 item last">
-            <div class="image" style="width: 220px; height: 80px; background-color: black; margin-left: 10px; border-radius: 5px;">
-              <p>Image</p>
+            <div class="image" style="width: 240px; height: 100px; background-color: black; margin-top: 0px; border-radius: 10px;">
+              <p style="color: grey;">Image</p>
             </div>
           </div>
         </div>
