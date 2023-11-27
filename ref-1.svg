@@ -15,8 +15,10 @@
           color: #e6edf3;
           width: 360px;
           height: 100px;
-          border: 1px solid #e6edf3;
-          border-radius: 15px;
+          border-left: 1px solid #e6edf3;
+          border-top: 1px solid #e6edf3;
+          border-bottom: 1px solid #e6edf3;
+          border-radius: 15px 0 0 15px;
           badding: 5px 0 5px 5px;
           margin: auto;
           display: flex;
