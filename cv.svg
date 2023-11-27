@@ -30,6 +30,7 @@
         .skills {
           display: flex;
           flex-wrap: wrap;
+					justify-content: space-between;
           line-height: 1;
 					border: 1px solid #171B21;;
 					border-radius: 10px;
@@ -43,10 +44,10 @@
         }
         
         .shine {
-          --color-main: #2e375a;
-          --color-primary: #191e31;
-          --color-secondary: #242f62;
-          --color-tertiary: #1c2033;
+          --color-main: deepskyblue;
+          --color-primary: darkviolet;
+          --color-secondary: blue;
+          --color-tertiary: #e32929;
 
           background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
           background-size: 400% 400%;
@@ -59,7 +60,6 @@
           width: 100px;
           height: 100px;
           border-radius: 10px;
-          // border: 1px solid #e6edf3;
           margin: 5px;
           color: white;
           font-weight: 600;
@@ -100,7 +100,6 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          // width: 100%;
           height: 100px;
           border-radius: 10px;
           border: 1px solid #e6edf3;
@@ -122,10 +121,7 @@
 
         @media (prefers-color-scheme: light) {
           .container, .reference {
-            color: #0d1117;
-          }
-          .item, .reference {
-            // border-color: #0d1117;
+            // color: #0d1117;
           }
         }
 
@@ -188,12 +184,12 @@
           <div>
             <h2>Web Development:</h2>
             <div class="skills">
-              <p class="item" style="color: #FF3336; background-color: #0D1117; border-color: #FF3336;">HTML</p>
-              <p class="item" style="color: #017EB9; background-color: #0D1117; border-color: #017EB9;">CSS</p>
-              <p class="item" style="color: #FB9C28; background-color: #0D1117; border-color: #FB9C28;">Javascript</p>
-              <p class="item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React</p>
-              <p class="item" style="color: #F14203; background-color: #2B3139; border-color: #F14203;">Svelte</p>
-              <p class="item" style="color: #02E270; background-color: #011D2D; border-color: #02E270;">MongoDB</p>
+              <p class="item">HTML</p>
+              <p class="item">CSS</p>
+              <p class="item">Javascript</p>
+              <p class="item">React</p>
+              <p class="item">Svelte</p>
+              <p class="item">MongoDB</p>
               <p class="item">Rails</p>
               <p class="item">Flask</p>
               <p class="item">Django</p>
@@ -217,11 +213,11 @@
           <div>
             <h2>Mobile Development:</h2>
             <div class="skills">
-              <p class="item" style="color: #3fcffd; background-color: #04579b; border-color: #3fcffd;">Flutter</p>
-              <p class="item" style="color: #3add85; background-color: #012c40; border-color: #3add85;">Android Studio</p>
-              <p class="item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
-              <p class="item" style="color: #ecedee; background-color: #151718; border-color: #ecedee;">Expo</p>
-              <p class="item" style="color: #0071e3; background-color: #151516; border-color: #0071e3;">Xcode</p>
+              <p class="item">Flutter</p>
+              <p class="item">Android Studio</p>
+              <p class="item">React Native</p>
+              <p class="item">Expo</p>
+              <p class="item">Xcode</p>
             </div>
         </div>
 				<div style="width: 100%; height: 10px;" ></div>
@@ -229,10 +225,10 @@
         <div>
             <h2>Software Development:</h2>
             <div class="skills">
-              <p class="item" style="color: #FFFFFF; background-color: #004482; border-color: #FFFFFF;">C</p>
-              <p class="item" style="color: #FFFFFF; background-color: #00427E; border-color: #FFFFFF;">C++</p>
-              <p class="item" style="color: #FFFFFF; background-color: #3A75B0; border-color: #FFFFFF;">Java</p>
-              <p class="item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
+              <p class="item">C</p>
+              <p class="item">C++</p>
+              <p class="item">Java</p>
+              <p class="item">Python</p>
             </div>
         </div>
 					
