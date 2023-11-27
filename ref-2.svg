@@ -15,9 +15,16 @@
           color: #e6edf3;
           width: 355px;
           height: 98px;
-          border-left: 1px solid #e6edf3;
-          border-top: 1px solid #e6edf3;
-          border-bottom: 1px solid #e6edf3;
+
+          border-left: 1px solid #171B21;
+          border-top: 1px solid #171B21;
+          border-bottom: 1px solid #171B21;
+        
+          // border-left: 1px solid #e6edf3;
+          // border-top: 1px solid #e6edf3;
+          // border-bottom: 1px solid #e6edf3;
+
+        
           border-radius: 15px 0 0 15px;
           badding: 5px 0 5px 5px;
           margin: auto 0 auto 5px;
