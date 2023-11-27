@@ -30,7 +30,7 @@
         .skills {
           display: flex;
           flex-wrap: wrap;
-					justify-content: space-between;
+					//justify-content: space-between;
           line-height: 1;
 					border: 1px solid #171B21;;
 					border-radius: 10px;
@@ -124,8 +124,8 @@
           .container, .item:not {
             color: #0d1117;
           }
-				//.container{content-visibility: hidden;}
-				//.light{content-visibility: visible;}
+				.container{content-visibility: hidden;}
+				.light{content-visibility: visible;}
         }
 	      
 				@media (prefers-reduced-motion) {
