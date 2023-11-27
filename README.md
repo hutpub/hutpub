@@ -7,7 +7,7 @@
   </a>
 </div>
 
-<div style="width: 100%;" dir="rtl">
+<div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="height: 7em;" alt="readme-source">
   </a>
