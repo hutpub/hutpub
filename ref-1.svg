@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 610 110" width="610" height="110" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 365 110" width="365" height="110" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -13,11 +13,11 @@
           font-family: "proxima-nova", sans-serif;
           line-height: 1.5;
           color: #e6edf3;
-          width: 600px;
+          width: 360px;
           height: 100px;
           border: 1px solid #e6edf3;
           border-radius: 15px;
-          badding: 5px;
+          badding: 5px 0 5px 5px;
           margin: auto;
           display: flex;
           justify-content: center;
@@ -25,7 +25,7 @@
         }
 
         .first {
-          width: 20%;
+          width: 30%;
           // display: flex;
           //justify-content: center;
           //align-content: center;
@@ -34,7 +34,7 @@
         .mid {
           display: flex;
           flex-wrap: wrap;
-          width: 40%;
+          width: 70%;
         }
 
         .last {
@@ -170,14 +170,13 @@
               <p class="description">Hackathon project. Charging electric vehicles made easy. Our app connects public and private charging stations. You can rent cables as well.</p>
             </div>
           </div>
-          
+          <!--
           <div class="item-5 item last">
             <div class="image" style="width: 240px; height: 100px; background-color: black; margin-top: 0px; border-radius: 15px;">
               <p style="color: grey;">Image</p>
             </div>
-          </div>
+          </div> -->
         </div>
-          
       </div>
     </div>
   </foreignObject>
