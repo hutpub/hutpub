@@ -28,19 +28,12 @@
 
         .first {
           width: 30%;
-          // display: flex;
-          //justify-content: center;
-          //align-content: center;
         }
 
         .mid {
           display: flex;
           flex-wrap: wrap;
           width: 70%;
-        }
-
-        .last {
-          width: 40%;
         }
 
         .head {
