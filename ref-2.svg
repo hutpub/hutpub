@@ -54,7 +54,7 @@
           align-content: left;
         }
         .item-2 {
-          width: 30%;
+          width: 40%;
         }
         
         .item-3 {
@@ -96,7 +96,8 @@
           flex-wrap: wrap;
           justify-content: center;
           align-content: center;
-          background-color: #22B573;
+          background: rgb(139,139,139);
+          background: linear-gradient(135deg, rgba(139,139,139,1) 0%, rgba(85,85,85,1) 100%);
           border-radius: 5px;
           width: 70px;
           height: 70px;
@@ -112,7 +113,7 @@
           padding: 2px 3px;
           border: 0.5px solid #e6edf3;
           border-radius: 3px;
-          margin: 3px;
+          margin: 3px 0 3px 3px;
         }
 
         .name {
@@ -149,7 +150,7 @@
           
           <div class="item-1 item first">
             <div class="logo">
-              <h2 class="logo-text">ZapUp</h2>
+              <h2 class="logo-text" style="font-size: 32px; font-style: normal; color: blue;">	&#x2B17;</h2>
             </div>
           </div>
           
@@ -157,17 +158,18 @@
             <div class="item head">
               
               <div class="item-2 item">
-                 <h1 class="name">ZapUp</h1>
+                 <h1 class="name">MoonStone</h1>
               </div>
               
               <div class="item-3 item">
-                <p class="tech-item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
+                <p class="tech-item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
+                <p class="tech-item" style="color: #ffffff; background-color: #000000; border-color: #ffffff;">Flask</p>
               </div>
               
             </div>
             
             <div class="item-4 item">
-              <p class="description">Hackathon project. Charging electric vehicles made easy. Our app connects public and private charging stations. You can rent cables as well.</p>
+              <p class="description">KIDE.APP bot integrated with Discord. Gets event info and schedules order request. Product will appear to your cart when sales start.</p>
             </div>
           </div>
           
