@@ -79,7 +79,8 @@
 
         .item {
           justify-content: center;
-          border: 1px solid white;
+          // border: 1px solid white;
+	  background-color: #171B21;
           padding: 5px;
           border-radius: 5px;
           margin: 5px;
@@ -121,7 +122,7 @@
             color: #0d1117;
           }
           .item, .reference {
-            border-color: #0d1117;
+            // border-color: #0d1117;
           }
         }
 
