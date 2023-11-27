@@ -17,12 +17,17 @@
             "logo"
             "name"
             "tech"
-            "description"
-            "image";
+            "image"
+            "description";
         }
 
+        .item {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+        }
         .item-1 {
-          grid-area: logo | 1 / 1 / 2 / 1;
+          grid-area: logo | row1-start / col1-start / last-line / col1-end;
         }
         .item-2 {
           grid-area: name | 1 / 2 / 1 / 2;
@@ -31,10 +36,10 @@
           grid-area: tech | 1 / 3 / 1 / 3;
         }
         .item-4 {
-          grid-area: description | 2 / 2 / 2 / 3;
+          grid-area: image | 1 / 4 / 2 / 4;
         }
         .item-5 {
-          grid-area: image | 1 / 4 / 2 / 4;
+           grid-area: description | 2 / 2 / 2 / 3;
         }
 
         h1 {
@@ -60,11 +65,26 @@
       </style>
       
       <div class="container">
-        <div class="item-1" style="background-color: blue;"></div>
-        <div class="item-2" style="background-color: green;"></div>
-        <div class="item-3" style="background-color: yellow;"></div>
-        <div class="item-4" style="background-color: red;"></div>
-        <div class="item-5" style="background-color: orange;"></div>
+        
+        <div class="item-1 item" style="background-color: blue;">
+          <p>Olen LOGO</p>
+        </div>
+        
+        <div class="item-2 item" style="background-color: green;">
+           <h1>NIMI</h1>
+        </div>
+        
+        <div class="item-3 item" style="background-color: yellow;">
+          <p>Olen Tech</p>
+        </div>
+        
+        <div class="item-4 item" style="background-color: red;">
+          <p>Olen kuva</p>
+        </div>
+        
+        <div class="item-5 item" style="background-color: orange;">
+          <p>Olen Selite</p>
+        </div>
       </div>
     </div>
   </foreignObject>
