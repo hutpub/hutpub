@@ -48,12 +48,13 @@
     <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
-<!--
+
 <div style="width: 100%; justify-content: right; margin-top: -50px;">
   <a href="https://github.com/hutpub">
+    <mg src="up.svg" style="width: 100%;" alt="cv-source">
     <img src="zap-1.png" style="height: 100px;" alt="cv-source">
   </a>
-</div> -->
+</div>
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
