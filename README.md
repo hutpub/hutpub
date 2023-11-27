@@ -49,11 +49,12 @@
   </a>
 </div>
 <!--
-<div style="width: 100%;">
+<div style="width: 100%; justify-content: right; margin-top: -50px;">
   <a href="https://github.com/hutpub">
-    <img src="ref-1-image.svg" style="width: 100%;" alt="cv-source">
+    <img src="zap-1.png" style="height: 100px;" alt="cv-source">
   </a>
 </div> -->
+
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="ref-2.svg" style="width: 100%;" alt="cv-source">
@@ -65,6 +66,7 @@
     <img src="ref-2-image.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div> -->
+
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
@@ -76,6 +78,7 @@
     <img src="ref-3-image.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div> -->
+
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
