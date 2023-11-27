@@ -99,8 +99,7 @@
           flex-wrap: wrap;
           justify-content: center;
           align-content: center;
-          background: rgb(139,139,139);
-          background: linear-gradient(135deg, rgba(139,139,139,1) 0%, rgba(85,85,85,1) 100%);
+          background: #D4145A;
           border-radius: 5px;
           width: 70px;
           height: 70px;
@@ -153,7 +152,7 @@
           
           <div class="item-1 item first">
             <div class="logo">
-              <h2 class="logo-text" style="font-size: 32px; font-style: normal; color: blue;">	&#x2B17;</h2>
+              <h2 class="logo-text" style="font-size: 20px; color: white;">SAPP</h2>
             </div>
           </div>
           
@@ -161,18 +160,19 @@
             <div class="item head">
               
               <div class="item-2 item">
-                 <h1 class="name">MoonStone</h1>
+                 <h1 class="name">Sapp</h1>
               </div>
               
               <div class="item-3 item">
-                <p class="tech-item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
-                <p class="tech-item" style="color: #ffffff; background-color: #000000; border-color: #ffffff;">Flask</p>
+                <p class="tech-item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
+                <p class="tech-item" style="color: #CC0000; background-color: #22223B; border-color: #CC0000;">Rails</p>
+                <p class="tech-item" style="color: #ffffff; background-color: #336791; border-color: #ffffff;">Postgres</p>
               </div>
               
             </div>
             
             <div class="item-4 item">
-              <p class="description">KIDE.APP bot integrated with Discord. Gets event info and schedules order request. Product will appear to your cart when sales start.</p>
+              <p class="description">Student social media platform and drinking game.</p>
             </div>
           </div>
           
