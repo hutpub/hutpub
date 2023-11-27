@@ -31,6 +31,9 @@
           display: flex;
           flex-wrap: wrap;
           line-height: 1;
+					border: 1px solid #e6edf3;
+					border-radius: 10px;
+					margin: 5px;
         }
 
         .badge-container {
@@ -192,6 +195,7 @@
               <p class="item">Rails</p>
               <p class="item">Flask</p>
               <p class="item">Django</p>
+							<p class="item">PHP</p>
               <p class="item">PostgreSQL</p>
               <p class="item">C#</p>
               <p class="item">ASP.NET</p>
