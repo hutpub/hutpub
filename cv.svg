@@ -133,21 +133,31 @@
       
         <div class="container">
           <div style="width:100%;height:10px;"></div>
-          <h1>ABOUT ME</h1>
-          <p>
-            Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.
-          </p>
-					<div style="width: 100%; height: 10px;"></div>
-					<p>
-            This github profile is work in progress, so come back later...
-          </p>
+
+					<!-- ABOUT -->
+					
+					<div style=" margin: 0 10px;">
+	          <h1>ABOUT ME</h1>
+	          <p style="margin: 0 20px; text-align: justify;">
+	            Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.
+	          </p>
+						<div style="width: 100%; height: 10px;"></div>
+						<p style="margin: 0 20px; text-align: justify;">
+	            This github profile is work in progress, so come back later...
+	          </p>
+					</div>
           <div style="width: 100%; height: 50px;">
           </div>
-      
-          <h1>ACHIEVEMENTS</h1>
-          <p>
-            Full list of achievements coming soon!
-          </p>
+
+					<!-- ACHIEVEMENTS -->
+					
+      		<div style=" margin: 0 10px;">
+	          <h1>ACHIEVEMENTS</h1>
+	          <p style="margin: 0 20px; text-align: justify;">
+	            Full list of achievements coming soon!
+	          </p>
+					</div>
+					
           <div style="width: 100%; height: 20px;" >
           </div>
           <div class="badge-container" style="width: 100%; height: 100px;">
@@ -173,26 +183,28 @@
           <div style="width: 100%; height: 70px;" >
             
           </div>
-      
-          <h1>SKILLS AND TECHNOLOGIES</h1>
-          <p>
-            I want to learn new things every day. Most of my experience comes from hobby projects. Full list of skills coming soon!
-          </p>
+      		<div style=" margin: 0 10px;">
+	          <h1>SKILLS AND TECHNOLOGIES</h1>
+	          <p style="margin: 0 20px; text-align: justify;">
+	            I want to learn new things every day. Most of my experience comes from hobby projects. Full list of skills coming soon!
+	          </p>
+					</div>
+					
           <div style="height:20px; width: 100%;"></div>
           <div>
-            <h2>UI/UX Design:</h2>
+            <h2 style=" margin: 0 10px;">UI/UX Design:</h2>
             <div class="skills">
-              <p class="item" style="color: #2FA3F7; background-color: #001D34; border-color: #2FA3F7;">Adobe Photoshop</p>
-              <p class="item" style="color: #F79500; background-color: #310000; border-color: #F79500;">Adobe Illustrator</p>
-              <p class="item" style="color: #f75eee; background-color: #450135; border-color: #f75eee;">Adobe XD</p>
-              <p class="item" style="color: #059aff; background-color: #282828; border-color: #059aff;">Figma</p>
-              <p class="item" style="color: #a57efa; background-color: #1d1e20; border-color: #a57efa;">Spline</p>
+              <p class="item">Adobe Photoshop</p>
+              <p class="item">Adobe Illustrator</p>
+              <p class="item">Adobe XD</p>
+              <p class="item">Figma</p>
+              <p class="item">Spline</p>
             </div>
           </div>
 					<div style="width: 100%; height: 10px;" ></div>
 					
           <div>
-            <h2>Web Development:</h2>
+            <h2 style=" margin: 0 10px;">Web Development:</h2>
             <div class="skills">
               <p class="item">HTML</p>
               <p class="item">CSS</p>
@@ -221,7 +233,7 @@
 					<div style="width: 100%; height: 10px;" ></div>
 					
           <div>
-            <h2>Mobile Development:</h2>
+            <h2 style=" margin: 0 10px;">Mobile Development:</h2>
             <div class="skills">
               <p class="item">Flutter</p>
               <p class="item">Android Studio</p>
@@ -233,7 +245,7 @@
 				<div style="width: 100%; height: 10px;" ></div>
 					
         <div>
-            <h2>Software Development:</h2>
+            <h2 style=" margin: 0 10px;">Software Development:</h2>
             <div class="skills">
               <p class="item">C</p>
               <p class="item">C++</p>
@@ -244,7 +256,7 @@
 					
 				<div style="width: 100%; height: 10px;" ></div>
         <div>
-            <h2>Environments and testing:</h2>
+            <h2 style=" margin: 0 10px;">Environments and testing:</h2>
             <div class="skills">
               <p class="item">Windows 11</p>
               <p class="item">Powershell</p>
@@ -257,9 +269,10 @@
 							<p class="item">Replit</p>
             </div>
         </div>
+					
 				<div style="width: 100%; height: 10px;" ></div>
         <div>
-            <h2>Project management:</h2>
+            <h2 style=" margin: 0 10px;">Project management:</h2>
             <div class="skills">
               <p class="item">Jira</p>
               <p class="item">Github</p>
