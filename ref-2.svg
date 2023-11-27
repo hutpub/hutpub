@@ -167,8 +167,10 @@
               </div>
               
               <div class="item-3 item">
-                <p class="tech-item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
-                <p class="tech-item" style="color: #ffffff; background-color: #000000; border-color: #ffffff;">Flask</p>
+                <!-- <p class="tech-item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
+                <p class="tech-item" style="color: #ffffff; background-color: #000000; border-color: #ffffff;">Flask</p> -->
+                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Python</p>
+                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Flask</p>
               </div>
               
             </div>
