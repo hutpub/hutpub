@@ -15,6 +15,8 @@
           color: #e6edf3;
           width: 355px;
           height: 98px;
+
+          background-color: #171B21;
         
           border-left: 1px solid #171B21;
           border-top: 1px solid #171B21;
