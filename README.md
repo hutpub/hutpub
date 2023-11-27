@@ -69,41 +69,23 @@
 </div>
 <div style="width: 100%; height: 10px;"><p></p></div>
 
-<!--
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-2.svg" style="width: 100%;" alt="cv-source">
+    <img src="ref-2.svg" style="width: 59%;" alt="cv-source">
   </a>
-</div>-->
-<!--
-<div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-2-image.svg" style="width: 100%;" alt="cv-source">
+    <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
   </a>
-</div> -->
-<!--
-<div style="width: 100%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
-  </a>
-</div> -->
-<!--
-<div style="width: 100%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-3-image.svg" style="width: 100%;" alt="cv-source">
-  </a>
-</div> -->
-<!--
-<div style="width: 100%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
-  </a> 
-</div>-->
-<!--
-<div style="width: 100%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-4-image.svg" style="width: 100%;" alt="cv-source">
-  </a>
-</div> -->
+</div>
+<div style="width: 100%; height: 10px;"><p></p></div>
 
+<div style="width: 100%;">
+  <a href="https://github.com/hutpub">
+    <img src="ref-2.svg" style="width: 59%;" alt="cv-source">
+  </a>
+  <a href="https://github.com/hutpub">
+    <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
+  </a>
+</div>
+<div style="width: 100%; height: 10px;"><p></p></div>
 
