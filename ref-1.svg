@@ -56,11 +56,11 @@
           align-content: left;
         }
         .item-2 {
-          width: 25%;
+          width: 22%;
         }
         
         .item-3 {
-          width: 75%;
+          width: 78%;
           display: flex;
           flex-wrap: wrap;
           line-height: 1;
@@ -95,7 +95,9 @@
 
         .logo {
           display: flex;
+          //flex-direction: column;
           flex-wrap: wrap;
+        
           justify-content: center;
           align-content: center;
           background-color: #22B573;
@@ -106,7 +108,7 @@
         }
 
         .logo-text {
-           text-align: center;
+          text-align: center;
         }
 
         .tech-item {
@@ -151,6 +153,7 @@
           
           <div class="item-1 item first">
             <div class="logo">
+              <h1 class="logo-text" style="font-style: normal;">&#x2689;</h1>
               <h2 class="logo-text">ZapUp</h2>
             </div>
           </div>
