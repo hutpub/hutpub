@@ -48,7 +48,7 @@
     <img src="ref-1.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
-<div style="width: 100%; justify-content: right; margin-top: -50px;">
+<div style="width: 100%; justify-content: right; margin-top: -50px;" dir="rtl" >
   <a href="https://github.com/hutpub">
     <img src="up.svg" style="width: 100%;" alt="cv-source">
     <img src="zap-1.png" style="height: 100px;" alt="cv-source">
