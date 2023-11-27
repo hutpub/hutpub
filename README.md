@@ -9,7 +9,7 @@
 
 <div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
-    <img src="link-to-personal-site.svg" style="height: 7em;" alt="readme-source">
+    <img src="link-to-personal-site.svg" style="height: 7rem;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="height: 7em;" alt="readme-source">
@@ -45,7 +45,7 @@
 
 <div style="width: 100%;" dir="rtl">
   <a href="https://hutpub.github.io/website/">
-    <img src="view-all.svg" style="height: 7em;" alt="readme-source">
+    <img src="view-all.svg" style="height: 7rem;" alt="readme-source">
   </a>
 </div>
 
