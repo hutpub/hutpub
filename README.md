@@ -71,7 +71,7 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-2.svg" style="width: 59%;" alt="cv-source">
+    <img src="ref-3.svg" style="width: 59%;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
     <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
@@ -81,7 +81,7 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-2.svg" style="width: 59%;" alt="cv-source">
+    <img src="ref-4.svg" style="width: 59%;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
     <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
