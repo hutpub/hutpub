@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 600 1300" width="600" height="1300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 1350" width="600" height="1350" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -183,6 +183,8 @@
               <p class="item" style="color: #a57efa; background-color: #1d1e20; border-color: #a57efa;">Spline</p>
             </div>
           </div>
+					<div style="width: 100%; height: 10px;" ></div>
+					
           <div>
             <h2>Web Development:</h2>
             <div class="skills">
@@ -210,6 +212,8 @@
 							<p class="item">Apache</p>
             </div>
           </div>
+					<div style="width: 100%; height: 10px;" ></div>
+					
           <div>
             <h2>Mobile Development:</h2>
             <div class="skills">
@@ -220,6 +224,8 @@
               <p class="item" style="color: #0071e3; background-color: #151516; border-color: #0071e3;">Xcode</p>
             </div>
         </div>
+				<div style="width: 100%; height: 10px;" ></div>
+					
         <div>
             <h2>Software Development:</h2>
             <div class="skills">
@@ -229,6 +235,8 @@
               <p class="item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
             </div>
         </div>
+					
+				<div style="width: 100%; height: 10px;" ></div>
         <div>
             <h2>Environments and testing:</h2>
             <div class="skills">
@@ -243,6 +251,7 @@
 							<p class="item">Replit</p>
             </div>
         </div>
+				<div style="width: 100%; height: 10px;" ></div>
         <div>
             <h2>Project management:</h2>
             <div class="skills">
