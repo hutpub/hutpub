@@ -43,16 +43,15 @@
   </a>
 </div>
 
-<div style="width: 60%;">
+<div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="height: 110px;" alt="cv-source">
+    <img src="ref-1.svg" style="width: 60%; height: 110px;" alt="cv-source">
+  </a>
+  <a href="https://github.com/hutpub">
+    <img src="ref-1-image.png" style="width: 40%; height: 100px;" alt="cv-source">
   </a>
 </div>
-<div style="width: 40%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-1-image.png" style="height: 100px;" alt="cv-source">
-  </a>
-</div>
+
 <!--
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
