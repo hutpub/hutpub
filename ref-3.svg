@@ -57,11 +57,11 @@
           align-content: left;
         }
         .item-2 {
-          width: 40%;
+          width: 20%;
         }
         
         .item-3 {
-          width: 60%;
+          width: 80%;
           display: flex;
           flex-wrap: wrap;
           line-height: 1;
