@@ -31,7 +31,7 @@
           display: flex;
           flex-wrap: wrap;
           line-height: 1;
-					border: 1px solid #e6edf3;
+					border: 1px solid #171B21;;
 					border-radius: 10px;
 					margin: 5px;
         }
@@ -83,7 +83,7 @@
         .item {
           justify-content: center;
           // border: 1px solid white;
-	  background-color: #171B21;
+	  			background-color: #171B21;
           padding: 5px 10px;
           border-radius: 5px;
           margin: 5px;
