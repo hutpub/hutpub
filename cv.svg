@@ -82,7 +82,6 @@
 
         .item {
           justify-content: center;
-          // border: 1px solid white;
 	  			background-color: #171B21;
           padding: 5px 10px;
           border-radius: 5px;
@@ -120,8 +119,8 @@
         }
 
         @media (prefers-color-scheme: light) {
-          .container, .reference {
-            // color: #0d1117;
+          .conteiner, .item:not {
+            color: #0d1117;
           }
         }
 
@@ -147,6 +146,9 @@
           <div style="width: 100%; height: 20px;" >
           </div>
           <div class="badge-container" style="width: 100%; height: 100px;">
+						
+						<div class="button-left" style="width: 30px; height: 30px; background-color:grey; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 10px;"><h3>&#11207;</h3></div>
+						
             <div class="shine">
 							<h1 class="badge">n</h1>
             </div>
@@ -159,6 +161,9 @@
             <div class="shine" >
 							<h1 class="badge">e</h1>
             </div>
+						
+						<div class="button-right" style="width: 30px; height: 30px; background-color:grey; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 10px;"><h3>&#11208;</h3></div>
+						
           </div>
           <div style="width: 100%; height: 70px;" >
             
