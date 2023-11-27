@@ -121,8 +121,8 @@
         }
 
         .description{
-          font-size: 10px;
-          line-height: 1;
+          font-size: 8px;
+          //line-height: 1;
           margin: 5px 40px 15px 0;
           text-align: justify;
         }
