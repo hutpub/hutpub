@@ -14,7 +14,8 @@
           line-height: 1.5;
           color: #e6edf3;
           width: 355px;
-          height: 98px;
+          height: 100px;
+        //height: 98px;
 
           background-color: #171B21;
         
