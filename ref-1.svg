@@ -26,9 +26,9 @@
 
         .first {
           width: 20%;
-          display: flex;
-          justify-content: center;
-          align-content: center;
+          // display: flex;
+          //justify-content: center;
+          //align-content: center;
         }
 
         .mid {
@@ -51,7 +51,7 @@
           text-align: center;
         }
         .item-1 {
-
+          align-content: left;
         }
         .item-2 {
           width: 30%;
@@ -62,8 +62,9 @@
           display: flex;
           flex-wrap: wrap;
           line-height: 1;
-          justify-content: center;
+          justify-content: left;
           align-content: center;
+          margin-top: 10px;
         }
         .item-4 {
           width: 100%;
@@ -79,28 +80,49 @@
           font-size: 16px;
         }
 
+        h2 {
+          font-weight: 700;
+          font-style: italic;
+          font-size: 16px;
+        }
+
         p {
           font-weight: 400;
           font-size: 12px;
         }
 
         .logo {
-          display: flex:
-          font-weight: 600 !important;
-          font-style: italic;
-          font-size: 16px;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-content: center;
           background-color: #22B573;
           border-radius: 5px;
-          padding: 27px 17px;
+          width: 80px;
+          height: 80px;
+          margin: 10px;
+        }
+
+        .logo-text {
+           text-align: center;
         }
 
         .tech-item {
-          font-size: 8px;
-          padding: 3px;
+          font-size: 6px;
+          padding: 2px 3px;
           border: 0.5px solid #e6edf3;
           border-radius: 3px;
           margin: 3px;
-        
+        }
+
+        .name {
+          text-align: left;
+        }
+
+        .description{
+          font-size: 10px;
+          margin: 5px 20px 15px 0;
+          text-align: justify;
         }
 
         @media (prefers-color-scheme: light) {
@@ -117,30 +139,33 @@
         <div class="container">
           
           <div class="item-1 item first">
-            <p class="logo">Logo</p>
+            <div class="logo">
+              <h2 class="logo-text">ZapUp</h2>
+            </div>
           </div>
           
           <div class="item mid">
             <div class="item head">
               
               <div class="item-2 item">
-                 <h1>ZapUp</h1>
+                 <h1 class="name">ZapUp</h1>
               </div>
               
               <div class="item-3 item">
-                <p class="tech-item">Tech stack</p>
-                <p class="tech-item">Tech stack</p>
+                <p class="tech-item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
               </div>
               
             </div>
             
             <div class="item-4 item">
-              <p>Description</p>
+              <p class="description">Hackathon project. Charging electric vehicles made easy. Our app connects public and private charging stations. You can rent cables as well.</p>
             </div>
           </div>
           
           <div class="item-5 item last">
-            <p>Image</p>
+            <div class="image" style="width: 220px; height: 80px; background-color: black; margin-left: 10px; border-radius: 5px;">
+              <p>Image</p>
+            </div>
           </div>
         </div>
           
