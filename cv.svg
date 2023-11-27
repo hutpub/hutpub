@@ -118,7 +118,7 @@
           font-size: 12px;
         }
 
-	.light {content-visibility: hidden;}
+				.light {content-visibility: hidden;}
 
         @media (prefers-color-scheme: light) {
           .container, .item:not {
@@ -126,6 +126,12 @@
           }
 				//.container{content-visibility: hidden;}
 				//.light{content-visibility: visible;}
+        }
+	      
+				@media (prefers-reduced-motion) {
+          .container {
+            animation: none;
+          }
         }
 
       </style>
