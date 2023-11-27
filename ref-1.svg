@@ -13,8 +13,8 @@
           font-family: "proxima-nova", sans-serif;
           line-height: 1.5;
           color: #e6edf3;
-          width: 3550px;
-          height: 100px;
+          width: 355px;
+          height: 98px;
           border-left: 1px solid #e6edf3;
           border-top: 1px solid #e6edf3;
           border-bottom: 1px solid #e6edf3;
