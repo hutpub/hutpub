@@ -69,7 +69,7 @@
           line-height: 1;
           justify-content: left;
           align-content: center;
-          margin-top: 15px;
+          margin-top: 10px;
         }
         .item-4 {
           width: 100%;
@@ -160,8 +160,12 @@
               <div class="item-3 item">
                 <!-- <p class="tech-item" style="color: #F7D968; background-color: #335980; border-color: #F7D968;">Python</p>
                 <p class="tech-item" style="color: #ffffff; background-color: #000000; border-color: #ffffff;">Flask</p> -->
-                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Python</p>
-                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Flask</p>
+                <!-- <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Python</p>
+                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Flask</p> -->
+                
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Python</p>
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Flask</p> 
+                
               </div>
               
             </div>
