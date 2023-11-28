@@ -93,7 +93,7 @@
 					.skills {border-color: #e6edf3; background-color: #0A0C12;}
 	      				.description {font-size: 20px;}
 	      				.mid-pad {height: 5px;}
-	      				.top-pad {height: 10px;}
+	      				.top-pad {height: 5px;}
 	      				.tm-pad {height: 20px;}
 				}
 
