@@ -70,7 +70,7 @@
           line-height: 1;
           justify-content: left;
           align-content: center;
-          margin-top: 15px;
+          margin-top: 10px;
         }
         .item-4 {
           width: 100%;
@@ -161,9 +161,14 @@
                 <!-- <p class="tech-item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p>
                 <p class="tech-item" style="color: #CC0000; background-color: #22223B; border-color: #CC0000;">Rails</p>
                 <p class="tech-item" style="color: #ffffff; background-color: #336791; border-color: #ffffff;">Postgres</p> -->
-                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">React Native</p>
+                <!--<p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">React Native</p>
                 <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Rails</p>
-                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Postgres</p>
+                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Postgres</p> -->
+
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">React Native</p>
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Rails</p>
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Postgres</p>
+
               </div>
               
             </div>
