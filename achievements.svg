@@ -34,6 +34,7 @@
 		border:  1px solid #21262D;
 		border-radius: 10px;
 		margin: 0 5px;
+	      background-color: #010409;
         }
         
         .shine {
@@ -99,6 +100,7 @@
             		--color-secondary: #4526f6;
             		--color-tertiary: #f6f645;
 		}
+	      .badge-container {background-color: #010409;}
         }
 	      
 	@media (prefers-reduced-motion) {
@@ -112,7 +114,7 @@
 					h1, p {color: #e6edf3;}
 				  h1 {font-size: 24px;}
 				  p {font-size: 16;}
-					.badge-container {border-color: #e6edf3;}
+					.badge-container {border-color: #e6edf3; background-color: #010409;}
 				}
 
       </style>
