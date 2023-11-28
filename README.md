@@ -55,6 +55,12 @@
   </a>
 </div>
 
+<div style="width: 100%;" dir="rtl">
+  <a href="https://hutpub.github.io/website/">
+    <img src="achievements.svg" style="height: 6rem;" alt="readme-source">
+  </a>
+</div>
+
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="ref-1.svg" style="width: 60%;" alt="cv-source">
