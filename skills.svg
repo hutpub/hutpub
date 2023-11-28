@@ -55,7 +55,7 @@
 					.item.p, .badge.h1 {
 						color: #e6edf3;
 					}
-	      .skills {background-color: #010409;}
+	      .skills {background-color: #e6edf3;}
         }
 	      
 				@media (prefers-reduced-motion) {
