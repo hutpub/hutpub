@@ -27,7 +27,7 @@
   <a href="https://hutpub.github.io/website/">
     <img src="dc-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
-  <a href="https://hutpub.github.io/website/">
+  <a href="https://t.me/huttuzka">
     <img src="tg-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
