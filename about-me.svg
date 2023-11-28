@@ -1,1 +1,157 @@
 <!-- ABOUT ME -->
+<svg fill="none" viewBox="0 0 600 1265" width="600" height="1265" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+	@keyframes spin { 
+    		100% {transform:rotate(360deg);} 
+	}
+
+
+        .container {
+          font-family: "proxima-nova", sans-serif;
+          line-height: 1.5;
+          color: #e6edf3;
+          width: 100%;
+          border-top: 1px solid #21262D;
+        }
+
+        .skills {
+          display: flex;
+          flex-wrap: wrap;
+					//justify-content: space-between;
+          line-height: 1;
+					border: 1px solid #21262D;
+					border-radius: 10px;
+					margin: 5px;
+        }
+
+        .badge-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+					border:  1px solid #21262D;
+					border-radius: 10px;
+					margin: 0 5px;
+        }
+        
+        .shine {
+          --color-main: deepskyblue;
+          --color-primary: darkviolet;
+          --color-secondary: blue;
+          --color-tertiary: #e32929;
+
+          background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
+          background-size: 400% 400%;
+          animation: gradient 10s ease infinite;
+
+          line-height: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: 100px;
+          border-radius: 5px;
+          margin: 5px;
+          color: white;
+          font-weight: 600;
+        }
+
+				.badge {
+					font-size: 50px;
+					font-style: normal;
+	      	animation:spin 4s linear infinite;
+					height: 50px;
+  				width: 50px;
+  				border-radius: 50%;
+  				//overflow: hidden;
+				}
+	      
+        p {
+          font-weight: 400;
+          font-size: 12px;
+        }
+
+        .item {
+          justify-content: center;
+	  			background-color: #21262D;
+          padding: 5px 10px;
+          border-radius: 5px;
+          margin: 5px;
+        }
+
+				.block {
+					width: 100%;
+					padding: 20px;
+					margin: auto;
+				}
+
+				.reference {
+          line-height: 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100px;
+          border-radius: 10px;
+          border: 1px solid #e6edf3;
+          margin: 5px;
+          color: white;
+          font-weight: 600;
+        }
+
+        h1 {
+          font-weight: 600;
+          font-style: italic;
+          font-size: 16px;
+        }
+
+        h2 {
+          font-weight: 600;
+          font-size: 12px;
+        }
+
+        @media (prefers-color-scheme: light) {
+					h1, h2, p {
+						color: #21262D;
+					}
+					.item.p, .badge.h1 {
+						color: #e6edf3;
+					}
+        }
+	      
+				@media (prefers-reduced-motion) {
+          .container {
+            animation: none;
+          }
+        }
+
+      </style>
+      
+      <div class="container">
+        <div style="width:100%;height:10px;"></div>
+				<div style=" margin: 0 10px;">
+						
+	        <h1>ABOUT ME</h1>
+						
+	        <p style="margin: 0 20px; text-align: justify;">Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Painting.</p>
+					<div style="width: 100%; height: 10px;"></div>
+					<p style="margin: 0 20px; text-align: justify;">This github profile is work in progress, so come back later...</p>
+						
+				</div>
+        <div style="width: 100%; height: 50px;">
+      </div>
+    </div>
+  </foreignObject>
+</svg>
