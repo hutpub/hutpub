@@ -27,6 +27,11 @@
           border-top: 1px solid #21262D;
         }
 
+	.top-pad {
+	      width:100%;
+	      height: 50px;
+	}
+
         .badge-container {
           	display: flex;
           	flex-wrap: wrap;
@@ -111,16 +116,17 @@
 
 				@media only screen and (max-width: 480px) {
 					//.container {visibility: hidden;}
+	      				.top-pad {height:10px;}
 					h1, p {color: #e6edf3;}
-				  h1 {font-size: 24px;}
-				  p {font-size: 16;}
+				  h1 {font-size: 32px;}
+				  p {font-size: 24;}
 					.badge-container {border-color: #e6edf3; background-color: #0A0C12;}
 				}
 
       </style>
       
         <div class="container">
-          <div style="width:100%;height: 50px;"></div>					
+          <div class="top-pad"></div>					
       		<div style=" margin: 0 10px;">
 						
 	          <h1>ACHIEVEMENTS</h1>
