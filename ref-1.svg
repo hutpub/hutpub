@@ -68,7 +68,7 @@
           line-height: 1;
           justify-content: left;
           align-content: center;
-          margin-top: 15px;
+          margin-top: 10px;
         }
         .item-4 {
           width: 100%;
