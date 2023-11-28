@@ -70,40 +70,40 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="width: 60%;" alt="cv-source">
+    <img src="ref-1.svg" style="height: 168px;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
-    <img src="ref-1-image-2.png" style="width: 39%;" alt="cv-source">
-  </a>
-</div>
-<div style="width: 100%; height: 10px;"><p></p></div>
-
-<div style="width: 100%;">
-  <a href="https://github.com/hutpub">
-    <img src="ref-2.svg" style="width: 60%;" alt="cv-source">
-  </a>
-  <a href="https://github.com/hutpub">
-    <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
+    <img src="ref-1-image-2.png" style="height: 168px;" alt="cv-source">
   </a>
 </div>
 <div style="width: 100%; height: 10px;"><p></p></div>
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-3.svg" style="width: 60%;" alt="cv-source">
+    <img src="ref-2.svg" style="height: 168px;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
-    <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
+    <img src="ref-2-image.png" style="height: 168px;" alt="cv-source">
   </a>
 </div>
 <div style="width: 100%; height: 10px;"><p></p></div>
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-4.svg" style="width: 60%;" alt="cv-source">
+    <img src="ref-3.svg" style="height: 168px;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
-    <img src="ref-2-image.png" style="width: 39%;" alt="cv-source">
+    <img src="ref-2-image.png" style="height: 168px;" alt="cv-source">
+  </a>
+</div>
+<div style="width: 100%; height: 10px;"><p></p></div>
+
+<div style="width: 100%;">
+  <a href="https://github.com/hutpub">
+    <img src="ref-4.svg" style="height: 168px;" alt="cv-source">
+  </a>
+  <a href="https://github.com/hutpub">
+    <img src="ref-2-image.png" style="height: 168px;" alt="cv-source">
   </a>
 </div>
 <div style="width: 100%; height: 10px;"><p></p></div>
