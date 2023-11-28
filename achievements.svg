@@ -42,9 +42,11 @@
           --color-secondary: blue;
           --color-tertiary: #e32929;
 
-          background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
+          // background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
           background-size: 400% 400%;
-          animation: gradient 10s ease infinite;
+          // animation: gradient 30s ease infinite;
+					background: rgb(12,29,104);
+					background: radial-gradient(circle, rgba(12,29,104,1) 0%, rgba(7,3,38,1) 100%);
 
           line-height: 1;
           display: flex;
@@ -59,7 +61,7 @@
         }
 
 	.badge {
-		font-size: 50px;
+		font-size: 10px;
 		font-style: normal;
 	      	animation:spin 4s linear infinite;
 		height: 50px;
@@ -106,7 +108,7 @@
         }
 
 	@media only screen and (max-width: 480px) {
-		.container {visibility: hidden;}
+		//.container {visibility: hidden;}
 	}
 
       </style>
@@ -127,19 +129,23 @@
 						<div class="button-left" style="width: 30px; height: 30px; background-color:#171B21; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 40px 10px;"><h3>&#11207;</h3></div>
 						
             <div class="shine">
-							<h1 class="badge" style="color: #e6edf3;">n</h1>
+							<h1 class="badge" style="color: #e6edf3;">&#128640;</h1>
+							<h3 style="position: absolute; font-size: 30px;">&#127770;</h3>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge" style="color: #e6edf3;">o</h1>
+							<h1 class="badge" style="color: #e6edf3;">&#128640;</h1>
+							<h3 style="position: absolute; font-size: 30px;">&#127770;</h3>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge" style="color: #e6edf3;">n</h1>
+							<h1 class="badge" style="color: #e6edf3;">&#128640;</h1>
+							<h3 style="position: absolute; font-size: 30px;">&#127770;</h3>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge" style="color: #e6edf3;">e</h1>
+							<h1 class="badge" style="color: #e6edf3;">&#128640;</h1>
+							<h3 style="position: absolute; font-size: 30px;">&#127770;</h3>
             </div>
 						
 						<div class="button-right" style="width: 30px; height: 30px; background-color:#171B21; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 40px 10px;"><h3>&#11208;</h3></div>
