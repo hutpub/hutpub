@@ -52,7 +52,7 @@
 					h1, p {color: #e6edf3;}
 	      				h1 {font-size: 32px;}
 	      				p {font-size: 20px;}
-	      				.top-pad {height: 10px;}
+	      				.top-pad {height: 5px;}
 				}
 
       </style>
