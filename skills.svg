@@ -21,6 +21,7 @@
 					border: 1px solid #21262D;
 					border-radius: 10px;
 					margin: 5px;
+	      background-color: #010409;
         }
 
         p {
@@ -54,6 +55,7 @@
 					.item.p, .badge.h1 {
 						color: #e6edf3;
 					}
+	      .skills {background-color: #010409;}
         }
 	      
 				@media (prefers-reduced-motion) {
@@ -67,7 +69,7 @@
 	      				h1 {font-size: 24px;}
 	      				h2 {font-size: 18px;}
 	      				p {font-size: 16;}
-					.skills {border-color: #e6edf3;}
+					.skills {border-color: #e6edf3; background-color: #010409;}
 				}
 
       </style>
