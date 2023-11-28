@@ -101,7 +101,9 @@
 
       </style>
         <div class="container">
+		<h4 style="position: absolute; top: -25%; font-size: 80px;">&#128640;</h4>
 		<div class="grain"></div>
+		
           <h2 style="z-index: 5;">Hi there, i am </h2>
           <h1 style="z-index: 5;">HUTTUZKA</h1>
           <p class="promt" style="z-index: 5;">&#8595; Go see what I'm up to!</p>
