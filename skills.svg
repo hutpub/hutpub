@@ -18,6 +18,11 @@
 	      height: 50px;
 	}
 
+	.tm-pad {
+	      width: 100%;
+	      height: 50px;
+	}
+
         .skills {
           display: flex;
           flex-wrap: wrap;
@@ -87,8 +92,9 @@
 	      				.top-pad {height: 10px;}
 					.skills {border-color: #e6edf3; background-color: #0A0C12;}
 	      				.description {font-size: 20px;}
-	      				.mid-pad {height: 10px;}
-	      				.top-pad {height: 5px;}
+	      				.mid-pad {height: 5px;}
+	      				.top-pad {height: 10px;}
+	      				.tm-pad {height: 20px;}
 				}
 
       </style>
@@ -106,7 +112,7 @@
 						
 					</div>
 					
-          <div class="top-pad"></div>
+          <div class="tm-pad"></div>
           <div>
             <h2 style=" margin: 0 10px;">UI/UX Design:</h2>
             <div class="skills">
