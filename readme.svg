@@ -70,6 +70,18 @@
           
           animation: bounce 5s ease infinite;
         }
+	
+	 .swing {
+		transform-origin: top center;
+		animation: swing 30s ease infinite;
+	}
+	@keyframes swing {
+		20% { transform: rotate(15deg); }	
+		40% { transform: rotate(-10deg); }
+		60% { transform: rotate(5deg); }	
+		80% { transform: rotate(-5deg); }	
+		100% { transform: rotate(0deg); }
+	}
 
         h2 {
           font-weight: 600;
@@ -101,7 +113,7 @@
 
       </style>
         <div class="container">
-		<h4 style="position: absolute; top: -25%; font-size: 80px;">&#128640;</h4>
+		<h4 class="swing" style="position: absolute; top: -25%; font-size: 80px;">&#128640;</h4>
 		<div class="grain"></div>
 		
           <h2 style="z-index: 5;">Hi there, i am </h2>
