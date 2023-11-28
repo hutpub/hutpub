@@ -82,7 +82,7 @@
 
         .item {
           justify-content: center;
-	  			background-color: #171B21;
+	  			background-color: #21262D;
           padding: 5px 10px;
           border-radius: 5px;
           margin: 5px;
