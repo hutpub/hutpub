@@ -15,9 +15,9 @@
           }
         }
 
-				@keyframes spin { 
-			    		100% {transform:rotate(360deg);} 
-				}
+	@keyframes spin { 
+		100% {transform:rotate(360deg);} 
+	}
 
         .container {
           font-family: "proxima-nova", sans-serif;
@@ -28,12 +28,12 @@
         }
 
         .badge-container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-					border:  1px solid #21262D;
-					border-radius: 10px;
-					margin: 0 5px;
+          	display: flex;
+          	flex-wrap: wrap;
+          	justify-content: center;
+		border:  1px solid #21262D;
+		border-radius: 10px;
+		margin: 0 5px;
         }
         
         .shine {
@@ -58,15 +58,15 @@
           font-weight: 600;
         }
 
-				.badge {
-					font-size: 50px;
-					font-style: normal;
+	.badge {
+		font-size: 50px;
+		font-style: normal;
 	      	animation:spin 4s linear infinite;
-					height: 50px;
-  				width: 50px;
-  				border-radius: 50%;
-  				//overflow: hidden;
-				}
+		height: 50px;
+  		width: 50px;
+  		border-radius: 50%;
+  		//overflow: hidden;
+	}
 	      
         p {
           font-weight: 400;
@@ -85,29 +85,29 @@
         }
 
         @media (prefers-color-scheme: light) {
-					h1, h2, p {
-						color: #21262D;
-					}
-					.item.p, .badge.h1 {
-						color: #e6edf3;
-					}
-					.container {
-				    --color-main: #F15BB5;
-            --color-primary: #24b0ef;
-            --color-secondary: #4526f6;
-            --color-tertiary: #f6f645;
-					}
+		h1, h2, p {
+			color: #21262D;
+		}
+		.item.p, .badge.h1 {
+			color: #e6edf3;
+		}
+		.shine {
+			--color-main: #F15BB5;
+            		--color-primary: #24b0ef;
+            		--color-secondary: #4526f6;
+            		--color-tertiary: #f6f645;
+		}
         }
 	      
-				@media (prefers-reduced-motion) {
+	@media (prefers-reduced-motion) {
           .container {
-            animation: none;
+	      animation: none;
           }
         }
 
-				@media only screen and (max-width: 480px) {
-					.shine {visibility: hidden;}
-				}
+	@media only screen and (max-width: 480px) {
+		.container {visibility: hidden;}
+	}
 
       </style>
       
