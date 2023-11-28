@@ -1,5 +1,5 @@
 <!-- ACHIEVEMENTS -->
-<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 500" width="600" height="500" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -106,7 +106,7 @@
       </style>
       
         <div class="container">
-          <div style="width:100%;height:10px;"></div>					
+          <div style="width:100%;height: 50px;"></div>					
       		<div style=" margin: 0 10px;">
 						
 	          <h1>ACHIEVEMENTS</h1>
