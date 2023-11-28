@@ -110,6 +110,6 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="empty.svg" style="width: 39%;" alt="cv-source">
+    <img src="empty.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
