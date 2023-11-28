@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 600 1220" width="600" height="1220" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 1265" width="600" height="1265" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -121,14 +121,13 @@
           font-size: 12px;
         }
 
-				.light {content-visibility: hidden;}
-
         @media (prefers-color-scheme: light) {
-          .container, .item:not {
-            color: #0d1117;
-          }
-				.container{content-visibility: hidden;}
-				.light{content-visibility: visible;}
+					h1, h2, p {
+						color: #21262D;
+					}
+					.item.p, .badge.h1 {
+						color: #e6edf3;
+					}
         }
 	      
 				@media (prefers-reduced-motion) {
@@ -138,8 +137,6 @@
         }
 
       </style>
-			<div class="light"><p style="color: black;">Dark theme only</p></div>
-      
         <div class="container">
 					
           <div style="width:100%;height:10px;"></div>
@@ -176,26 +173,26 @@
 						
 					</div>
 					
-          <div style="width: 100%; height: 20px;" ></div>
+          <div style="width: 100%; height: 50px;" ></div>
 					
-          <div class="badge-container" style="width: 100%; height: 100px;">
+          <div class="badge-container">
 						
 						<div class="button-left" style="width: 30px; height: 30px; background-color:#171B21; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 40px 10px;"><h3>&#11207;</h3></div>
 						
             <div class="shine">
-							<h1 class="badge">n</h1>
+							<h1 class="badge" style="color: #e6edf3;">n</h1>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge">o</h1>
+							<h1 class="badge" style="color: #e6edf3;">o</h1>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge">n</h1>
+							<h1 class="badge" style="color: #e6edf3;">n</h1>
             </div>
 						
             <div class="shine" >
-							<h1 class="badge">e</h1>
+							<h1 class="badge" style="color: #e6edf3;">e</h1>
             </div>
 						
 						<div class="button-right" style="width: 30px; height: 30px; background-color:#171B21; border-radius: 5px; display: flex; flex-wrap: wrap; align-content: center; justify-content: center; font-size: 12px; margin: 40px 10px;"><h3>&#11208;</h3></div>
@@ -219,11 +216,11 @@
           <div>
             <h2 style=" margin: 0 10px;">UI/UX Design:</h2>
             <div class="skills">
-              <p class="item">Adobe Photoshop</p>
-              <p class="item">Adobe Illustrator</p>
-              <p class="item">Adobe XD</p>
-              <p class="item">Figma</p>
-              <p class="item">Spline</p>
+              <p class="item" style="color: #e6edf3;">Adobe Photoshop</p>
+              <p class="item" style="color: #e6edf3;">Adobe Illustrator</p>
+              <p class="item" style="color: #e6edf3;">Adobe XD</p>
+              <p class="item" style="color: #e6edf3;">Figma</p>
+              <p class="item" style="color: #e6edf3;">Spline</p>
             </div>
           </div>
 					
@@ -232,28 +229,28 @@
           <div>
             <h2 style=" margin: 0 10px;">Web Development:</h2>
             <div class="skills">
-              <p class="item">HTML</p>
-              <p class="item">CSS</p>
-              <p class="item">Javascript</p>
-              <p class="item">React</p>
-              <p class="item">Svelte</p>
-              <p class="item">MongoDB</p>
-              <p class="item">Rails</p>
-              <p class="item">Flask</p>
-              <p class="item">Django</p>
-							<p class="item">PHP</p>
-              <p class="item">PostgreSQL</p>
-              <p class="item">C#</p>
-              <p class="item">ASP.NET</p>
-              <p class="item">Docker</p>
-              <p class="item">NGINX</p>
-              <p class="item">Redis</p>
-              <p class="item">WordPress</p>
-              <p class="item">PHP</p>
-              <p class="item">Webflow</p>
-              <p class="item">WIX</p>
-        			<p class="item">AWS</p>
-							<p class="item">Apache</p>
+              <p class="item" style="color: #e6edf3;">HTML</p>
+              <p class="item" style="color: #e6edf3;">CSS</p>
+              <p class="item" style="color: #e6edf3;">Javascript</p>
+              <p class="item" style="color: #e6edf3;">React</p>
+              <p class="item" style="color: #e6edf3;">Svelte</p>
+              <p class="item" style="color: #e6edf3;">MongoDB</p>
+              <p class="item" style="color: #e6edf3;">Rails</p>
+              <p class="item" style="color: #e6edf3;">Flask</p>
+              <p class="item" style="color: #e6edf3;">Django</p>
+							<p class="item" style="color: #e6edf3;">PHP</p>
+              <p class="item" style="color: #e6edf3;">PostgreSQL</p>
+              <p class="item" style="color: #e6edf3;">C#</p>
+              <p class="item" style="color: #e6edf3;">ASP.NET</p>
+              <p class="item" style="color: #e6edf3;">Docker</p>
+              <p class="item" style="color: #e6edf3;">NGINX</p>
+              <p class="item" style="color: #e6edf3;">Redis</p>
+              <p class="item" style="color: #e6edf3;">WordPress</p>
+              <p class="item" style="color: #e6edf3;">PHP</p>
+              <p class="item" style="color: #e6edf3;">Webflow</p>
+              <p class="item" style="color: #e6edf3;">WIX</p>
+        			<p class="item" style="color: #e6edf3;">AWS</p>
+							<p class="item" style="color: #e6edf3;">Apache</p>
             </div>
           </div>
 					
@@ -262,11 +259,11 @@
           <div>
             <h2 style=" margin: 0 10px;">Mobile Development:</h2>
             <div class="skills">
-              <p class="item">Flutter</p>
-              <p class="item">Android Studio</p>
-              <p class="item">React Native</p>
-              <p class="item">Expo</p>
-              <p class="item">Xcode</p>
+              <p class="item" style="color: #e6edf3;">Flutter</p>
+              <p class="item" style="color: #e6edf3;">Android Studio</p>
+              <p class="item" style="color: #e6edf3;">React Native</p>
+              <p class="item" style="color: #e6edf3;">Expo</p>
+              <p class="item" style="color: #e6edf3;">Xcode</p>
             </div>
         </div>
 
@@ -275,10 +272,10 @@
         <div>
             <h2 style=" margin: 0 10px;">Software Development:</h2>
             <div class="skills">
-              <p class="item">C</p>
-              <p class="item">C++</p>
-              <p class="item">Java</p>
-              <p class="item">Python</p>
+              <p class="item" style="color: #e6edf3;">C</p>
+              <p class="item" style="color: #e6edf3;">C++</p>
+              <p class="item" style="color: #e6edf3;">Java</p>
+              <p class="item" style="color: #e6edf3;">Python</p>
             </div>
         </div>
 					
@@ -287,15 +284,15 @@
         <div>
             <h2 style=" margin: 0 10px;">Environments and testing:</h2>
             <div class="skills">
-              <p class="item">Windows 11</p>
-              <p class="item">Powershell</p>
-              <p class="item">Linux Ubuntu</p>
-              <p class="item">Linux Kali</p>
-              <p class="item">Nmap</p>
-              <p class="item">Wireshark</p>
-              <p class="item">Metasploit</p>
-              <p class="item">Lua</p>
-							<p class="item">Replit</p>
+              <p class="item" style="color: #e6edf3;">Windows 11</p>
+              <p class="item" style="color: #e6edf3;">Powershell</p>
+              <p class="item" style="color: #e6edf3;">Linux Ubuntu</p>
+              <p class="item" style="color: #e6edf3;">Linux Kali</p>
+              <p class="item" style="color: #e6edf3;">Nmap</p>
+              <p class="item" style="color: #e6edf3;">Wireshark</p>
+              <p class="item" style="color: #e6edf3;">Metasploit</p>
+              <p class="item" style="color: #e6edf3;">Lua</p>
+							<p class="item" style="color: #e6edf3;">Replit</p>
             </div>
         </div>
 					
@@ -304,10 +301,10 @@
         <div>
             <h2 style=" margin: 0 10px;">Project management:</h2>
             <div class="skills">
-              <p class="item">Jira</p>
-              <p class="item">Github</p>
-							<p class="item">Miro</p>
-							<p class="item">ClickUp</p>
+              <p class="item" style="color: #e6edf3;">Jira</p>
+              <p class="item" style="color: #e6edf3;">Github</p>
+							<p class="item" style="color: #e6edf3;">Miro</p>
+							<p class="item" style="color: #e6edf3;">ClickUp</p>
             </div>
         </div>
 					
