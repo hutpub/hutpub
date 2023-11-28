@@ -1,5 +1,5 @@
 
-<svg fill="none" viewBox="0 0 600 800" width="600" height="800" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 850" width="600" height="850" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -12,6 +12,11 @@
           width: 100%;
           border-top: 1px solid #21262D;
         }
+
+	.top-pad {
+	      width: 100%;
+	      height: 50px;
+	}
 
         .skills {
           display: flex;
@@ -36,6 +41,16 @@
           border-radius: 5px;
           margin: 5px;
         }
+
+	.top-pad {
+	      height:50px; 
+	      width: 100%;
+	}
+
+	.mid-pad {
+		height:10px; 
+		width: 100%;
+	}
 
         h1 {
           font-weight: 600;
@@ -66,28 +81,32 @@
 
 				@media only screen and (max-width: 480px) {
 					h1, h2, p {color: #e6edf3;}
-	      				h1 {font-size: 24px;}
+	      				h1 {font-size: 32px;}
 	      				h2 {font-size: 18px;}
-	      				p {font-size: 16;}
+	      				p {font-size: 16px;}
+	      				.top-pad {height: 10px;}
 					.skills {border-color: #e6edf3; background-color: #0A0C12;}
+	      				.description {font-size: 24px;}
+	      				.mid-pad {height: 10px;}
+	      				.top-pad {height: 5px;}
 				}
 
       </style>
         <div class="container">
           
-          <div style="width: 100%; height: 50px;" ></div>
+          <div class="top-pad" ></div>
 					
       		<div style=" margin: 0 10px;">
 						
 	          <h1>SKILLS AND TECHNOLOGIES</h1>
 						
-	          <p style="margin: 0 20px; text-align: justify;">
+	          <p class="description" style="margin: 0 20px; text-align: justify;">
 	            I want to learn new things every day. Most of my experience comes from hobby projects. Full list of skills coming soon!
 	          </p>
 						
 					</div>
 					
-          <div style="height:50px; width: 100%;"></div>
+          <div class="top-pad"></div>
           <div>
             <h2 style=" margin: 0 10px;">UI/UX Design:</h2>
             <div class="skills">
@@ -99,7 +118,7 @@
             </div>
           </div>
 					
-					<div style="width: 100%; height: 10px;" ></div>
+					<div class="mid-pad" ></div>
 					
           <div>
             <h2 style=" margin: 0 10px;">Web Development:</h2>
@@ -113,7 +132,7 @@
               <p class="item" style="color: #e6edf3;">Rails</p>
               <p class="item" style="color: #e6edf3;">Flask</p>
               <p class="item" style="color: #e6edf3;">Django</p>
-							<p class="item" style="color: #e6edf3;">PHP</p>
+		<p class="item" style="color: #e6edf3;">PHP</p>
               <p class="item" style="color: #e6edf3;">PostgreSQL</p>
               <p class="item" style="color: #e6edf3;">C#</p>
               <p class="item" style="color: #e6edf3;">ASP.NET</p>
@@ -129,7 +148,7 @@
             </div>
           </div>
 					
-					<div style="width: 100%; height: 10px;" ></div>
+					<div class="mid-pad"></div>
 					
           <div>
             <h2 style=" margin: 0 10px;">Mobile Development:</h2>
@@ -142,7 +161,7 @@
             </div>
         </div>
 
-				<div style="width: 100%; height: 10px;" ></div>
+				<div class="mid-pad"></div>
 					
         <div>
             <h2 style=" margin: 0 10px;">Software Development:</h2>
@@ -154,7 +173,7 @@
             </div>
         </div>
 					
-				<div style="width: 100%; height: 10px;" ></div>
+				<div class="mid-pad"></div>
 					
         <div>
             <h2 style=" margin: 0 10px;">Environments and testing:</h2>
@@ -171,7 +190,7 @@
             </div>
         </div>
 					
-				<div style="width: 100%; height: 10px;" ></div>
+				<div class="mid-pad"></div>
 					
         <div>
             <h2 style=" margin: 0 10px;">Project management:</h2>
