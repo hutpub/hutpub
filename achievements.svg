@@ -107,10 +107,13 @@
           }
         }
 
-	@media only screen and (max-width: 480px) {
-		//.container {visibility: hidden;}
-		h1, p {color: #e6edf3;}
-	}
+				@media only screen and (max-width: 480px) {
+					//.container {visibility: hidden;}
+					h1, p {color: #e6edf3;}
+				  h1 {font-size: 24px;}
+				  p {font-size: 16;}
+					.badge-container {border-color: #e6edf3;}
+				}
 
       </style>
       
