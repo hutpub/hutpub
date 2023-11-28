@@ -104,10 +104,11 @@
 			        }
 
 				@media screen only and (max-width: 480px) {
-					.h2, .h1 {
+					h2, h1, p {
 						left: -75%;
 						top: -50%;
 					}
+
 				}
 
       			</style>
