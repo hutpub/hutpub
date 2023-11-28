@@ -70,10 +70,10 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="ref-1.svg" style="height: 150px;" alt="cv-source">
+    <img src="ref-1.svg" style="height: 140px;" alt="cv-source">
   </a>
   <a href="https://github.com/hutpub">
-    <img src="ref-1-image-2.png" style="height: 150px;" alt="cv-source">
+    <img src="ref-1-image-2.png" style="height: 140px;" alt="cv-source">
   </a>
 </div>
 <div style="width: 100%; height: 10px;"><p></p></div>
