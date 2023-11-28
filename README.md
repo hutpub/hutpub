@@ -8,7 +8,7 @@
   </a>
 </div>
 
-<div style="width: 100%;">
+<div style="width: 100%; @media screen only and (max-width: 480px) {visibility: hidden;}">
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="width: 20%;" alt="readme-source">
   </a>
