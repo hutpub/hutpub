@@ -39,7 +39,7 @@
         }
 
 				@media only screen and (max-width: 480px) {
-					.container {color: #e6edf3;}
+					h1, p {color: #e6edf3;}
 				}
 
       </style>
