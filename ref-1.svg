@@ -141,15 +141,6 @@
           align-content: center;
         }
 
-        @media (prefers-color-scheme: light) {
-          .container {
-            color: #0d1117;
-          }
-          .item, .tech-item {
-            border-color: #0d1117;
-          }
-        }
-
       </style>
         <div class="top">
         <div class="container">
