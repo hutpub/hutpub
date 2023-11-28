@@ -39,6 +39,12 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
+    <img src="about-me.svg" style="width: 100%;" alt="cv-source">
+  </a>
+</div>
+
+<div style="width: 100%;">
+  <a href="https://github.com/hutpub">
     <img src="cv.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
