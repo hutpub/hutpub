@@ -91,6 +91,12 @@
 					.item.p, .badge.h1 {
 						color: #e6edf3;
 					}
+					.container {
+				    --color-main: #F15BB5;
+            --color-primary: #24b0ef;
+            --color-secondary: #4526f6;
+            --color-tertiary: #f6f645;
+					}
         }
 	      
 				@media (prefers-reduced-motion) {
