@@ -25,13 +25,6 @@
           align-items: center;
         }
 
-        @media (prefers-color-scheme: light) {
-          .container {
-            color: #e6edf3;
-            background-color: #0d1117;
-          }
-        }
-
       </style>
       
         <div class="element">
