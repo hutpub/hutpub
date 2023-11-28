@@ -161,7 +161,8 @@
               
               <div class="item-3 item">
                 <!--<p class="tech-item" style="color: #61dafb; background-color: #282c34; border-color: #61dafb;">React Native</p> -->
-                <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">React Native</p>
+                <!-- <p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">React Native</p> -->
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">React Native</p>
               </div>
               
             </div>
