@@ -90,6 +90,8 @@
 				        font-size: 10 px;
 			        }
 
+				//h1, h2, p {style="z-index: 5;}
+
 			        @media (prefers-color-scheme: light) {
 			        	.container {
 			        		--color-main: #F15BB5;
@@ -117,15 +119,15 @@
 				<!-- ROCKET XD -->
 				<!-- <h4 class="swing" style="position: absolute; top: -25%; font-size: 80px;">&#128640;</h4> -->
 				
-				<!-- <div class="grain"></div> -->
+				<div class="grain"></div>
 					
-			        <h2 style="z-index: 5;">Hi there, i am </h2>
-			        <h1 style="z-index: 5;">HUTTUZKA</h1>
+			        <h2>Hi there, i am </h2>
+			        <h1>HUTTUZKA</h1>
 				
 				<!-- ALIEN HEAD XD -->
 				<!-- <h5 style="font-size: 30px; z-index: 5;">&#128125;</h5> -->
 				
-          			<p class="promt" style="z-index: 5;">&#8595; Go see what I'm up to!</p>
+          			<p class="promt">&#8595; Go see what I'm up to!</p>
 			</div>
 		</div>
 	</foreignObject>
