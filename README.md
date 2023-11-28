@@ -18,22 +18,22 @@
     <img src="in-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="wa-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="wa-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="ig-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="ig-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="dc-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="dc-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="tg-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="tg-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="yt-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="yt-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/">
-    <img src="gm-vector.svg" style="height: 6rem;" alt="readme-source">
+    <img src="gm-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
 </div>
 
@@ -63,7 +63,7 @@
 
 <div style="width: 100%;" dir="rtl">
   <a href="https://hutpub.github.io/website/">
-    <img src="view-all.svg" style="height: 6rem;" alt="readme-source">
+    <img src="view-all.svg" style="width: 20%;" alt="readme-source">
   </a>
 </div>
 
