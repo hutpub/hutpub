@@ -45,8 +45,8 @@
           // background: linear-gradient(-45deg, var(--color-main), var(--color-primary), var(--color-secondary), var(--color-tertiary));
           background-size: 400% 400%;
           // animation: gradient 30s ease infinite;
-					background: rgb(12,29,104);
-					background: radial-gradient(circle, rgba(12,29,104,1) 0%, rgba(7,3,38,1) 100%);
+					background: rgb(14,39,76);
+					background: radial-gradient(circle, rgba(14,39,76,1) 0%, rgba(23,27,33,1) 100%);
 
           line-height: 1;
           display: flex;
