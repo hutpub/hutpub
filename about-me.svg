@@ -1,64 +1,64 @@
 <!-- ABOUT ME -->
 <svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-	      
-        .container {
-          font-family: "proxima-nova", sans-serif;
-          line-height: 1.5;
-          color: #e6edf3;
-          width: 100%;
-          border-top: 1px solid #21262D;
-        }
-	      
-        p {
-          font-weight: 400;
-          font-size: 12px;
-        }
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>	
+				.container {
+					font-family: "proxima-nova", sans-serif;
+				        line-height: 1.5;
+				        color: #e6edf3;
+				        width: 100%;
+				        border-top: 1px solid #21262D;
+        			}
 
-        h1 {
-          font-weight: 600;
-          font-style: italic;
-          font-size: 16px;
-        }
-
-        @media (prefers-color-scheme: light) {
-					h1, h2, p {
-						color: #21262D;
-					}
-					.item.p, .badge.h1 {
-						color: #e6edf3;
-					}
-        }
-	      
-				@media (prefers-reduced-motion) {
-          .container {
-            animation: none;
-          }
-        }
-
-				@media only screen and (max-width: 480px) {
-					h1, p {color: #e6edf3;}
-	      	h1 {font-size: 24px;}
-	      	p {font-size: 16;}
+				.top-pad {
+					width:100%;
+					height:50px;
 				}
 
-      </style>
+				h1 {
+				        font-weight: 600;
+				        font-style: italic;
+				        font-size: 16px;
+				}
+	      
+			        p {
+			        	font-weight: 400;
+			        	font-size: 12px;
+			        }
+
+				@media (prefers-color-scheme: light) {
+					h1, h2, p {color: #21262D;}
+				}
+	      
+				@media (prefers-reduced-motion) {
+					.container {animation: none;}
+        			}
+
+				@media only screen and (max-width: 480px) {
+					.top-pad {height: 10px;}
+					h1, p {color: #e6edf3;}
+	      				h1 {font-size: 32px;}
+	      				p {font-size: 24px;}
+				}
+
+      			</style>
       
-      <div class="container">
-        <div style="width:100%;height:50px;"></div>
+      			<div class="container">
+				
+				<div class="top-pad"></div>
 				<div style=" margin: 0 10px;">
 						
-	        <h1>ABOUT ME</h1>
+	        			<h1>ABOUT ME</h1>
 						
-	        <p style="margin: 0 20px; text-align: justify;">Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Startups, Painting.</p>
+	        			<p style="margin: 0 20px; text-align: justify;">Entrepreneur, designer and tech enthusiast from Finland. Studying mechanical engineering, industrial design and software engineering. Hobbies: HTB, Hackathons, Startups, Painting.</p>
 					<div style="width: 100%; height: 10px;"></div>
+					
 					<p style="margin: 0 20px; text-align: justify;">This github profile is work in progress, so come back later... &#128123;</p>
-						
+					
 				</div>
-        <div style="width: 100%; height: 50px;"></div>
+        			<div style="width: 100%; height: 50px;"></div>
 			</div>
-    </div>
-  </foreignObject>
+		</div>
+	</foreignObject>
 </svg>
