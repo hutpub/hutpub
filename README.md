@@ -38,25 +38,25 @@
   </a>
 </div>
 
-<div style="width: 100%;">
+<div id="about" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="about-me.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
 
-<div style="width: 100%;">
+<div id="achievements" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="achievements.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
 
-<div style="width: 100%;">
+<div id="skills" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="skills.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
 
-<div style="width: 100%;">
+<div id="references" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="references.svg" style="width: 100%;" alt="cv-source">
   </a>
