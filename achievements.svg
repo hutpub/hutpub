@@ -100,7 +100,7 @@
             		--color-secondary: #4526f6;
             		--color-tertiary: #f6f645;
 		}
-	      .badge-container {background-color: #010409;}
+	      .badge-container {background-color: #e6edf3;}
         }
 	      
 	@media (prefers-reduced-motion) {
