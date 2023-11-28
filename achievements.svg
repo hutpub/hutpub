@@ -116,7 +116,7 @@
 
 				@media only screen and (max-width: 480px) {
 					//.container {visibility: hidden;}
-	      				.top-pad {height:10px;}
+	      				.top-pad {height:5px;}
 					h1, p {color: #e6edf3;}
 				  h1 {font-size: 32px;}
 				  p {font-size: 20px;}
