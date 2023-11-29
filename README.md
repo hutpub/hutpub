@@ -14,10 +14,11 @@
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="width: 20%;" alt="readme-source">
   </a>
-  <a href="https://hutpub.github.io/website/" style="width: 5px;"></a>
+  <a href="https://hutpub.github.io/website/" style="width: 10px;"></a>
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="width: 20%;" alt="readme-source">
   </a>
+  <!--
   <a href="https://www.linkedin.com/in/miika-huttunen/">
     <img src="in-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
@@ -38,7 +39,7 @@
   </a>
   <a href="https://hutpub.github.io/website/">
     <img src="gm-vector.svg" style="width: 5%;" alt="readme-source">
-  </a>
+  </a> -->
 </div>
 
 <div style="width: 100%; height: 20px;"><p></p></div>
