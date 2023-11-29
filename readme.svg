@@ -33,7 +33,7 @@
 				}
 
 				@keyframes shake {
-					0%, 7%, 88%, 91% {opacity: 0.9;transform: translateX(0);}
+					0%, 7%, 88%, 91% {opacity: 0.8;transform: translateX(0);}
 					1%{opacity: 0.2;transform: translateX(-5px);}
 					2%{opacity: 0.2;transform: translateX(5px);}
 					5% {opacity: 0.8;transform: translateX(-1px);}
@@ -91,7 +91,9 @@
 					animation: swing 30s ease infinite;
 				}
 
-				.shake {
+				.shake{}
+				.shake::before {
+					content: '';
 					animation: shake 2s steps(9) infinite;
 				}
 
