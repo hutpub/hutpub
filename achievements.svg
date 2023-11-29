@@ -58,7 +58,7 @@
 	      		background-size: cover;
 		      	background-position: center;
 		      	opacity: 0.9;
-		      	animation: pulse 1s infinite alternate;
+		      	animation: pulse 1.5s infinite alternate;
 		}
 
 	        .badge-container {
