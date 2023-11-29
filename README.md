@@ -8,15 +8,15 @@
   </a>
 </div>
 
-<div style="width: 100%; height: 20px;"><p></p></div>
+<div style="width: 100%; height: 30px;"><p></p></div>
 
 <div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
-    <img src="link-to-personal-site.svg" style="width: 12em;" alt="readme-source">
+    <img src="link-to-personal-site.svg" style="width: 15em;" alt="readme-source">
   </a>
-  <a href="https://hutpub.github.io/website/" style="width: 10px;"></a>
+  <a href="https://hutpub.github.io/website/" style="width: 15px;"></a>
   <a href="https://hutpub.github.io/website/">
-    <img src="link-to-company-site.svg" style="width: 12em;" alt="readme-source">
+    <img src="link-to-company-site.svg" style="width: 15em;" alt="readme-source">
   </a>
   <!--
   <a href="https://www.linkedin.com/in/miika-huttunen/">
@@ -42,7 +42,7 @@
   </a> -->
 </div>
 
-<div style="width: 100%; height: 20px;"><p></p></div>
+<div style="width: 100%; height: 30px;"><p></p></div>
 
 <div id="about" style="width: 100%;">
   <a href="https://github.com/hutpub">
@@ -117,6 +117,6 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="empty.svg" style="width: 100%;" alt="cv-source">
+    <img src="empty.svg" style="width: 15em%;" alt="cv-source">
   </a>
 </div>
