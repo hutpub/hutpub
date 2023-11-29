@@ -19,6 +19,12 @@
 		100% {transform:rotate(360deg);} 
 	}
 
+	@keyframes pulse {
+          0% {background-size: 100%;}
+          100% {background-size: 120%;}
+        }
+
+
         .container {
           font-family: "proxima-nova", sans-serif;
           line-height: 1.5;
@@ -53,6 +59,7 @@
           // animation: gradient 30s ease infinite;
 		background: rgb(121,155,170);
 		background: radial-gradient(circle, rgba(121,155,170,1) 0%, rgba(13,16,48,1) 38%, rgba(33,38,45,1) 56%);
+		animation: pulse 3s infinite ease-in-out alternate;	      
 
           line-height: 1;
           display: flex;
