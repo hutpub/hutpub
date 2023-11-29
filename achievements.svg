@@ -53,12 +53,12 @@
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background: rgb(121,155,170);
-			background: radial-gradient(circle, rgba(121,155,170,1) 14%, rgba(13,16,48,1) 32%, rgba(33,38,45,1) 61%);
-		      	background-size: cover;
+			background: rgb(255,255,255);
+			background: radial-gradient(circle, rgba(255,255,255,1) 12%, rgba(13,16,48,1) 25%, rgba(33,38,45,1) 61%);
+	      		background-size: cover;
 		      	background-position: center;
 		      	opacity: 0.9;
-		      	animation: pulse 2s infinite alternate;
+		      	animation: pulse 1s infinite alternate;
 		}
 
 	        .badge-container {
