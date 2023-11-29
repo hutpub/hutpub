@@ -14,6 +14,7 @@
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="width: 20%;" alt="readme-source">
   </a>
+  <a href="https://hutpub.github.io/website/" style="width: 5px;"></a>
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="width: 20%;" alt="readme-source">
   </a>
