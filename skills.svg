@@ -41,7 +41,8 @@
 
         .item {
           justify-content: center;
-	  			background-color: #21262D;
+	  			//background-color: #21262D;
+		background-color: darkviolet;
           padding: 5px 10px;
           border-radius: 5px;
           margin: 5px;
