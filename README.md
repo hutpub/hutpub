@@ -8,6 +8,8 @@
   </a>
 </div>
 
+<div style="width: 100%; height: 20px;"><p></p></div>
+
 <div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="width: 20%;" alt="readme-source">
@@ -37,6 +39,8 @@
     <img src="gm-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
 </div>
+
+<div style="width: 100%; height: 20px;"><p></p></div>
 
 <div id="about" style="width: 100%;">
   <a href="https://github.com/hutpub">
