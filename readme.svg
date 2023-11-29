@@ -44,7 +44,7 @@
 				
 				        width: 100%;
 				        height: 300px;
-				        //border-radius: 10px;
+				        border-radius: 5px;
 					font-family: "proxima-nova", sans-serif;
 				        line-height: 1;
 				        display: flex;
