@@ -70,7 +70,7 @@
 					animation: grain 0.3s steps(6) infinite;
 				}
 
-			        .promt {
+			        .prompt {
 				        position: absolute;
 				        bottom: 20px;
 				        left: 40px;
@@ -127,7 +127,7 @@
 				<!-- ALIEN HEAD XD -->
 				<h5 class="shake" style="font-size: 30px;">&#128125;</h5>
 				
-          			<p class="promt">&#8595; Go see what I'm up to!</p>
+          			<p class="prompt shake">&#8595; Go see what I'm up to!</p>
 			</div>
 		</div>
 	</foreignObject>
