@@ -12,11 +12,11 @@
 
 <div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
-    <img src="link-to-personal-site.svg" style="width: 20%;" alt="readme-source">
+    <img src="link-to-personal-site.svg" style="width: 12em;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/" style="width: 10px;"></a>
   <a href="https://hutpub.github.io/website/">
-    <img src="link-to-company-site.svg" style="width: 20%;" alt="readme-source">
+    <img src="link-to-company-site.svg" style="width: 12em;" alt="readme-source">
   </a>
   <!--
   <a href="https://www.linkedin.com/in/miika-huttunen/">
