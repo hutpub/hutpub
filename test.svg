@@ -1,7 +1,52 @@
-<<svg fill="none" viewBox="0 0 800 400" width="500" height="70" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 400" width="500" height="70" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
-      <p>ppp</p>
+      <style>
+        p {
+            color: black;
+            cursor: pointer;
+        }
+      </style>
+      <div>
+
+        <p id="myParagraph">My paragraph</p>
+      <XST>
+        <function name="changeColor">
+            <var name="paragraph"><call function="querySelector"><arg>'p'</arg></call></var>
+            <var name="currentColor"><get property="style.color" object="$paragraph" /></var>
+    
+            <if condition="$currentColor === 'black'">
+                <set property="style.color" object="$paragraph" value="'red'" />
+            <else>
+                <set property="style.color" object="$paragraph" value="'black'" />
+            </if>
+        </function>
+        
+        <function name="XST">
+            <param name="elementId" />
+            <param name="events" />
+    
+            <var name="element"><call function="getElementById"><arg>$elementId</arg></call></var>
+    
+            <for-in variable="event" object="$events">
+                <if condition="$events.hasOwnProperty($event)">
+                    <call function="addEventListener" object="$element" args="$event, function() { eval($events[$event]); }" />
+                </if>
+            </for-in>
+        </function>
+  
+        <call function="XST">
+            <arg>"myParagraph"</arg>
+            <arg>
+                <object>
+                    <property name="click">"changeColor();"</property>
+                </object>
+            </arg>
+        </call>
+
+        
+      </XST>
+      </div>
     </div>
   </foreignObject>
 </svg>
