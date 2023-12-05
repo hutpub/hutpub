@@ -1,18 +1,16 @@
-    <XST>
+'    <XST>
         <var name="textElement"><call function="getElementById"><arg>'myText'</arg></call></var>
-
         <function name="animateText">
             <var name="currentColor"><get property="fill" object="$textElement" /></var>
-
-            <if condition="$currentColor === 'blue'">
+              <if condition="$currentColor === 'blue'">
                 <set property="fill" object="$textElement" value="'yellow'" />
             <else>
                 <set property="fill" object="$textElement" value="'blue'" />
             </if>
         </function>
-
         <call function="setInterval"><arg>'animateText()', 1000</arg></call>
     </XST>
+    
 <link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
