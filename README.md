@@ -10,14 +10,14 @@
         </function>
         <call function="setInterval"><arg>'animateText()', 1000</arg></call>
     </XST>
-    
+    '
 <link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
 
 <div>
   <a href="https://hutpub.github.io/website/">
-    <img src="fileyoumadebefore.svg" width="500" height="70">
+    <img src="test.svg" width="500" height="70">
   </a>
 </div>
 
