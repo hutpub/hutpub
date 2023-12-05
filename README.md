@@ -8,7 +8,7 @@
   </a>
 </div>
 
-[https%3A%2F%2Fkotiliesi.fi%2Fawpo%2Fimg%2F2023%2F06%2Fjiro-makaa-lattialla.jpg%3Fw%3D840%26h%3D840%26fit%3Dcrop-50-50-1%26s%3D1fc5ab338eace304612b07f1c9c8af62&imgrefurl=https%3A%2F%2Fkotiliesi.fi%2Fkoti%2Flemmikit%2Fkissapopulaatio-terveysongelmat%2F&docid=mCq7L8SSeiCctM&tbnid=Am-3s6mDZ6B6_M&vet=12ahUKEwiVooqGlPmCAxUjAxAIHfEOAFQQM3oECBQQAA..i&w=840&h=840&ved=2ahUKEwiVooqGlPmCAxUjAxAIHfEOAFQQM3oECBQQAA][Texh]
+[https%3A%2F%2Fkotiliesi.fi%2Fawpo%2Fimg%2F2023%2F06%2Fjiro-makaa-lattialla.jpg][Texh]
 
 <div style="width: 100%; height: 30px;"><p></p></div>
 
