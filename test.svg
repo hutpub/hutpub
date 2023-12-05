@@ -3,19 +3,20 @@
         My Animated Text
     </text>
 
-    <XST>
-        <var name="textElement"><call function="getElementById"><arg>'myText'</arg></call></var>
+    <script type="application/ecmascript">
+        <![CDATA[
+            function animateText() {
+                var textElement = document.getElementById('myText');
+                var currentColor = textElement.style.fill;
 
-        <function name="animateText">
-            <var name="currentColor"><get property="fill" object="$textElement" /></var>
+                if (currentColor === 'blue') {
+                    textElement.style.fill = 'yellow';
+                } else {
+                    textElement.style.fill = 'blue';
+                }
+            }
 
-            <if condition="$currentColor === 'blue'">
-                <set property="fill" object="$textElement" value="'yellow'" />
-            <else>
-                <set property="fill" object="$textElement" value="'blue'" />
-            </if>
-        </function>
-
-        <call function="setInterval"><arg>'animateText()', 1000</arg></call>
-    </XST>
+            setInterval(animateText, 1000);
+        ]]>
+    </script>
 </svg>
