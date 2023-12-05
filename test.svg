@@ -2,11 +2,11 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       
-    <XST>
-      <svg width=\"200\" height=\"100\">
-        <p _onMouseOver=\"this.style.fill='red'\" _onMouseOut=\"this.style.fill='black'\">My text</p>
-      </svg>
-    </XST>
+      <XST>
+
+          <p _onMouseOver=\"this.style.fill='red'\" _onMouseOut=\"this.style.fill='black'\">My text</p>
+
+      </XST>
 
     </div>
   </foreignObject>
