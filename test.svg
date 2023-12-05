@@ -1,17 +1,21 @@
-<svg fill="none" viewBox="0 0 800 400" width="500" height="70" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      
-      <style>
-        p {
-          color: white;
-        }
-      </style>
-      <div>
+<svg fill="none" viewBox="0 0 200 50" width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+    <text id="myText" x="10" y="30" font-family="Arial" font-size="20" fill="blue">
+        My Animated Text
+    </text>
 
-        <p id="myParagraph">My paragraph</p>
+    <XST>
+        <var name="textElement"><call function="getElementById"><arg>'myText'</arg></call></var>
 
-      </div>
-    </div>
-  </foreignObject>
+        <function name="animateText">
+            <var name="currentColor"><get property="fill" object="$textElement" /></var>
+
+            <if condition="$currentColor === 'blue'">
+                <set property="fill" object="$textElement" value="'yellow'" />
+            <else>
+                <set property="fill" object="$textElement" value="'blue'" />
+            </if>
+        </function>
+
+        <call function="setInterval"><arg>'animateText()', 1000</arg></call>
+    </XST>
 </svg>
