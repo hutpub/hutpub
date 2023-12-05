@@ -1,3 +1,6 @@
+[Texh]: ## "your hover text"
+[https%3A%2F%2Fkotiliesi.fi%2Fawpo%2Fimg%2F2023%2F06%2Fjiro-makaa-lattialla.jpg][Texh]
+
 <link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
@@ -7,8 +10,6 @@
     <img src="readme.svg" style="width: 100%;" alt="readme-source">
   </a>
 </div>
-[Texh]: ## "your hover text"
-[https%3A%2F%2Fkotiliesi.fi%2Fawpo%2Fimg%2F2023%2F06%2Fjiro-makaa-lattialla.jpg][Texh]
 
 <div style="width: 100%; height: 30px;"><p></p></div>
 
