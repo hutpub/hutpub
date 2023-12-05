@@ -2,12 +2,6 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="styles.css">
 
-<div>
-  <a href="https://hutpub.github.io/website/">
-    <img src="test.svg" width="500" height="70">
-  </a>
-</div>
-
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="readme.svg" style="width: 100%;" alt="readme-source">
