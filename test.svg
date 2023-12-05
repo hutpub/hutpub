@@ -2,7 +2,11 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
-    <p>Lorem ipsum <span id="hidden_text" style="backgroundcolor: black; color:white; fontsize: 12px; visibility: hidden;" onmouseover="document.getElementById('hidden_text').style.visibility='visible';">hidden stuff hidden stuff</span> text text text</p>
+    <XST>
+    <_for from="1" to="10">
+         <p>L</p>
+    </_for>
+    </XST>
 
     </div>
   </foreignObject>
