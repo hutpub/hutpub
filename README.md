@@ -7,22 +7,23 @@
     <img src="readme.svg" style="width: 100%;" alt="readme-source">
   </a>
 </div>
-
+<!--
 <div style="width: 100%; height: 30px;"><p></p></div>
-
+-->
+<!--
 <div style="width: 100%;">
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-personal-site.svg" style="width: 15em;" alt="readme-source">
   </a>
   <a href="https://hutpub.github.io/website/" style="width: 15px;"></a>
-  <!--
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="width: 15em;" alt="readme-source">
   </a>-->
-  <!--
+
   <a href="https://www.linkedin.com/in/miika-huttunen/">
     <img src="in-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
+  <!--
   <a href="https://hutpub.github.io/website/">
     <img src="wa-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
@@ -31,20 +32,21 @@
   </a>
   <a href="https://hutpub.github.io/website/">
     <img src="dc-vector.svg" style="width: 5%;" alt="readme-source">
-  </a>
+  </a>-->
   <a href="https://t.me/huttuzka">
     <img src="tg-vector.svg" style="width: 5%;" alt="readme-source">
   </a>
+  <!--
   <a href="https://hutpub.github.io/website/">
     <img src="yt-vector.svg" style="width: 5%;" alt="readme-source">
-  </a>
-  <a href="https://hutpub.github.io/website/">
+  </a>-->
+  <a href="mailto:huttuzka@gmail.com">
     <img src="gm-vector.svg" style="width: 5%;" alt="readme-source">
-  </a> -->
+  </a>
 </div>
-
+<!--
 <div style="width: 100%; height: 30px;"><p></p></div>
-
+-->
 <div id="about" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="about-me.svg" style="width: 100%;" alt="cv-source">
