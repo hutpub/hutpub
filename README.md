@@ -21,7 +21,7 @@
   </a>-->
 
   <a href="https://www.linkedin.com/in/miika-huttunen/">
-    <img src="in-vector.svg" style="width: 5%;" alt="readme-source">
+    <img src="in-vector.svg" style="width: 5em;" alt="readme-source">
   </a>
   <!--
   <a href="https://hutpub.github.io/website/">
@@ -34,14 +34,14 @@
     <img src="dc-vector.svg" style="width: 5%;" alt="readme-source">
   </a>-->
   <a href="https://t.me/huttuzka">
-    <img src="tg-vector.svg" style="width: 5%;" alt="readme-source">
+    <img src="tg-vector.svg" style="width: 5em;" alt="readme-source">
   </a>
   <!--
   <a href="https://hutpub.github.io/website/">
     <img src="yt-vector.svg" style="width: 5%;" alt="readme-source">
   </a>-->
   <a href="mailto:huttuzka@gmail.com">
-    <img src="gm-vector.svg" style="width: 5%;" alt="readme-source">
+    <img src="gm-vector.svg" style="width:  5em;" alt="readme-source">
   </a>
 </div>
 <!--
