@@ -13,7 +13,7 @@
 
 <div style="width: 100%;">
   <a href="https://www.mhuttunen.fi">
-    <img src="link-to-personal-site.svg" style="width: 15em;" alt="readme-source">
+    <img src="link-to-personal-site.svg" style="width: 17em;" alt="readme-source">
   </a>
   <!--
   <a href="https://hutpub.github.io/website/" style="width: 15px;"></a>
