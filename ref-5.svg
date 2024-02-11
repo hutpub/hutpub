@@ -100,7 +100,7 @@
           flex-wrap: wrap;
           justify-content: center;
           align-content: center;
-          background: #29ABE2;
+          background: #FFC0CB;
           border-radius: 5px;
           width: 70px;
           height: 70px;
@@ -144,7 +144,7 @@
           
           <div class="item-1 item first">
             <div class="logo">
-              <h2 class="logo-text" style="font-size: 32px; font-style: normal; color: white;">&#129172; &#129174;</h2>
+              <h2 class="logo-text" style="font-size: 32px; font-style: normal; color: white;">&#x2764;</h2>
             </div>
           </div>
           
@@ -159,6 +159,7 @@
                 <!-- <p class="tech-item" style="color: #5AC2F0; background-color: #004E93; border-color: #5AC2F0;">Flutter</p> -->
                 <!--<p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Flutter</p>-->
                 <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">React Native</p>
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Firebase</p>
                 
               </div>
               
