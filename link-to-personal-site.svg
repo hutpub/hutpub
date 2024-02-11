@@ -20,7 +20,7 @@
           background-color: #21262D;
           width: 200px;
           height: 40px;
-          border-radius: 5px;
+          border-radius: 10px;
           display: flex;
           justify-content: center;
           align-items: center;
