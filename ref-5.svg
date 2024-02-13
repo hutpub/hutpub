@@ -158,7 +158,7 @@
               <div class="item-3 item">
                 <!-- <p class="tech-item" style="color: #5AC2F0; background-color: #004E93; border-color: #5AC2F0;">Flutter</p> -->
                 <!--<p class="tech-item" style="color: #e6edf3; border-color: #e6edf3;">Flutter</p>-->
-                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">React Native</p>
+                <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Flutter</p>
                 <p class="tech-item" style="color: #0D1117; background-color: #e6edf3; font-weight: 600;">Firebase</p>
                 
               </div>
