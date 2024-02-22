@@ -4,7 +4,7 @@
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
-    <img src="readme.svg" style="width: 100%;" alt="readme-source">
+    <img src="bg.svg" style="width: 100%;" alt="readme-source">
   </a>
 </div>
 <!--
