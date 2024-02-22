@@ -11,6 +11,7 @@
                         align-items: center;
                         justify-content: center;
                         text-shadow: 0 0 5px white;
+			border-radius: 10px;
 			        }
                     
                     .text-content {
@@ -19,6 +20,7 @@
                         position: absolute;
                         font-weight: 700;
                         font-style: italic;
+			font-size: 2rem;
                         z-index: 5;
                     }
                     
