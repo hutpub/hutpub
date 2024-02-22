@@ -53,13 +53,13 @@
     <img src="about-me.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
-
+<!--
 <div id="achievements" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="achievements.svg" style="width: 100%;" alt="cv-source">
   </a>
 </div>
-
+-->
 <div id="skills" style="width: 100%;">
   <a href="https://github.com/hutpub">
     <img src="skills.svg" style="width: 100%;" alt="cv-source">
