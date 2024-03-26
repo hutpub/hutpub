@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="https://use.typekit.net/msx0obd.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="styles.css">
 
 <div style="width: 100%;">
   <a href="https://github.com/hutpub">
@@ -12,18 +9,21 @@
 -->
 
 <div style="width: 100%;">
+  <!--
   <a href="https://www.mhuttunen.fi">
     <img src="link-to-personal-site.svg" style="width: 17em;" alt="readme-source">
   </a>
+  -->
   <!--
   <a href="https://hutpub.github.io/website/" style="width: 15px;"></a>
   <a href="https://hutpub.github.io/website/">
     <img src="link-to-company-site.svg" style="width: 15em;" alt="readme-source">
   </a>-->
-
+  <!--
   <a href="https://www.linkedin.com/in/miika-huttunen/">
     <img src="in-vector.svg" style="width: 4em;" alt="readme-source">
   </a>
+  -->
   <!--
   <a href="https://hutpub.github.io/website/">
     <img src="wa-vector.svg" style="width: 5%;" alt="readme-source">
@@ -34,16 +34,20 @@
   <a href="https://hutpub.github.io/website/">
     <img src="dc-vector.svg" style="width: 5%;" alt="readme-source">
   </a>-->
+  <!--
   <a href="https://t.me/huttuzka">
     <img src="tg-vector.svg" style="width: 4em;" alt="readme-source">
   </a>
+  -->
   <!--
   <a href="https://hutpub.github.io/website/">
     <img src="yt-vector.svg" style="width: 5%;" alt="readme-source">
   </a>-->
-  <a href="mailto:huttuzka@gmail.com">
+  <!--
+  <a href="mailto:huttunen.dev@gmail.com">
     <img src="gm-vector.svg" style="width:  4em;" alt="readme-source">
   </a>
+  -->
 </div>
 <!--
 <div style="width: 100%; height: 30px;"><p></p></div>
