@@ -4,7 +4,7 @@
   </a>
 </div>
 
-<table width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
     <td width="50%">
       <a href="mailto:huttunen.dev@gmail.com">
