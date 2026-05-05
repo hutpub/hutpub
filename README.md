@@ -4,14 +4,17 @@
   </a>
 </div>
 
-<div style="display: flex; gap: 12px; width: 100%;">
-
-  <a href="mailto:huttunen.dev@gmail.com" style="flex: 1;">
-    <img src="contact.svg" width="100%" />
-  </a>
-
-  <a href="https://mhuttunen.fi" style="flex: 1;">
-    <img src="explore.svg" width="100%" />
-  </a>
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <a href="mailto:huttunen.dev@gmail.com">
+        <img src="contact.svg" width="100%" />
+      </a>
+    </td>
+    <td width="50%">
+      <a href="https://mhuttunen.fi">
+        <img src="explore.svg" width="100%" />
+      </a>
+    </td>
+  </tr>
+</table>
