@@ -1,0 +1,24 @@
+<svg viewBox="0 0 600 80" width="600" height="80" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="80" rx="14"
+        fill="url(#glass)"
+        stroke="#ffffff"
+        stroke-opacity="0.15"/>
+
+  <text x="300" y="46"
+        text-anchor="middle"
+        fill="white"
+        font-size="18"
+        font-family="system-ui"
+        font-weight="500">
+    Contact me
+  </text>
+
+</svg>
