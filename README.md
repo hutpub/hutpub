@@ -1,29 +1,44 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
-<div style="width: 100%;">
+<div style="width:100%; line-height:0; font-size:0;">
   <a href="https://github.com/hutpub">
-    <img src="hero.svg" style="width: 100%;" alt="hero">
+    <img src="hero.svg" style="width:100%; display:block;" alt="hero">
   </a>
 </div>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0"
+  style="border-collapse:collapse; width:100%;">
   <tr>
-    <td width="50%" style="padding-right:0; border:none; line-height:0; font-size:0;">
-      <a href="mailto:huttunen.dev@gmail.com">
-        <img src="contact.svg"
-             width="100%"
-             style="display:block; margin-right:-2px;" />
+    <!-- LEFT TILE -->
+    <td width="50%"
+        background="seamless-bg.svg"
+        style="
+          background-size:cover;
+          background-position:center;
+          padding:0;
+        ">
+      <a href="mailto:huttunen.dev@gmail.com"
+         style="
+           display:block;
+           width:100%;
+           height:80px;
+           text-decoration:none;
+         ">
       </a>
     </td>
-    <td width="50%" style="padding-left:0; border:none; line-height:0; font-size:0;">
-      <a href="https://mhuttunen.fi">
-        <img src="explore.svg"
-             width="100%"
-             style="display:block;" />
+    <!-- RIGHT TILE -->
+    <td width="50%"
+        background="seamless-bg.svg"
+        style="
+          background-size:cover;
+          background-position:center;
+          padding:0;
+        ">
+      <a href="https://mhuttunen.fi"
+         style="
+           display:block;
+           width:100%;
+           height:80px;
+           text-decoration:none;
+         ">
       </a>
     </td>
   </tr>
