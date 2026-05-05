@@ -6,14 +6,14 @@
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse;">
   <tr>
-    <td width="50%">
+    <td width="50%" style="padding-right:6px; border:none;">
       <a href="mailto:huttunen.dev@gmail.com">
-        <img src="contact.svg" width="100%" />
+        <img src="contact.svg" width="100%" style="display:block;" />
       </a>
     </td>
-    <td width="50%">
+    <td width="50%" style="padding-left:6px; border:none;">
       <a href="https://mhuttunen.fi">
-        <img src="explore.svg" width="100%" />
+        <img src="explore.svg" width="100%" style="display:block;" />
       </a>
     </td>
   </tr>
