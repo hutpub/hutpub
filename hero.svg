@@ -6,7 +6,8 @@
         .container {
           width: 1200px;
           height: 420px;
-          background: radial-gradient(circle at 20% 20%, #1e293b, #020617);
+          background: radial-gradient(circle at 20% 20%, #1a1c1f, #0b0c0e);
+          border-radius: 24px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -33,12 +34,12 @@
 
         .slide {
           position: absolute;
+           height: 150px;
           color: white;
           font-size: 32px;
           font-weight: 700;
           line-height: 1.2;
           opacity: 0;
-          transform: translateY(10px);
           animation: slideFade 12s infinite;
         }
 
@@ -47,11 +48,11 @@
         .s3 { animation-delay: 8s; }
 
         @keyframes slideFade {
-          0% { opacity: 0; transform: translateY(10px);}
-          5% { opacity: 1; transform: translateY(0);}
-          30% { opacity: 1;}
-          35% { opacity: 0;}
-          100% { opacity: 0;}
+          0% { opacity: 0; }
+          5% { opacity: 1; }
+          30% { opacity: 1; }
+          35% { opacity: 0; }
+          100% { opacity: 0; }
         }
 
         /* CTA GLASS */
@@ -100,7 +101,7 @@
           border-radius: 18px;
           transform-style: preserve-3d;
           transform: rotateY(-18deg) rotateX(10deg);
-          background: linear-gradient(145deg, #0f172a, #020617);
+          background: linear-gradient(145deg, #24272b, #111315);
           box-shadow:
             0 40px 80px rgba(0,0,0,0.6),
             inset 0 0 40px rgba(255,255,255,0.05);
@@ -151,20 +152,33 @@
         .b2 { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
         .b3 { background: linear-gradient(90deg, #22c55e, #eab308); }
 
+        .subtitle {
+          display: block;
+          margin-top: 10px;
+          color: #9da3aa;
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 1.5;
+        }
+
       </style>
 
       <div class="container">
 
         <div class="left">
           <div class="slides">
-            <div class="slide s1">Build things that shouldn't be possible.</div>
-            <div class="slide s2">From zero to production — fast.</div>
-            <div class="slide s3">Engineering clarity in chaotic systems.</div>
-          </div>
-
-          <div class="cta">
-            <a class="btn" href="https://github.com/hutpub">Explore</a>
-            <a class="btn" href="https://github.com/hutpub?tab=repositories">Code</a>
+            <div class="slide s1">
+              Build things that shouldn't be possible.
+              <span class="subtitle">Turning complex ideas into clean, scalable software — from architecture to production.</span>
+            </div>
+              <div class="slide s2">
+                From zero to production — fast. 
+                <span class="subtitle">Prototyping, APIs, automation and deployment with a product-first engineering mindset.</span>
+              </div>
+              <div class="slide s3">
+                Engineering clarity in chaotic systems.
+                <span class="subtitle">Designing systems that are observable, maintainable and built to evolve.</span>
+              </div>
           </div>
         </div>
 
