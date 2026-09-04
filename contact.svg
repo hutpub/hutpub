@@ -1,24 +1,114 @@
-<svg viewBox="0 0 600 80" width="600" height="80" xmlns="http://www.w3.org/2000/svg">
-
+<svg viewBox="0 0 1200 180" width="1200" height="180" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.04"/>
+    <radialGradient id="bg" cx="15%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#24272b"/>
+      <stop offset="55%" stop-color="#151719"/>
+      <stop offset="100%" stop-color="#0b0c0e"/>
+    </radialGradient>
+
+    <linearGradient id="dot" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#3b82f6" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.8"/>
     </linearGradient>
+
+    <clipPath id="clip">
+      <rect width="1200" height="180" rx="24"/>
+    </clipPath>
   </defs>
 
-  <rect x="0" y="0" width="600" height="80" rx="14"
-        fill="url(#glass)"
-        stroke="#ffffff"
-        stroke-opacity="0.15"/>
+  <a href="https://www.linkedin.com/in/miika-huttunen" target="_blank">
+    <rect width="1200" height="180" rx="24" fill="url(#bg)"/>
 
-  <text x="300" y="46"
-        text-anchor="middle"
-        fill="white"
-        font-size="18"
-        font-family="system-ui"
-        font-weight="500">
-    Contact me
-  </text>
+    <g clip-path="url(#clip)" opacity="0.5">
+      <circle cx="20" cy="35" r="1.5" fill="url(#dot)">
+        <animate attributeName="cx" values="-20;1220" dur="7s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+      </circle>
 
+      <circle cx="180" cy="62" r="1.8" fill="url(#dot)">
+        <animate attributeName="cx" values="-40;1240" dur="8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.8;0" dur="8s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="400" cy="91" r="1.4" fill="#3b82f6">
+        <animate attributeName="cx" values="-30;1230" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0" dur="6s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="70" cy="118" r="1.7" fill="#06b6d4">
+        <animate attributeName="cx" values="-50;1250" dur="9s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.7;0" dur="9s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="300" cy="145" r="1.3" fill="#3b82f6">
+        <animate attributeName="cx" values="-40;1240" dur="7.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.65;0" dur="7.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="600" cy="28" r="1.2" fill="#06b6d4">
+        <animate attributeName="cx" values="-60;1260" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.55;0" dur="10s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="760" cy="75" r="1.5" fill="#3b82f6">
+        <animate attributeName="cx" values="-30;1230" dur="8.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.6;0" dur="8.5s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="900" cy="132" r="1.4" fill="#06b6d4">
+        <animate attributeName="cx" values="-50;1250" dur="6.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.65;0" dur="6.8s" repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1050" cy="48" r="1.3" fill="#3b82f6">
+        <animate attributeName="cx" values="-40;1240" dur="9.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;0.55;0" dur="9.5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <text x="60" y="98"
+      fill="#f5f5f5"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="20"
+      font-weight="700"
+      letter-spacing="1">
+      YOUR COMPANY
+    </text>
+
+    <text x="300" y="72"
+      fill="#f5f5f5"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="25"
+      font-weight="700">
+      Does your software project need
+    </text>
+
+    <text x="300" y="103"
+      fill="#f5f5f5"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="25"
+      font-weight="700">
+      a hands-on engineer?
+    </text>
+
+    <text x="300" y="130"
+      fill="#9da3aa"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="14"
+      font-weight="400">
+      From architecture to production — I build, integrate and ship.
+    </text>
+
+    <rect x="1000" y="67" width="140" height="48" rx="24" fill="#ffffff"/>
+
+    <text x="1070" y="97"
+      text-anchor="middle"
+      fill="#111315"
+      font-family="system-ui, -apple-system, sans-serif"
+      font-size="14"
+      font-weight="700">
+      CONTACT ME
+    </text>
+  </a>
 </svg>
