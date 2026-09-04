@@ -10,7 +10,7 @@
       </pattern>
     
       <clipPath id="clip">
-        <rect width="1200" height="180" rx="24"/>
+        <rect width="1200" height="180"/>
       </clipPath>
     
       <clipPath id="avatarClip">
@@ -18,7 +18,7 @@
       </clipPath>
     </defs>
     <a href="https://www.linkedin.com/in/miika-huttunen" target="_blank">
-    <rect width="1200" height="180" rx="24" fill="#0b0c0e"/>
+    <rect width="1200" height="180" fill="#0b0c0e"/>
 
     <g clip-path="url(#clip)" opacity="0.35">
       <rect
