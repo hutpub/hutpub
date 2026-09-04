@@ -369,9 +369,9 @@
       From architecture to production — I build, integrate and ship.
     </text>
 
-    <rect x="940" y="67" width="140" height="48" rx="24" fill="#ffffff"/>
+    <rect x="976" y="67" width="140" height="48" rx="24" fill="#ffffff"/>
 
-    <text x="1010" y="97"
+    <text x="1056" y="97"
       text-anchor="middle"
       fill="#111315"
       font-family="system-ui, -apple-system, sans-serif"
