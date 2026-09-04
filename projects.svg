@@ -167,7 +167,6 @@
 
         <div class="header">
           <div class="title">Recent Projects</div>
-          <div class="label">SELECTED WORK</div>
         </div>
 
         <div class="timeline">
@@ -183,7 +182,7 @@
         <div class="projects">
 
           <div class="project">
-            <div class="project-number">01 / PLATFORM</div>
+            <div class="project-number">2026</div>
             <div class="project-title">Workforce &amp; Business Platform</div>
             <div class="project-description">
               Platform and business management, employee portal and customer mobile app.
@@ -195,7 +194,7 @@
           </div>
 
           <div class="project">
-            <div class="project-number">02 / PAYROLL</div>
+            <div class="project-number">2025</div>
             <div class="project-title">Gig Worker Payroll</div>
             <div class="project-description">
               Payroll system for gig workers with a mobile app and business dashboard.
@@ -207,7 +206,7 @@
           </div>
 
           <div class="project">
-            <div class="project-number">03 / SEARCH</div>
+            <div class="project-number">2025</div>
             <div class="project-title">Business Service Search</div>
             <div class="project-description">
               Search platform for discovering and finding relevant business services.
@@ -219,7 +218,7 @@
           </div>
 
           <div class="project">
-            <div class="project-number">04 / PAYMENTS</div>
+            <div class="project-number">2024</div>
             <div class="project-title">Queue-Free Payments Infrastructure</div>
             <div class="project-description">
               Platform and merchant dashboards, lightweight PMS/ERP and consumer mobile app.
