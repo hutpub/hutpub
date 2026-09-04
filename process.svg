@@ -41,7 +41,7 @@
     </g>
   </defs>
 
-  <rect width="1200" height="400" rx="24" fill="#0b0c0e"/>
+  <rect width="1200" height="400" fill="#0b0c0e"/>
 
   <g stroke="#9da3aa" stroke-width="1" opacity="0.12">
     <path d="M84 40H1116"/>
