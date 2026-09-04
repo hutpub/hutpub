@@ -14,7 +14,7 @@
       </clipPath>
     
       <clipPath id="avatarClip">
-        <circle cx="114" cy="90" r="38"/>
+        <circle cx="126" cy="90" r="38"/>
       </clipPath>
     </defs>
     <a href="https://www.linkedin.com/in/miika-huttunen" target="_blank">
@@ -37,16 +37,16 @@
       </rect>
     </g>
 
-    <circle cx="114" cy="90" r="40"
+    <circle cx="126" cy="90" r="40"
       fill="none"
       stroke="#f5f5f5"
       stroke-width="2"/>
     
-    <circle cx="114" cy="90" r="38" fill="#ffffff"/>
+    <circle cx="126" cy="90" r="38" fill="#ffffff"/>
     
     <g clip-path="url(#avatarClip)">
       <g
-        transform="translate(76 128) scale(0.007421875 -0.007421875)"
+        transform="translate(88 128) scale(0.007421875 -0.007421875)"
         fill="#111315"
         stroke="none">
         <path d="M0 5120 l0 -5120 5120 0 5120 0 0 5120 0 5120 -5120 0 -5120 0 0
@@ -345,7 +345,7 @@
 
     </g>
 
-    <text x="190" y="72"
+    <text x="212" y="72"
       fill="#f5f5f5"
       font-family="system-ui, -apple-system, sans-serif"
       font-size="21"
@@ -353,7 +353,7 @@
       Does your software project need
     </text>
 
-    <text x="190" y="103"
+    <text x="212" y="103"
       fill="#f5f5f5"
       font-family="system-ui, -apple-system, sans-serif"
       font-size="21"
@@ -361,7 +361,7 @@
       a hands-on engineer?
     </text>
 
-    <text x="190" y="130"
+    <text x="212" y="130"
       fill="#9da3aa"
       font-family="system-ui, -apple-system, sans-serif"
       font-size="14"
