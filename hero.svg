@@ -41,27 +41,28 @@
               #101113,
               #060708
             );
-          
+
           background-size:
             100% 100%,
             100% 1px,
             60px 60px,
             60px 60px,
             100% 100%;
-          
+
           background-position:
             0 0,
             0 360px,
             0 0,
             0 0,
             0 0;
-          
+
           background-repeat:
             no-repeat,
             no-repeat,
             repeat,
             repeat,
             no-repeat;
+
           border-radius: 24px 24px 0 0;
           display: flex;
           align-items: center;
@@ -73,7 +74,6 @@
           gap: 40px;
         }
 
-        /* LEFT COLUMN */
         .left {
           width: 520px;
           display: flex;
@@ -90,7 +90,7 @@
 
         .slide {
           position: absolute;
-           height: 150px;
+          height: 150px;
           color: white;
           font-size: 32px;
           font-weight: 700;
@@ -111,7 +111,6 @@
           100% { opacity: 0; }
         }
 
-        /* CTA GLASS */
         .cta {
           margin-top: 30px;
           display: flex;
@@ -132,12 +131,11 @@
         }
 
         .btn:hover {
-          background: rgba(59,130,246,0.2);
-          border-color: rgba(59,130,246,0.5);
-          box-shadow: 0 0 20px rgba(59,130,246,0.4);
+          background: rgba(35,134,84,0.18);
+          border-color: rgba(57,211,83,0.45);
+          box-shadow: 0 0 20px rgba(35,134,84,0.28);
         }
 
-        /* RIGHT MOCKUP */
         .right {
           width: 420px;
           display: flex;
@@ -167,12 +165,17 @@
         }
 
         @keyframes float {
-          0% { transform: rotateY(-18deg) rotateX(10deg) translateY(0);}
-          50% { transform: rotateY(-16deg) rotateX(10deg) translateY(-10px);}
-          100% { transform: rotateY(-18deg) rotateX(10deg) translateY(0);}
+          0% {
+            transform: rotateY(-18deg) rotateX(10deg) translateY(0);
+          }
+          50% {
+            transform: rotateY(-16deg) rotateX(10deg) translateY(-10px);
+          }
+          100% {
+            transform: rotateY(-18deg) rotateX(10deg) translateY(0);
+          }
         }
 
-        /* SLIDING CONTENT INSIDE MOCKUP */
         .mock-content {
           position: absolute;
           bottom: -100%;
@@ -191,22 +194,59 @@
         .mc3 { animation-delay: 8s; }
 
         @keyframes slideUp {
-          0% { bottom: -100%; opacity: 0;}
-          5% { bottom: 0%; opacity: 1;}
-          30% { bottom: 0%; opacity: 1;}
-          35% { bottom: 100%; opacity: 0;}
-          100% { bottom: 100%; opacity: 0;}
+          0% {
+            bottom: -100%;
+            opacity: 0;
+          }
+          5% {
+            bottom: 0%;
+            opacity: 1;
+          }
+          30% {
+            bottom: 0%;
+            opacity: 1;
+          }
+          35% {
+            bottom: 100%;
+            opacity: 0;
+          }
+          100% {
+            bottom: 100%;
+            opacity: 0;
+          }
         }
 
-        /* colorful placeholder blocks */
         .block {
           height: 18px;
           border-radius: 6px;
         }
 
-        .b1 { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
-        .b2 { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
-        .b3 { background: linear-gradient(90deg, #22c55e, #eab308); }
+        .b1 {
+          background: linear-gradient(
+            90deg,
+            #0e4429,
+            #26a641,
+            #39d353
+          );
+        }
+
+        .b2 {
+          background: linear-gradient(
+            90deg,
+            #006d32,
+            #26a641,
+            #39d353
+          );
+        }
+
+        .b3 {
+          background: linear-gradient(
+            90deg,
+            #0e4429,
+            #006d32,
+            #26a641
+          );
+        }
 
         .subtitle {
           display: block;
@@ -218,243 +258,286 @@
         }
 
         .screen-label {
-  color: #f5f5f5;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-  margin-bottom: 4px;
-}
+          color: #f5f5f5;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 1.8px;
+          margin-bottom: 4px;
+        }
 
-.metric-row {
-  display: flex;
-  gap: 12px;
-}
+        .metric-row {
+          display: flex;
+          gap: 12px;
+        }
 
-.metric {
-  flex: 1;
-  padding: 12px;
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 10px;
-  background: rgba(255,255,255,0.035);
-}
+        .metric {
+          flex: 1;
+          padding: 12px;
+          border: 1px solid rgba(255,255,255,0.08);
+          border-radius: 10px;
+          background: rgba(255,255,255,0.035);
+        }
 
-.metric span {
-  display: block;
-  color: #777d84;
-  font-size: 9px;
-  margin-bottom: 5px;
-}
+        .metric span {
+          display: block;
+          color: #777d84;
+          font-size: 9px;
+          margin-bottom: 5px;
+        }
 
-.metric strong {
-  color: #f5f5f5;
-  font-size: 17px;
-  font-weight: 600;
-}
+        .metric strong {
+          color: #39d353;
+          font-size: 17px;
+          font-weight: 600;
+        }
 
-.chart {
-  height: 62px;
-  display: flex;
-  align-items: flex-end;
-  gap: 7px;
-  padding: 10px 12px;
-  border-radius: 10px;
-  background: rgba(255,255,255,0.025);
-}
+        .chart {
+          height: 62px;
+          display: flex;
+          align-items: flex-end;
+          gap: 7px;
+          padding: 10px 12px;
+          border-radius: 10px;
+          background: rgba(255,255,255,0.025);
+        }
 
-.chart i {
-  flex: 1;
-  display: block;
-  border-radius: 3px 3px 1px 1px;
-  background: #f5f5f5;
-  opacity: 0.65;
-}
+        .chart i {
+          flex: 1;
+          display: block;
+          border-radius: 3px 3px 1px 1px;
+          background: #26a641;
+          opacity: 0.65;
+        }
 
-.insight {
-  padding: 9px 12px;
-  border-left: 2px solid #f5f5f5;
-  background: rgba(255,255,255,0.035);
-}
+        .chart i:nth-child(1) {
+          background: #0e4429;
+        }
 
-.insight span {
-  display: block;
-  color: #777d84;
-  font-size: 9px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+        .chart i:nth-child(2) {
+          background: #006d32;
+        }
 
-.insight strong {
-  display: block;
-  margin-top: 3px;
-  color: #f5f5f5;
-  font-size: 11px;
-  font-weight: 500;
-}
+        .chart i:nth-child(3) {
+          background: #006d32;
+        }
 
-.design-header {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
+        .chart i:nth-child(4) {
+          background: #26a641;
+        }
 
-.design-header span {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: #777d84;
-}
+        .chart i:nth-child(5) {
+          background: #26a641;
+        }
 
-.design-header .dot {
-  background: #f5f5f5;
-}
+        .chart i:nth-child(6) {
+          background: #39d353;
+        }
 
-.wireframe {
-  display: flex;
-  height: 125px;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 10px;
-  overflow: hidden;
-  background: #17191c;
-}
+        .chart i:nth-child(7) {
+          background: #39d353;
+        }
 
-.wf-sidebar {
-  width: 52px;
-  border-right: 1px solid rgba(255,255,255,0.07);
-  background:
-    linear-gradient(
-      rgba(255,255,255,0.06) 1px,
-      transparent 1px
-    );
-  background-size: 100% 14px;
-}
+        .insight {
+          padding: 9px 12px;
+          border-left: 2px solid #26a641;
+          background: rgba(35,134,84,0.08);
+        }
 
-.wf-main {
-  flex: 1;
-  padding: 14px;
-}
+        .insight span {
+          display: block;
+          color: #777d84;
+          font-size: 9px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+        }
 
-.wf-title {
-  width: 55%;
-  height: 10px;
-  border-radius: 3px;
-  background: #f5f5f5;
-  opacity: 0.8;
-  margin-bottom: 10px;
-}
+        .insight strong {
+          display: block;
+          margin-top: 3px;
+          color: #f5f5f5;
+          font-size: 11px;
+          font-weight: 500;
+        }
 
-.wf-line {
-  width: 65%;
-  height: 5px;
-  border-radius: 3px;
-  background: #777d84;
-  margin-bottom: 5px;
-}
+        .design-header {
+          display: flex;
+          gap: 6px;
+          align-items: center;
+        }
 
-.wf-line.long {
-  width: 82%;
-}
+        .design-header span {
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #777d84;
+        }
 
-.wf-cards {
-  display: flex;
-  gap: 7px;
-  margin-top: 15px;
-}
+        .design-header .dot {
+          background: #39d353;
+        }
 
-.wf-cards div {
-  flex: 1;
-  height: 38px;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 6px;
-}
+        .wireframe {
+          display: flex;
+          height: 125px;
+          border: 1px solid rgba(255,255,255,0.1);
+          border-radius: 10px;
+          overflow: hidden;
+          background: #17191c;
+        }
 
-.wf-button {
-  width: 58px;
-  height: 14px;
-  margin-top: 12px;
-  border-radius: 7px;
-  background: #f5f5f5;
-}
+        .wf-sidebar {
+          width: 52px;
+          border-right: 1px solid rgba(255,255,255,0.07);
+          background:
+            linear-gradient(
+              rgba(255,255,255,0.06) 1px,
+              transparent 1px
+            );
+          background-size: 100% 14px;
+        }
 
-.design-label {
-  color: #777d84;
-  font-size: 10px;
-  text-align: right;
-}
+        .wf-main {
+          flex: 1;
+          padding: 14px;
+        }
 
-.architecture {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  margin: 20px 0;
-}
+        .wf-title {
+          width: 55%;
+          height: 10px;
+          border-radius: 3px;
+          background: #f5f5f5;
+          opacity: 0.8;
+          margin-bottom: 10px;
+        }
 
-.node {
-  padding: 9px 7px;
-  border: 1px solid rgba(255,255,255,0.2);
-  border-radius: 6px;
-  color: #f5f5f5;
-  font-size: 8px;
-  letter-spacing: 0.6px;
-}
+        .wf-line {
+          width: 65%;
+          height: 5px;
+          border-radius: 3px;
+          background: #777d84;
+          margin-bottom: 5px;
+        }
 
-.connector {
-  width: 14px;
-  height: 1px;
-  background: rgba(255,255,255,0.35);
-}
+        .wf-line.long {
+          width: 82%;
+        }
 
-.terminal {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  padding: 11px;
-  border-radius: 8px;
-  background: #0a0b0c;
-  border: 1px solid rgba(255,255,255,0.08);
-  color: #9da3aa;
-  font-family: monospace;
-  font-size: 9px;
-}
+        .wf-cards {
+          display: flex;
+          gap: 7px;
+          margin-top: 15px;
+        }
 
-.terminal span:first-child {
-  color: #f5f5f5;
-}
+        .wf-cards div {
+          flex: 1;
+          height: 38px;
+          border: 1px solid rgba(255,255,255,0.1);
+          border-radius: 6px;
+          background: rgba(35,134,84,0.035);
+        }
 
-.status {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  color: #9da3aa;
-  font-size: 10px;
-}
+        .wf-cards div:nth-child(2) {
+          border-color: rgba(38,166,65,0.3);
+        }
 
-.status-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: #f5f5f5;
-}
+        .wf-button {
+          width: 58px;
+          height: 14px;
+          margin-top: 12px;
+          border-radius: 7px;
+          background: #26a641;
+        }
+
+        .design-label {
+          color: #777d84;
+          font-size: 10px;
+          text-align: right;
+        }
+
+        .architecture {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          margin: 20px 0;
+        }
+
+        .node {
+          padding: 9px 7px;
+          border: 1px solid rgba(255,255,255,0.2);
+          border-radius: 6px;
+          color: #f5f5f5;
+          font-size: 8px;
+          letter-spacing: 0.6px;
+        }
+
+        .node:last-child {
+          border-color: rgba(57,211,83,0.45);
+          color: #39d353;
+        }
+
+        .connector {
+          width: 14px;
+          height: 1px;
+          background: rgba(38,166,65,0.45);
+        }
+
+        .terminal {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          padding: 11px;
+          border-radius: 8px;
+          background: #0a0b0c;
+          border: 1px solid rgba(255,255,255,0.08);
+          color: #9da3aa;
+          font-family: monospace;
+          font-size: 9px;
+        }
+
+        .terminal span:first-child {
+          color: #39d353;
+        }
+
+        .terminal span:not(:first-child) {
+          color: #26a641;
+        }
+
+        .status {
+          display: flex;
+          align-items: center;
+          gap: 7px;
+          color: #9da3aa;
+          font-size: 10px;
+        }
+
+        .status-dot {
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background: #39d353;
+          box-shadow: 0 0 8px rgba(57,211,83,0.55);
+        }
       </style>
 
       <div class="container">
 
         <div class="left">
           <div class="slides">
-<div class="slide s1">
-  Turn business needs into clear direction.
-  <span class="subtitle">Aligning goals, constraints and opportunities before writing a single line of code.</span>
-</div>
+            <div class="slide s1">
+              Turn business needs into clear direction.
+              <span class="subtitle">Aligning goals, constraints and opportunities before writing a single line of code.</span>
+            </div>
 
-<div class="slide s2">
-  Shape the right solution before building it.
-  <span class="subtitle">Turning requirements into flows, interfaces and systems people can actually use.</span>
-</div>
+            <div class="slide s2">
+              Shape the right solution before building it.
+              <span class="subtitle">Turning requirements into flows, interfaces and systems people can actually use.</span>
+            </div>
 
-<div class="slide s3">
-  Engineer it to survive the real world.
-  <span class="subtitle">Building scalable software, integrations and infrastructure — from first commit to production.</span>
-</div>
+            <div class="slide s3">
+              Engineer it to survive the real world.
+              <span class="subtitle">Building scalable software, integrations and infrastructure — from first commit to production.</span>
+            </div>
           </div>
         </div>
 
@@ -462,92 +545,92 @@
           <div class="scene">
             <div class="card">
 
-<div class="mock-content mc1">
-  <div class="screen-label">BUSINESS</div>
+              <div class="mock-content mc1">
+                <div class="screen-label">BUSINESS</div>
 
-  <div class="metric-row">
-    <div class="metric">
-      <span>Revenue</span>
-      <strong>+24.8%</strong>
-    </div>
-    <div class="metric">
-      <span>Conversion</span>
-      <strong>8.42%</strong>
-    </div>
-  </div>
+                <div class="metric-row">
+                  <div class="metric">
+                    <span>Revenue</span>
+                    <strong>+24.8%</strong>
+                  </div>
+                  <div class="metric">
+                    <span>Conversion</span>
+                    <strong>8.42%</strong>
+                  </div>
+                </div>
 
-  <div class="chart">
-    <i style="height:28%"></i>
-    <i style="height:42%"></i>
-    <i style="height:36%"></i>
-    <i style="height:58%"></i>
-    <i style="height:52%"></i>
-    <i style="height:74%"></i>
-    <i style="height:88%"></i>
-  </div>
+                <div class="chart">
+                  <i style="height:28%"></i>
+                  <i style="height:42%"></i>
+                  <i style="height:36%"></i>
+                  <i style="height:58%"></i>
+                  <i style="height:52%"></i>
+                  <i style="height:74%"></i>
+                  <i style="height:88%"></i>
+                </div>
 
-  <div class="insight">
-    <span>Opportunity</span>
-    <strong>Reduce friction in onboarding</strong>
-  </div>
-</div>
+                <div class="insight">
+                  <span>Opportunity</span>
+                  <strong>Reduce friction in onboarding</strong>
+                </div>
+              </div>
 
-<div class="mock-content mc2">
-  <div class="screen-label">DESIGN</div>
+              <div class="mock-content mc2">
+                <div class="screen-label">DESIGN</div>
 
-  <div class="design-header">
-    <span class="dot"></span>
-    <span></span>
-    <span></span>
-  </div>
+                <div class="design-header">
+                  <span class="dot"></span>
+                  <span></span>
+                  <span></span>
+                </div>
 
-  <div class="wireframe">
-    <div class="wf-sidebar"></div>
-    <div class="wf-main">
-      <div class="wf-title"></div>
-      <div class="wf-line long"></div>
-      <div class="wf-line"></div>
+                <div class="wireframe">
+                  <div class="wf-sidebar"></div>
+                  <div class="wf-main">
+                    <div class="wf-title"></div>
+                    <div class="wf-line long"></div>
+                    <div class="wf-line"></div>
 
-      <div class="wf-cards">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+                    <div class="wf-cards">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </div>
 
-      <div class="wf-button"></div>
-    </div>
-  </div>
+                    <div class="wf-button"></div>
+                  </div>
+                </div>
 
-  <div class="design-label">
-    User flow → Prototype → Validate
-  </div>
-</div>
+                <div class="design-label">
+                  User flow → Prototype → Validate
+                </div>
+              </div>
 
-<div class="mock-content mc3">
-  <div class="screen-label">ENGINEERING</div>
+              <div class="mock-content mc3">
+                <div class="screen-label">ENGINEERING</div>
 
-  <div class="architecture">
-    <div class="node">CLIENT</div>
-    <div class="connector"></div>
-    <div class="node">API</div>
-    <div class="connector"></div>
-    <div class="node">SERVICES</div>
-    <div class="connector"></div>
-    <div class="node">DATA</div>
-  </div>
+                <div class="architecture">
+                  <div class="node">CLIENT</div>
+                  <div class="connector"></div>
+                  <div class="node">API</div>
+                  <div class="connector"></div>
+                  <div class="node">SERVICES</div>
+                  <div class="connector"></div>
+                  <div class="node">DATA</div>
+                </div>
 
-  <div class="terminal">
-    <span>$ deploy production</span>
-    <span>✓ build passed</span>
-    <span>✓ tests passed</span>
-    <span>✓ deployment complete</span>
-  </div>
+                <div class="terminal">
+                  <span>$ deploy production</span>
+                  <span>✓ build passed</span>
+                  <span>✓ tests passed</span>
+                  <span>✓ deployment complete</span>
+                </div>
 
-  <div class="status">
-    <span class="status-dot"></span>
-    Production healthy
-  </div>
-</div>
+                <div class="status">
+                  <span class="status-dot"></span>
+                  Production healthy
+                </div>
+              </div>
 
             </div>
           </div>
