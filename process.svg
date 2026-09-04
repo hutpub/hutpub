@@ -1,0 +1,150 @@
+<svg viewBox="0 0 1200 440" width="1200" height="440" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .container {
+      width: 1200px;
+      height: 440px;
+      background: #0b0c0e;
+      border-radius: 24px;
+      overflow: hidden;
+      font-family: system-ui;
+    }
+
+    .grid {
+      fill: none;
+      stroke: rgba(157,163,170,0.08);
+      stroke-width: 1;
+    }
+
+    .step {
+      fill: #111315;
+      stroke: #3a3d42;
+      stroke-width: 1.5;
+    }
+
+    .number {
+      fill: #9da3aa;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .title {
+      fill: #f5f5f5;
+      font-size: 21px;
+      font-weight: 700;
+    }
+
+    .description {
+      fill: #9da3aa;
+      font-size: 13px;
+      font-weight: 400;
+    }
+
+    .arrow {
+      fill: none;
+      stroke: #9da3aa;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .arrow-head {
+      fill: #9da3aa;
+    }
+  </style>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" class="container">
+    <svg width="1200" height="440" viewBox="0 0 1200 440">
+
+      <g class="grid">
+        <path d="M60 40H1140"/>
+        <path d="M60 200H1140"/>
+        <path d="M60 360H1140"/>
+
+        <path d="M60 40V360"/>
+        <path d="M330 40V360"/>
+        <path d="M600 40V360"/>
+        <path d="M870 40V360"/>
+        <path d="M1140 40V360"/>
+      </g>
+
+      <g>
+        <rect x="60" y="40" width="270" height="160" rx="16" class="step"/>
+
+        <text x="85" y="72" class="number">01</text>
+
+        <text x="85" y="112" class="title">
+          Discovery
+        </text>
+
+        <text x="85" y="142" class="description">
+          <tspan x="85" dy="0">Understand the problem, goals</tspan>
+          <tspan x="85" dy="20">and technical requirements.</tspan>
+        </text>
+      </g>
+
+      <g>
+        <rect x="330" y="200" width="270" height="160" rx="16" class="step"/>
+
+        <text x="355" y="232" class="number">02</text>
+
+        <text x="355" y="272" class="title">
+          Solution Design
+        </text>
+
+        <text x="355" y="302" class="description">
+          <tspan x="355" dy="0">Turn the idea into a clear</tspan>
+          <tspan x="355" dy="20">technical direction.</tspan>
+        </text>
+      </g>
+
+      <g>
+        <rect x="600" y="40" width="270" height="160" rx="16" class="step"/>
+
+        <text x="625" y="72" class="number">03</text>
+
+        <text x="625" y="112" class="title">
+          Build &amp; Iterate
+        </text>
+
+        <text x="625" y="142" class="description">
+          <tspan x="625" dy="0">Build working software,</tspan>
+          <tspan x="625" dy="20">test and refine continuously.</tspan>
+        </text>
+      </g>
+
+      <g>
+        <rect x="870" y="200" width="270" height="160" rx="16" class="step"/>
+
+        <text x="895" y="232" class="number">04</text>
+
+        <text x="895" y="272" class="title">
+          Launch &amp; Evolve
+        </text>
+
+        <text x="895" y="302" class="description">
+          <tspan x="895" dy="0">Deploy, monitor and keep</tspan>
+          <tspan x="895" dy="20">improving the system.</tspan>
+        </text>
+      </g>
+
+      <g class="arrow">
+        <path d="M330 120H350V280H330"/>
+        <path d="M330 280L340 273"/>
+        <path d="M330 280L340 287"/>
+      </g>
+
+      <g class="arrow">
+        <path d="M600 280H580V120H600"/>
+        <path d="M600 120L590 113"/>
+        <path d="M600 120L590 127"/>
+      </g>
+
+      <g class="arrow">
+        <path d="M870 120H890V280H870"/>
+        <path d="M870 280L880 273"/>
+        <path d="M870 280L880 287"/>
+      </g>
+
+    </svg>
+  </div>
+</svg>
