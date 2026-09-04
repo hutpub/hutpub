@@ -217,24 +217,244 @@
           line-height: 1.5;
         }
 
+        .screen-label {
+  color: #f5f5f5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  margin-bottom: 4px;
+}
+
+.metric-row {
+  display: flex;
+  gap: 12px;
+}
+
+.metric {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  background: rgba(255,255,255,0.035);
+}
+
+.metric span {
+  display: block;
+  color: #777d84;
+  font-size: 9px;
+  margin-bottom: 5px;
+}
+
+.metric strong {
+  color: #f5f5f5;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.chart {
+  height: 62px;
+  display: flex;
+  align-items: flex-end;
+  gap: 7px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.025);
+}
+
+.chart i {
+  flex: 1;
+  display: block;
+  border-radius: 3px 3px 1px 1px;
+  background: #f5f5f5;
+  opacity: 0.65;
+}
+
+.insight {
+  padding: 9px 12px;
+  border-left: 2px solid #f5f5f5;
+  background: rgba(255,255,255,0.035);
+}
+
+.insight span {
+  display: block;
+  color: #777d84;
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.insight strong {
+  display: block;
+  margin-top: 3px;
+  color: #f5f5f5;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.design-header {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.design-header span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #777d84;
+}
+
+.design-header .dot {
+  background: #f5f5f5;
+}
+
+.wireframe {
+  display: flex;
+  height: 125px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #17191c;
+}
+
+.wf-sidebar {
+  width: 52px;
+  border-right: 1px solid rgba(255,255,255,0.07);
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.06) 1px,
+      transparent 1px
+    );
+  background-size: 100% 14px;
+}
+
+.wf-main {
+  flex: 1;
+  padding: 14px;
+}
+
+.wf-title {
+  width: 55%;
+  height: 10px;
+  border-radius: 3px;
+  background: #f5f5f5;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.wf-line {
+  width: 65%;
+  height: 5px;
+  border-radius: 3px;
+  background: #777d84;
+  margin-bottom: 5px;
+}
+
+.wf-line.long {
+  width: 82%;
+}
+
+.wf-cards {
+  display: flex;
+  gap: 7px;
+  margin-top: 15px;
+}
+
+.wf-cards div {
+  flex: 1;
+  height: 38px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+}
+
+.wf-button {
+  width: 58px;
+  height: 14px;
+  margin-top: 12px;
+  border-radius: 7px;
+  background: #f5f5f5;
+}
+
+.design-label {
+  color: #777d84;
+  font-size: 10px;
+  text-align: right;
+}
+
+.architecture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin: 20px 0;
+}
+
+.node {
+  padding: 9px 7px;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 6px;
+  color: #f5f5f5;
+  font-size: 8px;
+  letter-spacing: 0.6px;
+}
+
+.connector {
+  width: 14px;
+  height: 1px;
+  background: rgba(255,255,255,0.35);
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 11px;
+  border-radius: 8px;
+  background: #0a0b0c;
+  border: 1px solid rgba(255,255,255,0.08);
+  color: #9da3aa;
+  font-family: monospace;
+  font-size: 9px;
+}
+
+.terminal span:first-child {
+  color: #f5f5f5;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #9da3aa;
+  font-size: 10px;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #f5f5f5;
+}
       </style>
 
       <div class="container">
 
         <div class="left">
           <div class="slides">
-            <div class="slide s1">
-              Build things that shouldn't be possible.
-              <span class="subtitle">Turning complex ideas into clean, scalable software — from architecture to production.</span>
-            </div>
-              <div class="slide s2">
-                From zero to production — fast. 
-                <span class="subtitle">Prototyping, APIs, automation and deployment with a product-first engineering mindset.</span>
-              </div>
-              <div class="slide s3">
-                Engineering clarity in chaotic systems.
-                <span class="subtitle">Designing systems that are observable, maintainable and built to evolve.</span>
-              </div>
+<div class="slide s1">
+  Turn business needs into clear direction.
+  <span class="subtitle">Aligning goals, constraints and opportunities before writing a single line of code.</span>
+</div>
+
+<div class="slide s2">
+  Shape the right solution before building it.
+  <span class="subtitle">Turning requirements into flows, interfaces and systems people can actually use.</span>
+</div>
+
+<div class="slide s3">
+  Engineer it to survive the real world.
+  <span class="subtitle">Building scalable software, integrations and infrastructure — from first commit to production.</span>
+</div>
           </div>
         </div>
 
@@ -242,23 +462,92 @@
           <div class="scene">
             <div class="card">
 
-              <div class="mock-content mc1">
-                <div class="block b1" style="width:90%"></div>
-                <div class="block b1" style="width:70%"></div>
-                <div class="block b1" style="width:50%"></div>
-              </div>
+<div class="mock-content mc1">
+  <div class="screen-label">BUSINESS</div>
 
-              <div class="mock-content mc2">
-                <div class="block b2" style="width:80%"></div>
-                <div class="block b2" style="width:60%"></div>
-                <div class="block b2" style="width:40%"></div>
-              </div>
+  <div class="metric-row">
+    <div class="metric">
+      <span>Revenue</span>
+      <strong>+24.8%</strong>
+    </div>
+    <div class="metric">
+      <span>Conversion</span>
+      <strong>8.42%</strong>
+    </div>
+  </div>
 
-              <div class="mock-content mc3">
-                <div class="block b3" style="width:85%"></div>
-                <div class="block b3" style="width:65%"></div>
-                <div class="block b3" style="width:45%"></div>
-              </div>
+  <div class="chart">
+    <i style="height:28%"></i>
+    <i style="height:42%"></i>
+    <i style="height:36%"></i>
+    <i style="height:58%"></i>
+    <i style="height:52%"></i>
+    <i style="height:74%"></i>
+    <i style="height:88%"></i>
+  </div>
+
+  <div class="insight">
+    <span>Opportunity</span>
+    <strong>Reduce friction in onboarding</strong>
+  </div>
+</div>
+
+<div class="mock-content mc2">
+  <div class="screen-label">DESIGN</div>
+
+  <div class="design-header">
+    <span class="dot"></span>
+    <span></span>
+    <span></span>
+  </div>
+
+  <div class="wireframe">
+    <div class="wf-sidebar"></div>
+    <div class="wf-main">
+      <div class="wf-title"></div>
+      <div class="wf-line long"></div>
+      <div class="wf-line"></div>
+
+      <div class="wf-cards">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="wf-button"></div>
+    </div>
+  </div>
+
+  <div class="design-label">
+    User flow → Prototype → Validate
+  </div>
+</div>
+
+<div class="mock-content mc3">
+  <div class="screen-label">ENGINEERING</div>
+
+  <div class="architecture">
+    <div class="node">CLIENT</div>
+    <div class="connector"></div>
+    <div class="node">API</div>
+    <div class="connector"></div>
+    <div class="node">SERVICES</div>
+    <div class="connector"></div>
+    <div class="node">DATA</div>
+  </div>
+
+  <div class="terminal">
+    <span>$ deploy production</span>
+    <span>✓ build passed</span>
+    <span>✓ tests passed</span>
+    <span>✓ deployment complete</span>
+  </div>
+
+  <div class="status">
+    <span class="status-dot"></span>
+    Production healthy
+  </div>
+</div>
 
             </div>
           </div>
