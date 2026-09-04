@@ -8,6 +8,10 @@
       patternTransform="rotate(45)">
       <circle cx="0" cy="0" r="1.2" fill="#f5f5f5"/>
     </pattern>
+
+    <clipPath id="avatarClip">
+      <circle cx="90" cy="90" r="38"/>
+    </clipPath>
   
     <clipPath id="clip">
       <rect width="1200" height="180" rx="24"/>
@@ -34,14 +38,14 @@
       </rect>
     </g>
     
-    <text x="60" y="98"
-      fill="#f5f5f5"
-      font-family="system-ui, -apple-system, sans-serif"
-      font-size="20"
-      font-weight="700"
-      letter-spacing="1">
-      YOUR COMPANY
-    </text>
+<image
+  href="./profile-image.png"
+  x="52"
+  y="52"
+  width="76"
+  height="76"
+  preserveAspectRatio="xMidYMid slice"
+  clip-path="url(#avatarClip)"/>
 
     <text x="300" y="72"
       fill="#f5f5f5"
