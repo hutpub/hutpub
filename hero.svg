@@ -1,5 +1,4 @@
 <svg viewBox="0 0 1200 420" width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
-
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
 
@@ -7,26 +6,20 @@
         .container {
           width: 1200px;
           height: 420px;
-          background:
-            radial-gradient(circle at 15% 20%, #30343a 0%, #202328 42%, #151719 100%);
+          background: radial-gradient(circle at 20% 20%, #1e293b, #020617);
           display: flex;
           align-items: center;
           justify-content: space-between;
-          padding: 52px 60px;
+          padding: 60px;
           box-sizing: border-box;
-          font-family: "proxima-nova", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+          font-family: system-ui;
           overflow: hidden;
-          gap: 50px;
-          border-radius: 24px;
-          color: white;
+          gap: 40px;
         }
 
-        /* =========================
-           LEFT
-        ========================== */
-
+        /* LEFT COLUMN */
         .left {
-          width: 530px;
+          width: 520px;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -35,86 +28,61 @@
 
         .slides {
           position: relative;
-          height: 150px;
+          height: 120px;
         }
 
         .slide {
           position: absolute;
-          top: 0;
-          left: 0;
-          width: 100%;
+          color: white;
+          font-size: 32px;
+          font-weight: 700;
+          line-height: 1.2;
           opacity: 0;
-          color: #f5f5f5;
+          transform: translateY(10px);
           animation: slideFade 12s infinite;
         }
 
-        .title {
-          display: block;
-          font-size: 34px;
-          font-weight: 750;
-          line-height: 1.15;
-          letter-spacing: -0.8px;
-          white-space: nowrap;
-        }
+        .s1 { animation-delay: 0s; }
+        .s2 { animation-delay: 4s; }
+        .s3 { animation-delay: 8s; }
 
-        .subtitle {
-          display: block;
-          margin-top: 14px;
-          max-width: 480px;
-          color: #aeb4bb;
-          font-size: 16px;
-          line-height: 1.55;
-          font-weight: 400;
-        }
-
-        .accent {
-          color: #60a5fa;
-        }
-
-        .s1 {
-          animation-delay: 0s;
-        }
-
-        .s2 {
-          animation-delay: 4s;
-        }
-
-        .s3 {
-          animation-delay: 8s;
-        }
-
-        /*
-          The title/subtitle remain completely still
-          while visible. Only opacity changes.
-        */
         @keyframes slideFade {
-          0% {
-            opacity: 0;
-          }
-
-          5% {
-            opacity: 1;
-          }
-
-          30% {
-            opacity: 1;
-          }
-
-          35% {
-            opacity: 0;
-          }
-
-          100% {
-            opacity: 0;
-          }
+          0% { opacity: 0; transform: translateY(10px);}
+          5% { opacity: 1; transform: translateY(0);}
+          30% { opacity: 1;}
+          35% { opacity: 0;}
+          100% { opacity: 0;}
         }
 
-        /* =========================
-           RIGHT — ENGINEERING MOCKUP
-        ========================== */
+        /* CTA GLASS */
+        .cta {
+          margin-top: 30px;
+          display: flex;
+          gap: 14px;
+        }
 
+        .btn {
+          padding: 10px 20px;
+          border-radius: 10px;
+          backdrop-filter: blur(10px);
+          background: rgba(255,255,255,0.08);
+          border: 1px solid rgba(255,255,255,0.15);
+          color: white;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 500;
+          transition: all 0.25s ease;
+        }
+
+        .btn:hover {
+          background: rgba(59,130,246,0.2);
+          border-color: rgba(59,130,246,0.5);
+          box-shadow: 0 0 20px rgba(59,130,246,0.4);
+        }
+
+        /* RIGHT MOCKUP */
         .right {
-          width: 470px;
+          width: 420px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -122,7 +90,7 @@
 
         .scene {
           width: 100%;
-          height: 270px;
+          height: 260px;
           perspective: 1200px;
         }
 
@@ -130,505 +98,104 @@
           width: 100%;
           height: 100%;
           border-radius: 18px;
-
           transform-style: preserve-3d;
-          transform: rotateY(-14deg) rotateX(7deg);
-
-          background:
-            linear-gradient(145deg, #292d32, #191b1e);
-
-          border: 1px solid rgba(255,255,255,0.10);
-
+          transform: rotateY(-18deg) rotateX(10deg);
+          background: linear-gradient(145deg, #0f172a, #020617);
           box-shadow:
-            0 35px 70px rgba(0,0,0,0.55),
-            inset 0 0 35px rgba(255,255,255,0.025);
-
+            0 40px 80px rgba(0,0,0,0.6),
+            inset 0 0 40px rgba(255,255,255,0.05);
           overflow: hidden;
           position: relative;
-
           animation: float 6s ease-in-out infinite;
         }
 
         @keyframes float {
-          0% {
-            transform: rotateY(-14deg) rotateX(7deg) translateY(0);
-          }
-
-          50% {
-            transform: rotateY(-12deg) rotateX(7deg) translateY(-8px);
-          }
-
-          100% {
-            transform: rotateY(-14deg) rotateX(7deg) translateY(0);
-          }
+          0% { transform: rotateY(-18deg) rotateX(10deg) translateY(0);}
+          50% { transform: rotateY(-16deg) rotateX(10deg) translateY(-10px);}
+          100% { transform: rotateY(-18deg) rotateX(10deg) translateY(0);}
         }
 
-        /* Window chrome */
-
-        .window {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          height: 36px;
-          background: #23262a;
-          border-bottom: 1px solid rgba(255,255,255,0.08);
-          display: flex;
-          align-items: center;
-          padding: 0 14px;
-          box-sizing: border-box;
-        }
-
-        .dot {
-          width: 7px;
-          height: 7px;
-          border-radius: 50%;
-          margin-right: 6px;
-          background: #555b62;
-        }
-
-        .window-title {
-          margin-left: 10px;
-          color: #777e86;
-          font-size: 10px;
-          font-family: monospace;
-        }
-
-        /* =========================
-           DASHBOARD SLIDES
-        ========================== */
-
+        /* SLIDING CONTENT INSIDE MOCKUP */
         .mock-content {
           position: absolute;
-          top: 36px;
-          left: 0;
+          bottom: -100%;
           width: 100%;
-          height: calc(100% - 36px);
-
+          height: 100%;
+          display: flex;
+          flex-direction: column;
           padding: 20px;
           box-sizing: border-box;
-
-          opacity: 0;
-          animation: contentFade 12s infinite;
+          gap: 10px;
+          animation: slideUp 12s infinite;
         }
 
-        .mc1 {
-          animation-delay: 0s;
+        .mc1 { animation-delay: 0s; }
+        .mc2 { animation-delay: 4s; }
+        .mc3 { animation-delay: 8s; }
+
+        @keyframes slideUp {
+          0% { bottom: -100%; opacity: 0;}
+          5% { bottom: 0%; opacity: 1;}
+          30% { bottom: 0%; opacity: 1;}
+          35% { bottom: 100%; opacity: 0;}
+          100% { bottom: 100%; opacity: 0;}
         }
 
-        .mc2 {
-          animation-delay: 4s;
+        /* colorful placeholder blocks */
+        .block {
+          height: 18px;
+          border-radius: 6px;
         }
 
-        .mc3 {
-          animation-delay: 8s;
-        }
-
-        @keyframes contentFade {
-          0% {
-            opacity: 0;
-          }
-
-          5% {
-            opacity: 1;
-          }
-
-          30% {
-            opacity: 1;
-          }
-
-          35% {
-            opacity: 0;
-          }
-
-          100% {
-            opacity: 0;
-          }
-        }
-
-        /* Small labels */
-
-        .label {
-          color: #7f8790;
-          font-size: 9px;
-          font-family: monospace;
-          letter-spacing: 0.5px;
-          text-transform: uppercase;
-          margin-bottom: 8px;
-        }
-
-        /* Architecture */
-
-        .architecture {
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          margin-top: 10px;
-        }
-
-        .node {
-          flex: 1;
-          min-height: 54px;
-          border-radius: 9px;
-          background: #202327;
-          border: 1px solid rgba(255,255,255,0.08);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          text-align: center;
-          color: #cbd0d5;
-          font-size: 10px;
-          font-family: monospace;
-        }
-
-        .node.accent-blue {
-          border-color: rgba(96,165,250,0.45);
-          box-shadow: inset 0 0 18px rgba(59,130,246,0.08);
-        }
-
-        .node.accent-purple {
-          border-color: rgba(168,85,247,0.45);
-          box-shadow: inset 0 0 18px rgba(139,92,246,0.08);
-        }
-
-        .node.accent-green {
-          border-color: rgba(34,197,94,0.45);
-          box-shadow: inset 0 0 18px rgba(34,197,94,0.08);
-        }
-
-        .arrow {
-          color: #626970;
-          font-size: 13px;
-        }
-
-        /* Code */
-
-        .code {
-          margin-top: 13px;
-          padding: 13px;
-          border-radius: 9px;
-          background: #17191c;
-          border: 1px solid rgba(255,255,255,0.06);
-          font-family: monospace;
-          font-size: 9px;
-          line-height: 1.7;
-        }
-
-        .code-line {
-          display: block;
-          color: #858c94;
-        }
-
-        .keyword {
-          color: #a78bfa;
-        }
-
-        .string {
-          color: #67e8f9;
-        }
-
-        .function {
-          color: #60a5fa;
-        }
-
-        .success {
-          color: #4ade80;
-        }
-
-        /* Deployment */
-
-        .pipeline {
-          display: flex;
-          align-items: center;
-          margin-top: 15px;
-        }
-
-        .pipeline-step {
-          flex: 1;
-          padding: 10px 5px;
-          text-align: center;
-          background: #202327;
-          border: 1px solid rgba(255,255,255,0.08);
-          border-radius: 8px;
-          font-family: monospace;
-          font-size: 9px;
-          color: #b8bec5;
-        }
-
-        .pipeline-step.done {
-          border-color: rgba(34,197,94,0.45);
-        }
-
-        .pipeline-arrow {
-          width: 18px;
-          text-align: center;
-          color: #60676e;
-          font-size: 11px;
-        }
-
-        .status {
-          margin-top: 15px;
-          display: flex;
-          align-items: center;
-          gap: 7px;
-          color: #aeb5bc;
-          font-size: 10px;
-          font-family: monospace;
-        }
-
-        .status-dot {
-          width: 7px;
-          height: 7px;
-          border-radius: 50%;
-          background: #4ade80;
-          box-shadow: 0 0 10px rgba(74,222,128,0.55);
-        }
-
-        /* =========================
-           SUBTLE BACKGROUND GRID
-        ========================== */
-
-        .grid {
-          position: absolute;
-          inset: 0;
-          opacity: 0.12;
-          background-image:
-            linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-          background-size: 32px 32px;
-          pointer-events: none;
-        }
-
-        .glow {
-          position: absolute;
-          width: 260px;
-          height: 260px;
-          right: 280px;
-          top: 80px;
-          border-radius: 50%;
-          background: rgba(59,130,246,0.055);
-          filter: blur(60px);
-          pointer-events: none;
-        }
+        .b1 { background: linear-gradient(90deg, #3b82f6, #06b6d4); }
+        .b2 { background: linear-gradient(90deg, #8b5cf6, #ec4899); }
+        .b3 { background: linear-gradient(90deg, #22c55e, #eab308); }
 
       </style>
 
       <div class="container">
 
-        <div class="grid"></div>
-        <div class="glow"></div>
-
-        <!-- LEFT -->
-
         <div class="left">
-
           <div class="slides">
-
-            <div class="slide s1">
-              <span class="title">
-                Build things that shouldn't be possible.
-              </span>
-
-              <span class="subtitle">
-                Turning complex ideas into <span class="accent">clean, scalable software</span>
-                — from architecture to production.
-              </span>
-            </div>
-
-            <div class="slide s2">
-              <span class="title">
-                From zero to production — fast.
-              </span>
-
-              <span class="subtitle">
-                Prototyping, APIs, automation and deployment with a
-                <span class="accent">product-first engineering mindset</span>.
-              </span>
-            </div>
-
-            <div class="slide s3">
-              <span class="title">
-                Engineering clarity in chaotic systems.
-              </span>
-
-              <span class="subtitle">
-                Designing systems that are observable, maintainable and
-                <span class="accent">built to evolve</span>.
-              </span>
-            </div>
-
+            <div class="slide s1">Build things that shouldn't be possible.</div>
+            <div class="slide s2">From zero to production — fast.</div>
+            <div class="slide s3">Engineering clarity in chaotic systems.</div>
           </div>
 
+          <div class="cta">
+            <a class="btn" href="https://github.com/hutpub">Explore</a>
+            <a class="btn" href="https://github.com/hutpub?tab=repositories">Code</a>
+          </div>
         </div>
 
-        <!-- RIGHT -->
-
         <div class="right">
-
           <div class="scene">
-
             <div class="card">
 
-              <!-- Window chrome -->
-
-              <div class="window">
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <div class="dot"></div>
-                <span class="window-title">engineering.workspace</span>
-              </div>
-
-              <!-- SLIDE 1: ARCHITECTURE -->
-
               <div class="mock-content mc1">
-
-                <div class="label">system architecture</div>
-
-                <div class="architecture">
-
-                  <div class="node accent-blue">
-                    Client
-                  </div>
-
-                  <div class="arrow">→</div>
-
-                  <div class="node accent-purple">
-                    API
-                  </div>
-
-                  <div class="arrow">→</div>
-
-                  <div class="node accent-green">
-                    Data
-                  </div>
-
-                </div>
-
-                <div class="code">
-                  <span class="code-line">
-                    <span class="keyword">const</span>
-                    system =
-                    <span class="function">build</span>({
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;scale:
-                    <span class="string">"horizontal"</span>,
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;observability:
-                    <span class="success">true</span>
-                  </span>
-
-                  <span class="code-line">});</span>
-                </div>
-
+                <div class="block b1" style="width:90%"></div>
+                <div class="block b1" style="width:70%"></div>
+                <div class="block b1" style="width:50%"></div>
               </div>
-
-              <!-- SLIDE 2: CODE -->
 
               <div class="mock-content mc2">
-
-                <div class="label">implementation</div>
-
-                <div class="code">
-
-                  <span class="code-line">
-                    <span class="keyword">async function</span>
-                    <span class="function">deploy</span>() {
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;<span class="keyword">await</span>
-                    test();
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;<span class="keyword">await</span>
-                    build();
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;<span class="keyword">return</span>
-                    <span class="string">"production"</span>;
-                  </span>
-
-                  <span class="code-line">}</span>
-
-                </div>
-
-                <div class="status">
-                  <span class="status-dot"></span>
-                  tests passing · build healthy
-                </div>
-
+                <div class="block b2" style="width:80%"></div>
+                <div class="block b2" style="width:60%"></div>
+                <div class="block b2" style="width:40%"></div>
               </div>
 
-              <!-- SLIDE 3: CI/CD -->
-
               <div class="mock-content mc3">
-
-                <div class="label">delivery pipeline</div>
-
-                <div class="pipeline">
-
-                  <div class="pipeline-step done">
-                    commit
-                  </div>
-
-                  <div class="pipeline-arrow">→</div>
-
-                  <div class="pipeline-step done">
-                    test
-                  </div>
-
-                  <div class="pipeline-arrow">→</div>
-
-                  <div class="pipeline-step done">
-                    build
-                  </div>
-
-                  <div class="pipeline-arrow">→</div>
-
-                  <div class="pipeline-step done">
-                    deploy
-                  </div>
-
-                </div>
-
-                <div class="code">
-
-                  <span class="code-line">
-                    <span class="keyword">pipeline</span>:
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;lint → test → build
-                  </span>
-
-                  <span class="code-line">
-                    &nbsp;&nbsp;deploy → <span class="success">✓ live</span>
-                  </span>
-
-                </div>
-
-                <div class="status">
-                  <span class="status-dot"></span>
-                  production deployment successful
-                </div>
-
+                <div class="block b3" style="width:85%"></div>
+                <div class="block b3" style="width:65%"></div>
+                <div class="block b3" style="width:45%"></div>
               </div>
 
             </div>
-
           </div>
-
         </div>
 
       </div>
 
     </div>
   </foreignObject>
-
 </svg>
