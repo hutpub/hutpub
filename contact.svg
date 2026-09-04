@@ -14,7 +14,7 @@
       </clipPath>
     
       <clipPath id="avatarClip">
-        <circle cx="90" cy="90" r="38"/>
+        <circle cx="114" cy="90" r="38"/>
       </clipPath>
     </defs>
     <a href="https://www.linkedin.com/in/miika-huttunen" target="_blank">
@@ -37,16 +37,16 @@
       </rect>
     </g>
 
-    <circle cx="90" cy="90" r="40"
+    <circle cx="114" cy="90" r="40"
       fill="none"
       stroke="#f5f5f5"
       stroke-width="2"/>
     
-    <circle cx="90" cy="90" r="38" fill="#ffffff"/>
+    <circle cx="114" cy="90" r="38" fill="#ffffff"/>
     
     <g clip-path="url(#avatarClip)">
       <g
-        transform="translate(52 128) scale(0.007421875 -0.007421875)"
+        transform="translate(76 128) scale(0.007421875 -0.007421875)"
         fill="#111315"
         stroke="none">
         <path d="M0 5120 l0 -5120 5120 0 5120 0 0 5120 0 5120 -5120 0 -5120 0 0
@@ -369,9 +369,9 @@
       From architecture to production — I build, integrate and ship.
     </text>
 
-    <rect x="1000" y="67" width="140" height="48" rx="24" fill="#ffffff"/>
+    <rect x="940" y="67" width="140" height="48" rx="24" fill="#ffffff"/>
 
-    <text x="1070" y="97"
+    <text x="1010" y="97"
       text-anchor="middle"
       fill="#111315"
       font-family="system-ui, -apple-system, sans-serif"
