@@ -1,10 +1,10 @@
-<svg viewBox="0 0 1200 390" width="1200" height="390" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1200 480" width="1200" height="480" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         .container {
           width: 1200px;
-          height: 390px;
+          height: 480px;
           box-sizing: border-box;
           padding: 42px 60px;
           border-radius: 24px;
@@ -34,13 +34,13 @@
           font-size: 10px;
           letter-spacing: 1.8px;
         }
-
+        
         .timeline {
           position: relative;
           height: 48px;
           margin: 28px 24px 20px;
         }
-
+        
         .line {
           position: absolute;
           left: 0;
@@ -54,17 +54,15 @@
             rgba(245,245,245,0.15)
           );
         }
-
+        
         .points {
           position: absolute;
-          left: 0;
-          right: 0;
-          top: 0;
-          display: flex;
-          justify-content: space-between;
+          inset: 0;
         }
-
+        
         .point {
+          position: absolute;
+          top: 0;
           width: 46px;
           height: 46px;
           box-sizing: border-box;
@@ -74,8 +72,25 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          transform: translateX(-50%);
         }
-
+        
+        .point:nth-child(1) {
+          left: 123.75px;
+        }
+        
+        .point:nth-child(2) {
+          left: 385.25px;
+        }
+        
+        .point:nth-child(3) {
+          left: 646.75px;
+        }
+        
+        .point:nth-child(4) {
+          left: 908.25px;
+        }
+        
         .point::after {
           content: "";
           width: 8px;
@@ -83,59 +98,64 @@
           border-radius: 50%;
           background: #f5f5f5;
         }
-
+        
         .projects {
           display: flex;
           gap: 14px;
           margin: 0 24px;
         }
 
-        .project {
-          width: calc((100% - 42px) / 4);
-          min-height: 205px;
-          box-sizing: border-box;
-          padding: 20px;
-          border: 1px solid rgba(255,255,255,0.1);
-          border-radius: 16px;
-          background: linear-gradient(
-            145deg,
-            rgba(255,255,255,0.055),
-            rgba(255,255,255,0.018)
-          );
-        }
-
-        .project-number {
-          color: #777d84;
-          font-family: monospace;
-          font-size: 10px;
-          letter-spacing: 1px;
-          margin-bottom: 18px;
-        }
-
-        .project-title {
-          min-height: 48px;
-          font-size: 17px;
-          line-height: 1.25;
-          font-weight: 650;
-          letter-spacing: -0.2px;
-        }
-
-        .project-description {
-          margin-top: 9px;
-          color: #9da3aa;
-          font-size: 11px;
-          line-height: 1.45;
-        }
-
-        .tech {
-          margin-top: 17px;
-          padding-top: 12px;
-          border-top: 1px solid rgba(255,255,255,0.08);
-          color: #777d84;
-          font-family: monospace;
-          font-size: 9px;
-          line-height: 1.65;
-        }
+       .project {
+        width: calc((100% - 42px) / 4);
+        height: 280px;
+        box-sizing: border-box;
+        padding: 20px;
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: 16px;
+        background: linear-gradient(
+          145deg,
+          rgba(255,255,255,0.055),
+          rgba(255,255,255,0.018)
+        );
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .project-number {
+        color: #777d84;
+        font-family: monospace;
+        font-size: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 18px;
+      }
+      
+      .project-title {
+        height: 48px;
+        flex-shrink: 0;
+        font-size: 17px;
+        line-height: 1.25;
+        font-weight: 650;
+        letter-spacing: -0.2px;
+      }
+      
+      .project-description {
+        height: 48px;
+        flex-shrink: 0;
+        margin-top: 9px;
+        color: #9da3aa;
+        font-size: 11px;
+        line-height: 1.45;
+      }
+      
+      .tech {
+        margin-top: 17px;
+        padding-top: 12px;
+        border-top: 1px solid rgba(255,255,255,0.08);
+        color: #777d84;
+        font-family: monospace;
+        font-size: 9px;
+        line-height: 1.65;
+      }
 
         .tech strong {
           color: #b8bdc3;
@@ -146,7 +166,7 @@
       <div class="container">
 
         <div class="header">
-          <div class="title">Latest Projects</div>
+          <div class="title">Recent Projects</div>
           <div class="label">SELECTED WORK</div>
         </div>
 
