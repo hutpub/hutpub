@@ -5,5 +5,8 @@
   <a href="https://linkedin.com/in/miika-huttunen">
     <img src="contact.svg" style="width:100%; display:block;" alt="hero">
   </a>
+  <a href="https://github.com/hutpub">
+    <img src="projects.svg" style="width:100%; display:block;" alt="hero">
+  </a>
 </div>
 
