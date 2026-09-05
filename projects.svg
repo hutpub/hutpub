@@ -151,7 +151,7 @@
         margin-top: 17px;
         padding-top: 12px;
         border-top: 1px solid rgba(255,255,255,0.08);
-        color: #777d84;
+        color: #39D353;
         font-family: monospace;
         font-size: 9px;
         line-height: 1.65;
